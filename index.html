@@ -121,7 +121,8 @@
   .term .hd{display:flex;gap:6px;padding:10px 14px;border-bottom:1px solid var(--line);align-items:center}
   .term .hd i{width:10px;height:10px;border-radius:50%;background:#2b332e}
   .term .hd span{margin-left:8px;color:var(--mut);font-size:.75rem}
-  .term pre{padding:16px;color:#b9c7bc;white-space:pre-wrap;word-break:break-word;min-height:190px;max-height:260px;overflow:hidden}
+  .term pre{padding:16px;color:#b9c7bc;white-space:pre-wrap;word-break:break-word;min-height:190px;max-height:360px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#2b332e transparent}
+  .term .d{color:#4e5b52} .term .s{color:var(--tx)}
   .term .ok{color:var(--acc)} .term .t{color:#5d6b61} .term .w{color:var(--warn)}
 
   /* stack */
@@ -219,7 +220,7 @@
   <h2>Ferramentas do dia a dia</h2>
   <div class="stack" id="stackGrid"></div>
   <div class="term reveal" style="margin-top:18px">
-    <div class="hd"><i></i><i></i><i></i><span>gestor_automacoes — log</span></div>
+    <div class="hd"><i></i><i></i><i></i><span>gestor_automacoes — histórico de execuções</span></div>
     <pre id="log"></pre>
   </div>
 </div></section>
@@ -244,6 +245,7 @@
 
 <script>
 const $ = id => document.getElementById(id);
+const fh = min => { const tot = Math.round(min || 0), h = Math.floor(tot / 60), mm = tot % 60; return h ? `${h.toLocaleString('pt-BR')}h${mm ? ' ' + String(mm).padStart(2, '0') + 'min' : ''}` : `${mm}min`; };
 const nf = (v, d = 0) => Number(v || 0).toLocaleString('pt-BR', {minimumFractionDigits: d, maximumFractionDigits: d});
 const CORES = ['#b6f35c','#5ce1c4','#f5c35c','#8fb3ff','#ff8f8f','#d39cff','#7fd77a','#f0a35c'];
 
@@ -274,6 +276,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
     let a = (m.automacoes = m.automacoes || []).find(x => x.id === p.automacao);
     if (!a) { a = {id: p.automacao, nome: p.nome, unidade: p.unidade, itens: 0, execucoes: 0, minutos: 0, estimado: true}; m.automacoes.push(a); }
     a.itens += p.quantidade; a.execucoes += 1; a.minutos += p.minutos;
+    (m.historico = m.historico || []).push({automacao: p.automacao, data_hora: p.data_hora, quantidade: p.quantidade, minutos: p.minutos});
     if (!a.ultima_execucao || Date.parse(p.data_hora) >= Date.parse(a.ultima_execucao)) { a.ultima_execucao = p.data_hora; a.ultima_quantidade = p.quantidade; }
     m.itens = (m.itens || 0) + p.quantidade; m.execucoes = (m.execucoes || 0) + 1; m.total_minutos = (m.total_minutos || 0) + p.minutos;
     const mes = p.data_hora.slice(0, 7);
@@ -302,7 +305,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   // métricas
   const horas = (m.total_minutos || 0) / 60;
   const ativos = (m.automacoes || []).filter(a => a.minutos > 0).length;
-  countUp($('hTotal'), horas, horas < 100 ? 1 : 0);
+  countUp($('hTotal'), Math.floor(horas), 0);
   countUp($('kItens'), m.itens || 0);
   countUp($('kExec'), m.execucoes || 0);
   countUp($('kAut'), ativos);
@@ -318,7 +321,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   }
 
   const kpis = [
-    [nf(horas, horas < 100 ? 1 : 0) + '<i>h</i>', 'economizadas no total'],
+    [fh(m.total_minutos).replace(/(h|min)/g, '<i>$1</i>'), 'economizadas no total'],
     [nf(dias, 1), 'dias úteis de analista'],
   ];
   if (m.custo_hora_analista) kpis.push(['R$ ' + nf(horas * m.custo_hora_analista), 'em custo de analista']);
@@ -334,7 +337,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
     const nomes = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
     $('bars').innerHTML = meses.map(x => {
       const [a, mm] = x.mes.split('-');
-      return `<div class="col"><div class="b" data-h="${(x.minutos / max * 100).toFixed(1)}" style="height:0"><em>${nf(x.minutos / 60, 1)}h</em></div><div class="m">${nomes[+mm - 1]}/${a.slice(2)}</div></div>`;
+      return `<div class="col"><div class="b" data-h="${(x.minutos / max * 100).toFixed(1)}" style="height:0"><em>${fh(x.minutos)}</em></div><div class="m">${nomes[+mm - 1]}/${a.slice(2)}</div></div>`;
     }).join('');
   }
 
@@ -342,7 +345,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   const comTempo = (m.automacoes || []).filter(a => a.minutos > 0);
   const tot = comTempo.reduce((s, a) => s + a.minutos, 0) || 1;
   $('split').innerHTML = comTempo.map((a, i) => `<div style="width:${a.minutos / tot * 100}%;background:${CORES[i % CORES.length]}" title="${esc(a.nome)}"></div>`).join('');
-  $('legend').innerHTML = comTempo.map((a, i) => `<span><i style="background:${CORES[i % CORES.length]}"></i>${esc(a.nome)} · ${a.estimado ? '≈ ' : ''}${nf(a.minutos / 60, 1)}h (${nf(a.minutos / tot * 100)}%)</span>`).join('')
+  $('legend').innerHTML = comTempo.map((a, i) => `<span><i style="background:${CORES[i % CORES.length]}"></i>${esc(a.nome)} · ${a.estimado ? '≈ ' : ''}${fh(a.minutos)} (${nf(a.minutos / tot * 100)}%)</span>`).join('')
     || '<span>sem registros ainda</span>';
 
   // projetos
@@ -351,7 +354,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   $('grid').innerHTML = projs.map((p, i) => {
     const a = porAuto[p.automacao];
     const gain = a && a.minutos > 0
-      ? `<div class="gain"><span><b>${nf(a.minutos / 60, 1)}h</b> economizadas${a.estimado ? ' <span class="tag" title="Tempo aproximado: algumas operações levam mais tempo que outras">aproximadamente</span>' : ''}</span><span>${nf(a.itens)} ${esc(a.unidade || 'itens')}</span></div>`
+      ? `<div class="gain"><span><b>${fh(a.minutos)}</b> economizadas${a.estimado ? ' <span class="tag" title="Tempo aproximado: algumas operações levam mais tempo que outras">aproximadamente</span>' : ''}</span><span>${nf(a.itens)} ${esc(a.unidade || 'itens')}</span></div>`
       : (p.automacao ? `<div class="gain"><span>medição em andamento</span></div>` : '');
     return `<article class="proj reveal">
       <div class="top"><h3>${esc(p.titulo)}</h3><span class="num">0${i + 1}</span></div>
@@ -368,15 +371,31 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   const linhas = [];
   const SEM = ['dom','seg','ter','qua','qui','sex','sáb'];
   const quando = s => s ? `${SEM[new Date(s.slice(0, 10) + 'T12:00:00').getDay()]} ${s.slice(8, 10)}/${s.slice(5, 7)} ${s.slice(11, 16)}` : '--- --/-- --:--';
-  const eventos = (m.automacoes || []).map(a => ({t: a.ultima_execucao || '', html: [
-    `<span class="t">[${quando(a.ultima_execucao)}]</span> ▶ ${esc(a.id)}.py`,
-    a.minutos > 0
-      ? `<span class="t">                 </span><span class="ok">✔ ${nf(a.ultima_quantidade)} ${esc(a.unidade || 'itens')} nesta execução · ${nf(a.itens)} no total · ${a.estimado ? '≈ ' : ''}${nf(a.minutos / 60, 1)}h devolvidas</span>`
-      : `<span class="t">                 </span><span class="w">… aguardando primeira medição</span>`]}));
-  if (m.atualizado_em) eventos.push({t: m.atualizado_em, html: [`<span class="t">[${quando(m.atualizado_em)}]</span> <span class="ok">✔ painel sincronizado com o GitHub</span>`]});
-  eventos.sort((x, y) => (Date.parse(x.t) || 0) - (Date.parse(y.t) || 0)).forEach(e => linhas.push(...e.html));
-  let k = 0; const logEl = $('log');
-  const tick = () => { if (k < linhas.length) { logEl.innerHTML += linhas[k++] + '\n'; setTimeout(tick, 380); } };
+  const porId = Object.fromEntries((m.automacoes || []).map(a => [a.id, a]));
+  const pad = (s, n) => (s + ' '.repeat(n)).slice(0, n);
+  const larg = Math.max(12, ...(m.automacoes || []).map(a => a.id.length + 3));
+  const hist = [...(m.historico || [])];
+  if (m.atualizado_em) hist.push({sync: true, data_hora: m.atualizado_em});
+  hist.sort((x, y) => (Date.parse(x.data_hora) || 0) - (Date.parse(y.data_hora) || 0));
+  let diaAnt = '';
+  hist.forEach(h => {
+    const dia = h.data_hora.slice(0, 10);
+    if (dia !== diaAnt) { linhas.push(`<span class="d">── ${quando(h.data_hora).slice(0, 9)} ${'─'.repeat(40)}</span>`); diaAnt = dia; }
+    if (h.sync) { linhas.push(`<span class="t">[${h.data_hora.slice(11, 16)}]</span> <span class="ok">✔ painel sincronizado com o GitHub</span>`); return; }
+    const a = porId[h.automacao] || {};
+    linhas.push(`<span class="t">[${h.data_hora.slice(11, 16)}]</span> ▶ ${esc(pad(h.automacao + '.py', larg))} <span class="ok">✔ ${nf(h.quantidade)} ${esc(h.quantidade === 1 ? (a.unidade || 'itens').replace(/ões\b/g, 'ão').replace(/s\b/g, '') : (a.unidade || 'itens'))}</span> <span class="t">· ${a.estimado ? '≈ ' : ''}${fh(h.minutos)}</span>`);
+  });
+  const ini = m.inicio_periodo || (hist[0] && hist[0].data_hora) || '';
+  linhas.push(`<span class="d">── total desde ${ini.slice(8, 10)}/${ini.slice(5, 7)}/${ini.slice(0, 4)} ${'─'.repeat(31)}</span>`);
+  (m.automacoes || []).forEach(a => linhas.push(`  ${esc(pad(a.id + '.py', larg))} <span class="s">${nf(a.itens)} ${esc(a.unidade || 'itens')} · ${nf(a.execucoes)} execuções · ${a.estimado ? '≈ ' : ''}${fh(a.minutos)}</span>`));
+  linhas.push(`<span class="ok">  Σ ${nf(m.itens)} itens · ${nf(m.execucoes)} execuções · ${fh(m.total_minutos)} devolvidas</span>`);
+
+  const logEl = $('log');
+  const ANIM = 8, base = Math.max(0, linhas.length - ANIM);
+  logEl.innerHTML = linhas.slice(0, base).join('\n') + (base ? '\n' : '');
+  logEl.scrollTop = logEl.scrollHeight;
+  let k = base;
+  const tick = () => { if (k < linhas.length) { logEl.innerHTML += linhas[k++] + '\n'; logEl.scrollTop = logEl.scrollHeight; setTimeout(tick, 260); } };
   new IntersectionObserver((es, o) => { if (es[0].isIntersecting) { tick(); o.disconnect(); } }).observe(logEl);
 
   // reveal + barras
