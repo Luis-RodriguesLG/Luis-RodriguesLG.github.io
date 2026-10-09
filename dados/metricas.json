@@ -1,10 +1,27 @@
 {
-  "atualizado_em": "2026-10-08T19:23:51",
-  "total_minutos": 0,
-  "itens": 0,
-  "execucoes": 0,
+  "atualizado_em": "2026-10-09T11:01:17",
+  "total_minutos": 24.0,
+  "itens": 8,
+  "execucoes": 1,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
-  "automacoes": [],
-  "por_mes": []
+  "automacoes": [
+    {
+      "id": "visao_credito_bp",
+      "itens": 8,
+      "execucoes": 1,
+      "minutos": 24.0,
+      "sem_estimativa": false,
+      "estimado": true,
+      "nome": "Alteração no Cadastro de Clientes",
+      "unidade": "alterações",
+      "minutos_por_item": 3
+    }
+  ],
+  "por_mes": [
+    {
+      "mes": "2026-10",
+      "minutos": 24.0
+    }
+  ]
 }

@@ -307,7 +307,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   ];
   if (m.custo_hora_analista) kpis.push(['R$ ' + nf(horas * m.custo_hora_analista), 'em custo de analista']);
   (m.automacoes || []).filter(a => a.itens > 0).slice(0, 3).forEach(a =>
-    kpis.push(['+' + nf(a.itens), `${esc(a.unidade || 'itens')} · ${esc(a.nome)}`]));
+    kpis.push(['+' + nf(a.itens), `${esc(a.unidade || 'itens')} · ${esc(a.nome)}${a.estimado ? ' (estimado)' : ''}`]));
   $('kpis').innerHTML = kpis.map(([b, s]) => `<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join('');
 
   // barras por mês
@@ -326,7 +326,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   const comTempo = (m.automacoes || []).filter(a => a.minutos > 0);
   const tot = comTempo.reduce((s, a) => s + a.minutos, 0) || 1;
   $('split').innerHTML = comTempo.map((a, i) => `<div style="width:${a.minutos / tot * 100}%;background:${CORES[i % CORES.length]}" title="${esc(a.nome)}"></div>`).join('');
-  $('legend').innerHTML = comTempo.map((a, i) => `<span><i style="background:${CORES[i % CORES.length]}"></i>${esc(a.nome)} · ${nf(a.minutos / 60, 1)}h (${nf(a.minutos / tot * 100)}%)</span>`).join('')
+  $('legend').innerHTML = comTempo.map((a, i) => `<span><i style="background:${CORES[i % CORES.length]}"></i>${esc(a.nome)}${a.estimado ? ' (estimado)' : ''} · ${nf(a.minutos / 60, 1)}h (${nf(a.minutos / tot * 100)}%)</span>`).join('')
     || '<span>sem registros ainda</span>';
 
   // projetos
@@ -335,7 +335,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   $('grid').innerHTML = projs.map((p, i) => {
     const a = porAuto[p.automacao];
     const gain = a && a.minutos > 0
-      ? `<div class="gain"><span><b>${nf(a.minutos / 60, 1)}h</b> economizadas</span><span>${nf(a.itens)} ${esc(a.unidade || 'itens')}</span></div>`
+      ? `<div class="gain"><span><b>${nf(a.minutos / 60, 1)}h</b> economizadas${a.estimado ? ' <span class="tag" title="Automação usada por outro time: volume estimado, sem acesso às execuções">estimado</span>' : ''}</span><span>${nf(a.itens)} ${esc(a.unidade || 'itens')}</span></div>`
       : (p.automacao ? `<div class="gain"><span>medição em andamento</span></div>` : '');
     return `<article class="proj reveal">
       <div class="top"><h3>${esc(p.titulo)}</h3><span class="num">0${i + 1}</span></div>
