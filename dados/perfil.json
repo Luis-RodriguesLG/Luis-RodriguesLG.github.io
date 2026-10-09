@@ -52,6 +52,7 @@
     {
       "automacao": "suframa_confirmacao",
       "titulo": "Confirmação de Recebimento SUFRAMA",
+      "departamento": "Recebimento Fiscal",
       "descricao": "Lê as notas pendentes no SIMNAC, valida contra a J1BNFE do SAP e o QIVE e confirma o recebimento em lotes.",
       "tags": [
         "SAP J1BNFE",
@@ -63,6 +64,7 @@
     {
       "automacao": "qive_manifestacao",
       "titulo": "Manifestação QIVE x SAP",
+      "departamento": "Recebimento Fiscal",
       "descricao": "Baixa o relatório de NF-e do QIVE e cruza com a J1BNFE para apontar divergências antes do fechamento.",
       "tags": [
         "QIVE",
@@ -72,17 +74,21 @@
     },
     {
       "automacao": "lancamento_ipi",
-      "titulo": "Lançamento de Complemento de IPI",
-      "descricao": "Lança complementos de IPI na MIRO a partir de uma planilha, conferindo valores e registrando o resultado.",
+      "titulo": "Lançamento de Complemento de Impostos",
+      "departamento": "Recebimento Fiscal",
+      "descricao": "Lança na MIRO os complementos de IPI e ICMS a partir de uma planilha, conferindo valores e registrando o resultado. Automação desenvolvida para o Time de Recebimento Fiscal.",
       "tags": [
         "SAP MIRO",
+        "IPI",
+        "ICMS",
         "GUI Scripting"
       ]
     },
     {
       "automacao": "visao_credito_bp",
       "titulo": "Alteração no Cadastro de Clientes",
-      "descricao": "Altera em lote condição de pagamento, limite e parâmetros de crédito e faz bloqueio/desbloqueio de clientes no SAP. Desenvolvida para outro time.",
+      "departamento": "Contas a Receber",
+      "descricao": "Altera em lote condição de pagamento, limite e parâmetros de crédito e faz bloqueio/desbloqueio de clientes no SAP. Automação desenvolvida para o Time de Contas a Receber.",
       "tags": [
         "SAP BP",
         "UKM000",
