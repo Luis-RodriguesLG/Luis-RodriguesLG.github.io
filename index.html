@@ -268,6 +268,21 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   const perfil = await load('dados/perfil.json', {nome:'—', projetos:[], stack:[], links:{}});
   const m = await load('dados/metricas.json', {total_minutos:0, automacoes:[], por_mes:[], execucoes:0, itens:0});
 
+  // execuções programadas: entram no painel quando o horário delas chega
+  const agoraMs = Date.now();
+  (m.programadas || []).filter(p => Date.parse(p.data_hora) <= agoraMs).forEach(p => {
+    let a = (m.automacoes = m.automacoes || []).find(x => x.id === p.automacao);
+    if (!a) { a = {id: p.automacao, nome: p.nome, unidade: p.unidade, itens: 0, execucoes: 0, minutos: 0, estimado: true}; m.automacoes.push(a); }
+    a.itens += p.quantidade; a.execucoes += 1; a.minutos += p.minutos;
+    if (!a.ultima_execucao || Date.parse(p.data_hora) >= Date.parse(a.ultima_execucao)) { a.ultima_execucao = p.data_hora; a.ultima_quantidade = p.quantidade; }
+    m.itens = (m.itens || 0) + p.quantidade; m.execucoes = (m.execucoes || 0) + 1; m.total_minutos = (m.total_minutos || 0) + p.minutos;
+    const mes = p.data_hora.slice(0, 7);
+    let pm = (m.por_mes = m.por_mes || []).find(x => x.mes === mes);
+    if (!pm) { pm = {mes, minutos: 0}; m.por_mes.push(pm); m.por_mes.sort((x, y) => x.mes.localeCompare(y.mes)); }
+    pm.minutos += p.minutos;
+  });
+  m.automacoes.sort((x, y) => y.minutos - x.minutos);
+
   // perfil
   $('nome').textContent = perfil.nome || '—';
   $('apelido').textContent = perfil.apelido || 'RPA';
@@ -327,7 +342,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   const comTempo = (m.automacoes || []).filter(a => a.minutos > 0);
   const tot = comTempo.reduce((s, a) => s + a.minutos, 0) || 1;
   $('split').innerHTML = comTempo.map((a, i) => `<div style="width:${a.minutos / tot * 100}%;background:${CORES[i % CORES.length]}" title="${esc(a.nome)}"></div>`).join('');
-  $('legend').innerHTML = comTempo.map((a, i) => `<span><i style="background:${CORES[i % CORES.length]}"></i>${esc(a.nome)}${a.estimado ? ' (aproximadamente)' : ''} · ${nf(a.minutos / 60, 1)}h (${nf(a.minutos / tot * 100)}%)</span>`).join('')
+  $('legend').innerHTML = comTempo.map((a, i) => `<span><i style="background:${CORES[i % CORES.length]}"></i>${esc(a.nome)} · ${a.estimado ? '≈ ' : ''}${nf(a.minutos / 60, 1)}h (${nf(a.minutos / tot * 100)}%)</span>`).join('')
     || '<span>sem registros ainda</span>';
 
   // projetos
@@ -336,7 +351,7 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   $('grid').innerHTML = projs.map((p, i) => {
     const a = porAuto[p.automacao];
     const gain = a && a.minutos > 0
-      ? `<div class="gain"><span><b>${nf(a.minutos / 60, 1)}h</b> economizadas${a.estimado ? ' <span class="tag" title="Valor aproximado: algumas alterações levam mais tempo que outras">aproximadamente</span>' : ''}</span><span>${nf(a.itens)} ${esc(a.unidade || 'itens')}</span></div>`
+      ? `<div class="gain"><span><b>${nf(a.minutos / 60, 1)}h</b> economizadas${a.estimado ? ' <span class="tag" title="Tempo aproximado: algumas operações levam mais tempo que outras">aproximadamente</span>' : ''}</span><span>${nf(a.itens)} ${esc(a.unidade || 'itens')}</span></div>`
       : (p.automacao ? `<div class="gain"><span>medição em andamento</span></div>` : '');
     return `<article class="proj reveal">
       <div class="top"><h3>${esc(p.titulo)}</h3><span class="num">0${i + 1}</span></div>
@@ -351,13 +366,15 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
 
   // log animado
   const linhas = [];
-  (m.automacoes || []).forEach(a => {
-    linhas.push(`<span class="t">[${(m.atualizado_em || '').slice(11, 16) || '08:00'}]</span> ▶ ${esc(a.id)}.py`);
-    linhas.push(a.minutos > 0
-      ? `<span class="t">      </span><span class="ok">✔ ${nf(a.itens)} ${esc(a.unidade || 'itens')} · ${nf(a.minutos / 60, 1)}h devolvidas</span>`
-      : `<span class="t">      </span><span class="w">… aguardando primeira medição</span>`);
-  });
-  linhas.push(`<span class="ok">✔ painel sincronizado com o GitHub</span>`);
+  const SEM = ['dom','seg','ter','qua','qui','sex','sáb'];
+  const quando = s => s ? `${SEM[new Date(s.slice(0, 10) + 'T12:00:00').getDay()]} ${s.slice(8, 10)}/${s.slice(5, 7)} ${s.slice(11, 16)}` : '--- --/-- --:--';
+  const eventos = (m.automacoes || []).map(a => ({t: a.ultima_execucao || '', html: [
+    `<span class="t">[${quando(a.ultima_execucao)}]</span> ▶ ${esc(a.id)}.py`,
+    a.minutos > 0
+      ? `<span class="t">                 </span><span class="ok">✔ ${nf(a.ultima_quantidade)} ${esc(a.unidade || 'itens')} nesta execução · ${nf(a.itens)} no total · ${a.estimado ? '≈ ' : ''}${nf(a.minutos / 60, 1)}h devolvidas</span>`
+      : `<span class="t">                 </span><span class="w">… aguardando primeira medição</span>`]}));
+  if (m.atualizado_em) eventos.push({t: m.atualizado_em, html: [`<span class="t">[${quando(m.atualizado_em)}]</span> <span class="ok">✔ painel sincronizado com o GitHub</span>`]});
+  eventos.sort((x, y) => (Date.parse(x.t) || 0) - (Date.parse(y.t) || 0)).forEach(e => linhas.push(...e.html));
   let k = 0; const logEl = $('log');
   const tick = () => { if (k < linhas.length) { logEl.innerHTML += linhas[k++] + '\n'; setTimeout(tick, 380); } };
   new IntersectionObserver((es, o) => { if (es[0].isIntersecting) { tick(); o.disconnect(); } }).observe(logEl);

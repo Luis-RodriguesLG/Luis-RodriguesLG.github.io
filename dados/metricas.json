@@ -1,28 +1,45 @@
 {
-  "atualizado_em": "2026-10-09T11:13:34",
-  "total_minutos": 86.3,
-  "itens": 23,
-  "execucoes": 2,
+  "atualizado_em": "2026-10-09T13:11:38-03:00",
+  "total_minutos": 3654.7,
+  "itens": 867,
+  "execucoes": 153,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "lancamento_ipi",
-      "itens": 15,
-      "execucoes": 1,
-      "minutos": 62.3,
+      "itens": 638,
+      "execucoes": 117,
+      "minutos": 2647.7,
       "sem_estimativa": false,
+      "ultima_execucao": "2026-10-09T11:55:38-03:00",
+      "ultima_quantidade": 3,
       "estimado": true,
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
       "unidade": "lançamentos",
       "minutos_por_item": 4.15
     },
     {
-      "id": "visao_credito_bp",
-      "itens": 8,
-      "execucoes": 1,
-      "minutos": 24.0,
+      "id": "suframa_confirmacao",
+      "itens": 160,
+      "execucoes": 13,
+      "minutos": 800.0,
       "sem_estimativa": false,
+      "ultima_execucao": "2026-10-09T12:16:27-03:00",
+      "ultima_quantidade": 23,
+      "estimado": false,
+      "nome": "Confirmação de recebimento SUFRAMA",
+      "unidade": "notas confirmadas",
+      "minutos_por_item": 5
+    },
+    {
+      "id": "visao_credito_bp",
+      "itens": 69,
+      "execucoes": 23,
+      "minutos": 207.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-10-09T12:56:49-03:00",
+      "ultima_quantidade": 2,
       "estimado": true,
       "nome": "Alteração no Cadastro de Clientes",
       "unidade": "alterações",
@@ -31,8 +48,58 @@
   ],
   "por_mes": [
     {
+      "mes": "2026-08",
+      "minutos": 780.2
+    },
+    {
+      "mes": "2026-09",
+      "minutos": 2240.2
+    },
+    {
       "mes": "2026-10",
-      "minutos": 86.2
+      "minutos": 634.3
+    }
+  ],
+  "programadas": [
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-09T15:26:02-03:00",
+      "quantidade": 8,
+      "minutos": 33.2,
+      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
+      "unidade": "lançamentos"
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-09T15:40:02-03:00",
+      "quantidade": 3,
+      "minutos": 12.45,
+      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
+      "unidade": "lançamentos"
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-12T11:50:01-03:00",
+      "quantidade": 5,
+      "minutos": 20.75,
+      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
+      "unidade": "lançamentos"
+    },
+    {
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-10-09T20:54:47-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "nome": "Alteração no Cadastro de Clientes",
+      "unidade": "alterações"
+    },
+    {
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-10-12T08:48:23-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "nome": "Alteração no Cadastro de Clientes",
+      "unidade": "alterações"
     }
   ]
 }
