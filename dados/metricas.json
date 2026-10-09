@@ -2,951 +2,249 @@
   "historico": [
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-17T08:33:35-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
+      "data_hora": "2026-08-17T15:42:33-03:00",
+      "quantidade": 22,
+      "minutos": 91.3
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-17T12:10:00-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
+      "data_hora": "2026-08-18T12:19:39-03:00",
+      "quantidade": 22,
+      "minutos": 91.3
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-18T11:01:52-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
+      "data_hora": "2026-08-20T10:33:19-03:00",
+      "quantidade": 21,
+      "minutos": 87.15
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-18T12:20:43-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
+      "data_hora": "2026-08-24T14:49:16-03:00",
+      "quantidade": 20,
+      "minutos": 83.0
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-19T12:56:15-03:00",
-      "quantidade": 18,
-      "minutos": 74.7
+      "data_hora": "2026-08-26T15:31:22-03:00",
+      "quantidade": 21,
+      "minutos": 87.15
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-19T14:05:04-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-20T10:01:33-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-20T13:25:47-03:00",
-      "quantidade": 11,
-      "minutos": 45.65
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-20T14:50:34-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-21T08:28:09-03:00",
-      "quantidade": 13,
-      "minutos": 53.95
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-21T09:50:06-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-21T12:34:43-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-21T14:49:43-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-24T11:19:59-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-24T15:18:14-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-24T15:24:30-03:00",
+      "data_hora": "2026-08-28T12:37:34-03:00",
       "quantidade": 23,
       "minutos": 95.45
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-25T09:36:16-03:00",
+      "data_hora": "2026-08-31T15:14:11-03:00",
+      "quantidade": 23,
+      "minutos": 95.45
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-03T10:07:47-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-04T08:49:28-03:00",
+      "quantidade": 22,
+      "minutos": 91.3
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-07T10:39:24-03:00",
+      "quantidade": 26,
+      "minutos": 107.9
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-08T07:50:31-03:00",
+      "quantidade": 22,
+      "minutos": 91.3
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-09T14:22:54-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-10T09:35:14-03:00",
+      "quantidade": 22,
+      "minutos": 91.3
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-14T14:38:47-03:00",
+      "quantidade": 21,
+      "minutos": 87.15
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-15T09:16:41-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-16T12:56:39-03:00",
+      "quantidade": 21,
+      "minutos": 87.15
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-17T07:54:25-03:00",
+      "quantidade": 27,
+      "minutos": 112.05
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-18T11:33:56-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-21T16:07:35-03:00",
+      "quantidade": 26,
+      "minutos": 107.9
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-09-22T08:53:15-03:00",
+      "quantidade": 20,
+      "minutos": 100
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-22T14:41:23-03:00",
+      "quantidade": 24,
+      "minutos": 99.6
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-24T09:54:34-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-09-24T12:13:09-03:00",
+      "quantidade": 46,
+      "minutos": 230
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-25T13:21:49-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
+    },
+    {
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-09-28T07:54:16-03:00",
+      "quantidade": 12,
+      "minutos": 36
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-09-28T14:26:53-03:00",
+      "quantidade": 49,
+      "minutos": 245
+    },
+    {
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-09-29T17:35:12-03:00",
       "quantidade": 15,
-      "minutos": 62.25
+      "minutos": 45
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-25T15:31:04-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-09-30T12:27:54-03:00",
+      "quantidade": 22,
+      "minutos": 110
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-26T11:58:58-03:00",
-      "quantidade": 6,
-      "minutos": 24.9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-26T13:53:00-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-26T15:36:44-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-26T17:46:00-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-27T08:00:28-03:00",
-      "quantidade": 19,
-      "minutos": 78.85
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-28T11:35:56-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-28T17:52:21-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-28T18:22:22-03:00",
-      "quantidade": 17,
-      "minutos": 70.55
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-28T18:32:12-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-31T10:29:37-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-31T11:40:01-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-31T12:27:49-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-01T11:35:24-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-01T12:52:52-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-01T12:57:27-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-01T15:44:13-03:00",
-      "quantidade": 8,
-      "minutos": 33.2
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-02T17:48:09-03:00",
-      "quantidade": 16,
-      "minutos": 66.4
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-03T09:10:17-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-03T11:29:00-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-03T16:56:49-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-03T17:56:45-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-04T08:24:16-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-04T09:10:46-03:00",
-      "quantidade": 11,
-      "minutos": 45.65
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-04T12:32:55-03:00",
-      "quantidade": 8,
-      "minutos": 33.2
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-04T16:00:35-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-07T07:38:07-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-07T09:25:11-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-07T10:35:04-03:00",
-      "quantidade": 7,
-      "minutos": 29.05
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-08T09:17:48-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-08T10:25:38-03:00",
-      "quantidade": 6,
-      "minutos": 24.9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-08T10:28:11-03:00",
-      "quantidade": 13,
-      "minutos": 53.95
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-08T12:55:47-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-09T09:56:50-03:00",
-      "quantidade": 6,
-      "minutos": 24.9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-09T13:09:26-03:00",
-      "quantidade": 13,
-      "minutos": 53.95
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-09T14:08:40-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-10T13:13:43-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-10T13:35:39-03:00",
-      "quantidade": 23,
-      "minutos": 95.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-11T10:15:59-03:00",
-      "quantidade": 9,
-      "minutos": 37.35
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-14T08:30:40-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-14T10:26:27-03:00",
-      "quantidade": 8,
-      "minutos": 33.2
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-14T11:43:36-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-14T14:25:49-03:00",
-      "quantidade": 7,
-      "minutos": 29.05
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-15T10:25:02-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-15T14:04:52-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-15T17:17:50-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-15T17:33:02-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-16T09:34:25-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-16T11:14:39-03:00",
-      "quantidade": 6,
-      "minutos": 24.9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-16T11:56:29-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-17T08:20:29-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-17T14:47:02-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-17T17:32:21-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-18T07:31:17-03:00",
-      "quantidade": 7,
-      "minutos": 29.05
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-18T11:39:00-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-18T17:36:03-03:00",
-      "quantidade": 8,
-      "minutos": 33.2
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-18T17:36:37-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-21T08:01:07-03:00",
-      "quantidade": 6,
-      "minutos": 24.9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-21T13:12:22-03:00",
-      "quantidade": 8,
-      "minutos": 33.2
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-21T14:05:14-03:00",
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-10-01T12:29:28-03:00",
       "quantidade": 12,
-      "minutos": 49.8
+      "minutos": 36
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-22T12:47:54-03:00",
-      "quantidade": 7,
-      "minutos": 29.05
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-22T14:17:52-03:00",
-      "quantidade": 13,
-      "minutos": 65
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-22T14:36:48-03:00",
-      "quantidade": 5,
-      "minutos": 25
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-22T18:02:33-03:00",
-      "quantidade": 17,
-      "minutos": 70.55
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-23T09:54:41-03:00",
-      "quantidade": 2,
-      "minutos": 10
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-23T12:56:14-03:00",
-      "quantidade": 11,
-      "minutos": 55
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-23T17:09:11-03:00",
-      "quantidade": 14,
-      "minutos": 58.1
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-24T13:09:36-03:00",
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-10-02T13:35:19-03:00",
       "quantidade": 10,
-      "minutos": 41.5
+      "minutos": 30
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-24T13:55:05-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
+      "data_hora": "2026-10-02T14:00:23-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
     },
     {
       "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-24T17:58:06-03:00",
+      "data_hora": "2026-10-05T12:42:42-03:00",
+      "quantidade": 50,
+      "minutos": 250
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-05T17:15:41-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
+    },
+    {
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-10-05T17:30:51-03:00",
       "quantidade": 12,
-      "minutos": 60
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-24T18:07:41-03:00",
-      "quantidade": 14,
-      "minutos": 58.1
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-25T08:31:46-03:00",
-      "quantidade": 29,
-      "minutos": 145
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-25T09:50:40-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-25T14:26:44-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-25T16:08:43-03:00",
-      "quantidade": 5,
-      "minutos": 20.75
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-28T12:03:53-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-28T13:23:30-03:00",
-      "quantidade": 14,
-      "minutos": 70
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-28T13:29:14-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-28T15:38:56-03:00",
-      "quantidade": 5,
-      "minutos": 25
+      "minutos": 36
     },
     {
       "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-28T17:36:49-03:00",
-      "quantidade": 5,
-      "minutos": 15
+      "data_hora": "2026-10-06T08:47:32-03:00",
+      "quantidade": 10,
+      "minutos": 30
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-28T18:28:57-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-29T08:43:45-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "data_hora": "2026-10-06T09:56:27-03:00",
+      "quantidade": 35,
+      "minutos": 145.25
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-29T09:15:48-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
+      "data_hora": "2026-10-07T07:36:56-03:00",
+      "quantidade": 25,
+      "minutos": 103.75
     },
     {
       "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-29T10:21:26-03:00",
-      "quantidade": 2,
-      "minutos": 6
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-29T12:49:45-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "data_hora": "2026-10-07T07:39:46-03:00",
+      "quantidade": 6,
+      "minutos": 18
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-29T14:32:47-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-29T14:44:51-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-29T15:20:38-03:00",
-      "quantidade": 2,
-      "minutos": 6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-29T17:56:25-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-29T18:03:27-03:00",
+      "data_hora": "2026-10-08T12:07:35-03:00",
       "quantidade": 28,
-      "minutos": 140
+      "minutos": 116.2
     },
     {
       "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-29T18:23:31-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-30T08:01:03-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-30T10:12:08-03:00",
-      "quantidade": 11,
-      "minutos": 55
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-30T10:13:49-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-30T10:54:31-03:00",
-      "quantidade": 13,
-      "minutos": 53.95
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-30T13:27:33-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-30T13:34:15-03:00",
-      "quantidade": 3,
-      "minutos": 9
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-30T15:23:37-03:00",
-      "quantidade": 3,
-      "minutos": 9
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-09-30T16:55:34-03:00",
-      "quantidade": 6,
-      "minutos": 30
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-30T17:41:45-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-01T08:46:01-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-01T08:49:40-03:00",
-      "quantidade": 8,
-      "minutos": 24
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-01T10:10:54-03:00",
-      "quantidade": 6,
-      "minutos": 24.9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-01T14:43:25-03:00",
-      "quantidade": 6,
-      "minutos": 24.9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-01T14:47:47-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-10-01T17:49:53-03:00",
-      "quantidade": 4,
-      "minutos": 20
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-10-01T18:10:35-03:00",
-      "quantidade": 4,
-      "minutos": 20
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-02T08:16:35-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-02T08:48:54-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-02T09:08:02-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-10-02T12:56:07-03:00",
-      "quantidade": 12,
-      "minutos": 60
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-02T14:45:40-03:00",
-      "quantidade": 11,
-      "minutos": 33
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-02T15:01:23-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-05T07:44:48-03:00",
-      "quantidade": 4,
-      "minutos": 16.6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-05T07:46:03-03:00",
-      "quantidade": 6,
-      "minutos": 24.9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-05T11:03:11-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-05T14:32:07-03:00",
-      "quantidade": 3,
-      "minutos": 9
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-10-05T14:58:46-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-10-05T17:17:01-03:00",
-      "quantidade": 4,
-      "minutos": 20
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-06T07:40:28-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-06T08:39:38-03:00",
-      "quantidade": 2,
-      "minutos": 6
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-10-06T12:02:10-03:00",
-      "quantidade": 13,
-      "minutos": 65
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-06T12:15:52-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-06T13:58:38-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-06T16:38:40-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-06T18:32:51-03:00",
-      "quantidade": 2,
-      "minutos": 6
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-07T08:07:26-03:00",
-      "quantidade": 3,
-      "minutos": 9
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-07T10:25:47-03:00",
-      "quantidade": 14,
-      "minutos": 58.1
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-07T14:11:31-03:00",
-      "quantidade": 11,
-      "minutos": 45.65
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-07T16:29:09-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-10-07T18:24:56-03:00",
-      "quantidade": 6,
-      "minutos": 30
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-08T07:42:46-03:00",
-      "quantidade": 2,
-      "minutos": 6
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-08T09:18:14-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-08T11:36:36-03:00",
+      "data_hora": "2026-10-08T16:16:28-03:00",
       "quantidade": 9,
       "minutos": 27
     },
     {
       "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-08T14:02:01-03:00",
-      "quantidade": 9,
-      "minutos": 37.35
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-08T16:09:52-03:00",
-      "quantidade": 2,
-      "minutos": 8.3
-    },
-    {
-      "automacao": "suframa_confirmacao",
-      "data_hora": "2026-10-08T16:27:42-03:00",
-      "quantidade": 6,
-      "minutos": 30
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-08T17:26:47-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-09T08:01:09-03:00",
-      "quantidade": 1,
-      "minutos": 4.15
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-09T08:12:34-03:00",
-      "quantidade": 4,
-      "minutos": 12
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-09T11:55:38-03:00",
-      "quantidade": 3,
-      "minutos": 12.45
+      "data_hora": "2026-10-08T17:25:13-03:00",
+      "quantidade": 24,
+      "minutos": 99.6
     },
     {
       "automacao": "suframa_confirmacao",
@@ -956,33 +254,27 @@
     },
     {
       "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-09T12:22:52-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-09T12:56:49-03:00",
-      "quantidade": 2,
-      "minutos": 6
+      "data_hora": "2026-10-09T13:23:48-03:00",
+      "quantidade": 5,
+      "minutos": 15
     }
   ],
   "inicio_periodo": "2026-08-17",
-  "atualizado_em": "2026-10-09T13:21:50-03:00",
-  "total_minutos": 3904.7,
-  "itens": 917,
-  "execucoes": 161,
+  "atualizado_em": "2026-10-09T13:27:28-03:00",
+  "total_minutos": 4124.2,
+  "itens": 976,
+  "execucoes": 43,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "lancamento_ipi",
-      "itens": 638,
-      "execucoes": 117,
-      "minutos": 2647.7,
+      "itens": 675,
+      "execucoes": 28,
+      "minutos": 2801.2,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-09T11:55:38-03:00",
-      "ultima_quantidade": 3,
+      "ultima_execucao": "2026-10-08T17:25:13-03:00",
+      "ultima_quantidade": 24,
       "estimado": true,
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
       "unidade": "lançamentos",
@@ -991,7 +283,7 @@
     {
       "id": "suframa_confirmacao",
       "itens": 210,
-      "execucoes": 21,
+      "execucoes": 6,
       "minutos": 1050.0,
       "sem_estimativa": false,
       "ultima_execucao": "2026-10-09T12:16:27-03:00",
@@ -1003,12 +295,12 @@
     },
     {
       "id": "visao_credito_bp",
-      "itens": 69,
-      "execucoes": 23,
-      "minutos": 207.0,
+      "itens": 91,
+      "execucoes": 9,
+      "minutos": 273.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-09T12:56:49-03:00",
-      "ultima_quantidade": 2,
+      "ultima_execucao": "2026-10-09T13:23:48-03:00",
+      "ultima_quantidade": 5,
       "estimado": true,
       "nome": "Alteração no Cadastro de Clientes",
       "unidade": "alterações",
@@ -1018,57 +310,16 @@
   "por_mes": [
     {
       "mes": "2026-08",
-      "minutos": 780.2
+      "minutos": 630.8
     },
     {
       "mes": "2026-09",
-      "minutos": 2240.2
+      "minutos": 2264.2
     },
     {
       "mes": "2026-10",
-      "minutos": 884.3
+      "minutos": 1229.3
     }
   ],
-  "programadas": [
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-09T15:26:02-03:00",
-      "quantidade": 8,
-      "minutos": 33.2,
-      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
-      "unidade": "lançamentos"
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-09T15:40:02-03:00",
-      "quantidade": 3,
-      "minutos": 12.45,
-      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
-      "unidade": "lançamentos"
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-12T11:50:01-03:00",
-      "quantidade": 5,
-      "minutos": 20.75,
-      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
-      "unidade": "lançamentos"
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-09T20:54:47-03:00",
-      "quantidade": 1,
-      "minutos": 3,
-      "nome": "Alteração no Cadastro de Clientes",
-      "unidade": "alterações"
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-12T08:48:23-03:00",
-      "quantidade": 1,
-      "minutos": 3,
-      "nome": "Alteração no Cadastro de Clientes",
-      "unidade": "alterações"
-    }
-  ]
+  "programadas": []
 }
