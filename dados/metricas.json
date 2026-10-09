@@ -91,12 +91,6 @@
       "minutos": 157.7
     },
     {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-28T07:54:16-03:00",
-      "quantidade": 11,
-      "minutos": 33
-    },
-    {
       "automacao": "suframa_confirmacao",
       "data_hora": "2026-09-28T14:26:53-03:00",
       "quantidade": 49,
@@ -104,9 +98,9 @@
     },
     {
       "automacao": "visao_credito_bp",
-      "data_hora": "2026-09-29T17:35:12-03:00",
-      "quantidade": 17,
-      "minutos": 51
+      "data_hora": "2026-09-29T14:41:51-03:00",
+      "quantidade": 37,
+      "minutos": 111
     },
     {
       "automacao": "suframa_confirmacao",
@@ -123,20 +117,14 @@
     {
       "automacao": "visao_credito_bp",
       "data_hora": "2026-10-01T12:29:28-03:00",
-      "quantidade": 14,
-      "minutos": 42
+      "quantidade": 107,
+      "minutos": 321
     },
     {
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-02T11:00:15-03:00",
       "quantidade": 24,
       "minutos": 99.6
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-02T13:35:19-03:00",
-      "quantidade": 10,
-      "minutos": 30
     },
     {
       "automacao": "lancamento_ipi",
@@ -151,28 +139,10 @@
       "minutos": 250
     },
     {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-05T17:30:51-03:00",
-      "quantidade": 13,
-      "minutos": 39
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-06T08:47:32-03:00",
-      "quantidade": 10,
-      "minutos": 30
-    },
-    {
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-07T07:36:56-03:00",
       "quantidade": 43,
       "minutos": 178.45
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-07T07:39:46-03:00",
-      "quantidade": 5,
-      "minutos": 15
     },
     {
       "automacao": "lancamento_ipi",
@@ -182,28 +152,22 @@
     },
     {
       "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-08T16:16:28-03:00",
-      "quantidade": 9,
-      "minutos": 27
+      "data_hora": "2026-10-08T14:58:25-03:00",
+      "quantidade": 12,
+      "minutos": 36
     },
     {
       "automacao": "suframa_confirmacao",
       "data_hora": "2026-10-09T12:16:27-03:00",
       "quantidade": 23,
       "minutos": 115
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-09T13:23:48-03:00",
-      "quantidade": 5,
-      "minutos": 15
     }
   ],
   "inicio_periodo": "2026-08-17",
-  "atualizado_em": "2026-10-09T13:41:25-03:00",
-  "total_minutos": 4311.7,
-  "itens": 1022,
-  "execucoes": 33,
+  "atualizado_em": "2026-10-09T14:35:05-03:00",
+  "total_minutos": 4497.7,
+  "itens": 1084,
+  "execucoes": 27,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -216,6 +180,7 @@
       "ultima_execucao": "2026-10-08T12:07:35-03:00",
       "ultima_quantidade": 26,
       "estimado": true,
+      "script": "Lançamento_Complemento.py",
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
       "unidade": "lançamentos",
       "minutos_por_item": 4.15
@@ -229,19 +194,21 @@
       "ultima_execucao": "2026-10-09T12:16:27-03:00",
       "ultima_quantidade": 23,
       "estimado": false,
+      "script": "suframa_confirmacao.py",
       "nome": "Confirmação de recebimento SUFRAMA",
       "unidade": "notas confirmadas",
       "minutos_por_item": 5
     },
     {
       "id": "visao_credito_bp",
-      "itens": 94,
-      "execucoes": 9,
-      "minutos": 282.0,
+      "itens": 156,
+      "execucoes": 3,
+      "minutos": 468.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-09T13:23:48-03:00",
-      "ultima_quantidade": 5,
+      "ultima_execucao": "2026-10-08T14:58:25-03:00",
+      "ultima_quantidade": 12,
       "estimado": true,
+      "script": "Alteração_de_cadastro.py",
       "nome": "Alteração no Cadastro de Clientes",
       "unidade": "alterações",
       "minutos_por_item": 3
@@ -254,11 +221,11 @@
     },
     {
       "mes": "2026-09",
-      "minutos": 2267.2
+      "minutos": 2294.2
     },
     {
       "mes": "2026-10",
-      "minutos": 1189.7
+      "minutos": 1348.7
     }
   ],
   "programadas": [
