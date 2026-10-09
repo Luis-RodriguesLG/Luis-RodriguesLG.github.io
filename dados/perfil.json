@@ -1,12 +1,12 @@
 {
   "nome": "Luis Rodrigues",
-  "apelido": "LUIS.RPA",
+  "apelido": "Luis · Data Analyst",
   "titulo": "Automação Python · SAP · Power BI",
   "resumo": "Automatizo rotinas fiscais e financeiras com Python, SAP GUI Scripting e Power BI. Cada robô devolve horas de analista para o que realmente importa.",
   "sobre": "Trabalho com automação de processos fiscais e de contas a pagar: robôs que conversam com o SAP, portais da Receita/SUFRAMA e planilhas, orquestrados por um gestor próprio que roda tudo sozinho todos os dias.",
   "links": {
     "github": "https://github.com/Luis-RodriguesLG",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/luis-grodrigues/",
     "email": ""
   },
   "stack": [
@@ -114,5 +114,6 @@
         "SAP"
       ]
     }
-  ]
+  ],
+  "contato_email": "lg.techsolutions0@gmail.com"
 }

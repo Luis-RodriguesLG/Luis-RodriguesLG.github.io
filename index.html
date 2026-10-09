@@ -131,6 +131,18 @@
 
   /* contact */
   .contact{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+  .form{display:grid;gap:12px;margin-top:6px}
+  .form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:560px){.form .row{grid-template-columns:1fr}}
+  .form label{display:grid;gap:6px;font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+  .form input,.form textarea{font:inherit;font-family:var(--sans);font-size:.95rem;text-transform:none;letter-spacing:0;color:var(--tx);background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:11px 12px;outline:none;transition:.2s;width:100%}
+  .form textarea{min-height:110px;resize:vertical}
+  .form input:focus,.form textarea:focus{border-color:var(--acc)}
+  .form button{cursor:pointer;justify-self:start}
+  .form button[disabled]{opacity:.6;cursor:wait}
+  .form .msg{font-family:var(--mono);font-size:.82rem;min-height:1.2em}
+  .form .msg.ok{color:var(--acc)} .form .msg.err{color:#ff8f8f}
+  .hp{position:absolute;left:-9999px}
   footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mut);font-size:.82rem;font-family:var(--mono)}
   footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   .about{display:grid;grid-template-columns:1.3fr 1fr;gap:30px;align-items:start}
@@ -148,7 +160,7 @@
   <div class="links">
     <a href="#impacto">Impacto</a><a href="#projetos">Projetos</a><a href="#roi">Simulador</a><a href="#stack">Stack</a><a href="#contato">Contato</a>
   </div>
-  <a class="btn" id="navGit" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+  <a class="btn" id="navGit" href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
 </div></nav>
 
 <header class="hero" id="inicio"><div class="wrap">
@@ -233,7 +245,18 @@
   </div>
   <div class="panel reveal">
     <div class="eyebrow" style="margin-bottom:12px">// contato</div>
-    <p style="color:var(--mut);margin-bottom:14px">Tem um processo manual e repetitivo? Vamos conversar.</p>
+    <p style="color:var(--mut);margin-bottom:14px">Tem um processo manual e repetitivo? Me conte qual é e eu respondo.</p>
+    <form class="form" id="formContato" hidden>
+      <div class="row">
+        <label>Nome<input name="nome" required maxlength="80" autocomplete="name"></label>
+        <label>E-mail<input name="email" type="email" required maxlength="120" autocomplete="email"></label>
+      </div>
+      <label>Empresa / área (opcional)<input name="empresa" maxlength="120" autocomplete="organization"></label>
+      <label>Qual processo você quer automatizar?<textarea name="mensagem" required maxlength="3000"></textarea></label>
+      <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn pri" type="submit">Enviar mensagem</button>
+      <div class="msg" id="formMsg" role="status"></div>
+    </form>
     <div class="contact" id="contact"></div>
   </div>
 </div></section>
@@ -294,12 +317,34 @@ function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','
   $('sobre').textContent = perfil.sobre || '';
   document.title = (perfil.nome ? perfil.nome + ' | ' : '') + (perfil.titulo || 'Automação');
   const L = perfil.links || {};
-  $('navGit').href = L.github || '#';
+  $('navGit').href = L.linkedin || L.github || '#';
+  if (!L.linkedin) $('navGit').textContent = 'GitHub ↗';
   const c = [];
   if (L.linkedin) c.push(`<a class="btn" target="_blank" rel="noopener" href="${esc(L.linkedin)}">LinkedIn ↗</a>`);
-  if (L.github) c.push(`<a class="btn" target="_blank" rel="noopener" href="${esc(L.github)}">GitHub ↗</a>`);
   if (L.email) c.push(`<a class="btn pri" href="mailto:${esc(L.email)}">${esc(L.email)}</a>`);
   $('contact').innerHTML = c.join('') || '<span class="tag">adicione seus links em dados/perfil.json</span>';
+  if (perfil.contato_email) {
+    const f = $('formContato'), msg = $('formMsg');
+    f.hidden = false;
+    f.addEventListener('submit', async ev => {
+      ev.preventDefault();
+      const d = Object.fromEntries(new FormData(f));
+      if (d._honey) return;
+      const btn = f.querySelector('button'); btn.disabled = true; msg.className = 'msg'; msg.textContent = 'enviando…';
+      try {
+        const r = await fetch('https://formsubmit.co/ajax/' + encodeURIComponent(perfil.contato_email), {
+          method: 'POST', headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+          body: JSON.stringify({Nome: d.nome, Email: d.email, Empresa: d.empresa || '-', Mensagem: d.mensagem,
+            _replyto: d.email, _subject: 'Contato pelo portfólio: ' + d.nome, _template: 'table', _captcha: 'false'})
+        });
+        const j = await r.json().catch(() => ({}));
+        if (!r.ok || String(j.success) === 'false') throw new Error(j.message || r.status);
+        f.reset(); msg.className = 'msg ok'; msg.textContent = '✔ mensagem enviada. Obrigado! Retorno em breve.';
+      } catch (e) {
+        msg.className = 'msg err'; msg.textContent = 'Não foi possível enviar agora. Tente pelo LinkedIn.';
+      } finally { btn.disabled = false; }
+    });
+  }
   $('foot').textContent = `© ${new Date().getFullYear()} ${perfil.nome || ''}`;
 
   // métricas
