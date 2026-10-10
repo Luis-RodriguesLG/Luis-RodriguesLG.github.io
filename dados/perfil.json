@@ -63,9 +63,9 @@
     },
     {
       "automacao": "qive_manifestacao",
-      "titulo": "Manifestação QIVE x SAP",
+      "titulo": "Relatório Diário de Manifestação (QIVE)",
       "departamento": "Recebimento Fiscal",
-      "descricao": "Baixa o relatório de NF-e do QIVE e cruza com a J1BNFE para apontar divergências antes do fechamento.",
+      "descricao": "Todos os dias baixa o relatório de NF-e do QIVE, cruza com a J1BNFE, gera a análise diária e mantém a base histórica do período.",
       "tags": [
         "QIVE",
         "SAP",
@@ -94,6 +94,26 @@
         "UKM000",
         "Crédito",
         "Excel"
+      ]
+    },
+    {
+      "automacao": "pa_emails_automaticos",
+      "titulo": "Power Automate · E-mails Automáticos",
+      "descricao": "Cinco fluxos que disparam e-mails sozinhos todos os dias úteis: quatro envios diários e um resumo que roda uma vez ao dia.",
+      "tags": [
+        "Power Automate",
+        "Outlook",
+        "Agendamento"
+      ]
+    },
+    {
+      "automacao": "pa_fluxos_excel",
+      "titulo": "Power Automate · Tratamento de Planilhas",
+      "descricao": "Quatro fluxos que ajustam documentos em Excel, limpam bases e resumem análises, entregando o material pronto para uso.",
+      "tags": [
+        "Power Automate",
+        "Excel",
+        "Limpeza de dados"
       ]
     },
     {
