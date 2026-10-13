@@ -1805,23 +1805,131 @@
       "data_hora": "2026-10-09T17:30:05-03:00",
       "quantidade": 1,
       "minutos": 3
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T08:00:03-03:00",
+      "quantidade": 1,
+      "minutos": 3
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T09:20:28-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T10:30:07-03:00",
+      "quantidade": 1,
+      "minutos": 3
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-12T10:46:57-03:00",
+      "quantidade": 28,
+      "minutos": 116.2
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T11:40:51-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T12:10:19-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T14:00:57-03:00",
+      "quantidade": 1,
+      "minutos": 3
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T15:30:42-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T16:30:58-03:00",
+      "quantidade": 1,
+      "minutos": 3
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-12T17:30:14-03:00",
+      "quantidade": 1,
+      "minutos": 3
+    },
+    {
+      "automacao": "qive_manifestacao",
+      "data_hora": "2026-10-13T07:40:36-03:00",
+      "quantidade": 1,
+      "minutos": 30
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-13T08:00:19-03:00",
+      "quantidade": 1,
+      "minutos": 3
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-13T09:20:26-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-13T10:30:23-03:00",
+      "quantidade": 1,
+      "minutos": 3
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-13T11:40:42-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-13T12:10:57-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-10-13T12:17:05-03:00",
+      "quantidade": 24,
+      "minutos": 120
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-13T14:00:43-03:00",
+      "quantidade": 1,
+      "minutos": 3
     }
   ],
   "inicio_periodo": "2026-08-17",
-  "atualizado_em": "2026-10-10T09:06:10-03:00",
-  "total_minutos": 5988.9,
-  "itens": 1385,
-  "execucoes": 301,
+  "atualizado_em": "2026-10-13T15:20:12-03:00",
+  "total_minutos": 6314.1,
+  "itens": 1453,
+  "execucoes": 319,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "lancamento_ipi",
-      "itens": 746,
-      "execucoes": 19,
-      "minutos": 3095.9,
+      "itens": 774,
+      "execucoes": 20,
+      "minutos": 3212.1,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-09T16:49:57-03:00",
+      "ultima_execucao": "2026-10-12T10:46:57-03:00",
       "ultima_quantidade": 28,
       "estimado": true,
       "script": "Lançamento_Complemento.py",
@@ -1831,12 +1939,12 @@
     },
     {
       "id": "suframa_confirmacao",
-      "itens": 210,
-      "execucoes": 6,
-      "minutos": 1050.0,
+      "itens": 234,
+      "execucoes": 7,
+      "minutos": 1170.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-09T12:16:27-03:00",
-      "ultima_quantidade": 23,
+      "ultima_execucao": "2026-10-13T12:17:05-03:00",
+      "ultima_quantidade": 24,
       "estimado": false,
       "script": "suframa_confirmacao.py",
       "nome": "Confirmação de recebimento SUFRAMA",
@@ -1845,11 +1953,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 261,
-      "execucoes": 261,
-      "minutos": 1015.0,
+      "itens": 276,
+      "execucoes": 276,
+      "minutos": 1074.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-09T17:30:05-03:00",
+      "ultima_execucao": "2026-10-13T14:00:43-03:00",
       "ultima_quantidade": 1,
       "estimado": true,
       "script": "Power Automate",
@@ -1873,11 +1981,11 @@
     },
     {
       "id": "qive_manifestacao",
-      "itens": 12,
-      "execucoes": 12,
-      "minutos": 360.0,
+      "itens": 13,
+      "execucoes": 13,
+      "minutos": 390.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-08T07:40:17-03:00",
+      "ultima_execucao": "2026-10-13T07:40:36-03:00",
       "ultima_quantidade": 1,
       "estimado": true,
       "script": "Manifestacao_QIVE.py",
@@ -1897,13 +2005,77 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 1799.9
+      "minutos": 2125.1
     }
   ],
   "programadas": [
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-12T08:00:03-03:00",
+      "data_hora": "2026-10-13T15:30:01-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-13T16:30:00-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-13T17:30:49-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-14T08:00:24-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-14T09:20:31-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-14T10:30:23-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-14T11:40:50-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-14T12:10:47-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-14T14:00:06-03:00",
       "quantidade": 1,
       "minutos": 3,
       "nome": "Fluxos automatizados (Power Automate)",
