@@ -2027,13 +2027,19 @@
       "data_hora": "2026-10-15T12:10:41-03:00",
       "quantidade": 1,
       "minutos": 5
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-10-15T12:56:05-03:00",
+      "quantidade": 23,
+      "minutos": 115
     }
   ],
   "inicio_periodo": "2026-08-17",
-  "atualizado_em": "2026-10-15T12:22:33-03:00",
-  "total_minutos": 6701.6,
-  "itens": 1541,
-  "execucoes": 338,
+  "atualizado_em": "2026-10-15T12:56:29-03:00",
+  "total_minutos": 6816.6,
+  "itens": 1564,
+  "execucoes": 339,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2053,12 +2059,12 @@
     },
     {
       "id": "suframa_confirmacao",
-      "itens": 234,
-      "execucoes": 7,
-      "minutos": 1170.0,
+      "itens": 257,
+      "execucoes": 8,
+      "minutos": 1285.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-13T12:17:05-03:00",
-      "ultima_quantidade": 24,
+      "ultima_execucao": "2026-10-15T12:56:05-03:00",
+      "ultima_quantidade": 23,
       "estimado": false,
       "script": "suframa_confirmacao.py",
       "nome": "Confirmação de recebimento SUFRAMA",
@@ -2119,7 +2125,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 2512.6
+      "minutos": 2627.6
     }
   ],
   "programadas": [
