@@ -2141,24 +2141,66 @@
       "data_hora": "2026-10-16T08:00:11-03:00",
       "quantidade": 1,
       "minutos": 3
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-16T09:20:59-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-16T10:30:29-03:00",
+      "quantidade": 1,
+      "minutos": 3
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-16T11:39:29-03:00",
+      "quantidade": 30,
+      "minutos": 124.5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-16T11:40:22-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-16T12:10:11-03:00",
+      "quantidade": 1,
+      "minutos": 5
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-10-16T12:15:05-03:00",
+      "quantidade": 17,
+      "minutos": 85
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-16T14:00:06-03:00",
+      "quantidade": 1,
+      "minutos": 3
     }
   ],
   "inicio_periodo": "2026-08-03",
-  "atualizado_em": "2026-10-16T08:24:47-03:00",
-  "total_minutos": 7062.6,
-  "itens": 1582,
-  "execucoes": 357,
+  "atualizado_em": "2026-10-16T15:30:19-03:00",
+  "total_minutos": 7293.1,
+  "itens": 1634,
+  "execucoes": 364,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "lancamento_ipi",
-      "itens": 844,
-      "execucoes": 21,
-      "minutos": 3502.6,
+      "itens": 874,
+      "execucoes": 22,
+      "minutos": 3627.1,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-15T10:20:40-03:00",
-      "ultima_quantidade": 70,
+      "ultima_execucao": "2026-10-16T11:39:29-03:00",
+      "ultima_quantidade": 30,
       "estimado": true,
       "script": "Lançamento_Complemento.py",
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
@@ -2167,12 +2209,12 @@
     },
     {
       "id": "suframa_confirmacao",
-      "itens": 257,
-      "execucoes": 8,
-      "minutos": 1285.0,
+      "itens": 274,
+      "execucoes": 9,
+      "minutos": 1370.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-15T12:56:05-03:00",
-      "ultima_quantidade": 23,
+      "ultima_execucao": "2026-10-16T12:15:05-03:00",
+      "ultima_quantidade": 17,
       "estimado": false,
       "script": "suframa_confirmacao.py",
       "nome": "Confirmação de recebimento SUFRAMA",
@@ -2181,11 +2223,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 305,
-      "execucoes": 305,
-      "minutos": 1207.0,
+      "itens": 310,
+      "execucoes": 310,
+      "minutos": 1228.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-16T08:00:11-03:00",
+      "ultima_execucao": "2026-10-16T14:00:06-03:00",
       "ultima_quantidade": 1,
       "estimado": true,
       "script": "Power Automate",
@@ -2233,18 +2275,10 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 2644.6
+      "minutos": 2875.1
     }
   ],
   "programadas": [
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-16T11:39:29-03:00",
-      "quantidade": 30,
-      "minutos": 124.5,
-      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
-      "unidade": "lançamentos"
-    },
     {
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-19T07:41:59-03:00",
@@ -2252,46 +2286,6 @@
       "minutos": 232.4,
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
       "unidade": "lançamentos"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T09:20:59-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T10:30:29-03:00",
-      "quantidade": 1,
-      "minutos": 3,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T11:40:22-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T12:10:11-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T14:00:06-03:00",
-      "quantidade": 1,
-      "minutos": 3,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
     },
     {
       "automacao": "fluxos_automatizados",
@@ -2320,6 +2314,46 @@
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T08:00:13-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-19T09:20:34-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-19T10:30:39-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-19T11:40:03-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-19T12:10:08-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-19T14:00:23-03:00",
       "quantidade": 1,
       "minutos": 3,
       "nome": "Fluxos automatizados (Power Automate)",
