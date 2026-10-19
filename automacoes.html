@@ -49,7 +49,7 @@
   .col .n{font-family:var(--mono);font-size:.74rem;color:var(--tx)}
   .col .m{font-family:var(--mono);font-size:.74rem;color:var(--mut)}
 
-  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;align-items:start}
   .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:14px;transition:border-color .25s,transform .25s}
   .card:hover{border-color:rgba(182,243,92,.45);transform:translateY(-3px)}
   .card h3{font-size:1.15rem;line-height:1.25}
@@ -73,6 +73,10 @@
   .term .hd span{margin-left:8px;color:var(--mut);font-size:.75rem}
   .term pre{padding:16px;color:#b9c7bc;white-space:pre-wrap;word-break:break-word;min-height:190px;max-height:380px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#2b332e transparent}
   .term .d{color:#4e5b52} .term .s{color:var(--tx)} .term .ok{color:var(--acc)} .term .t{color:#5d6b61}
+  .fl{border-top:1px solid var(--line);padding-top:12px;display:grid;gap:6px}
+  .fl div{display:flex;justify-content:space-between;gap:12px;font-size:.84rem;color:var(--mut)}
+  .fl div b{font-weight:500;color:var(--tx)}
+  .fl div span{font-family:var(--mono);font-size:.74rem;white-space:nowrap}
   .note{color:var(--mut);font-size:.84rem;border-top:1px solid var(--line);padding:28px 0 48px;max-width:80ch}
 
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s}
@@ -227,8 +231,14 @@
       if(x.departamento)c.append(el('span','dep',x.departamento));
       c.append(el('p','',x.descricao||''));
       if(x.tags&&x.tags.length){const t=el('div','tags');x.tags.forEach(g=>t.append(el('span','tag',g)));c.append(t);}
+      if(a.fluxos&&a.fluxos.length){
+        const g={};a.fluxos.forEach(f=>{const k=f.nome;(g[k]=g[k]||{f,n:0}).n++;});
+        const box=el('div','fl');
+        Object.values(g).forEach(({f,n})=>{const r=el('div');r.append(el('b','',(n>1?n+'× ':'')+f.nome),el('span','',f.freq+' · '+String(f.minutos).replace('.',',')+' min'));box.append(r);});
+        c.append(box);
+      }
       const s=el('div','stats');
-      [[fmtH(a.minutos),'economizado'],[fmtN(a.itens),a.unidade||'itens'],[(a.minutos_por_item!=null?String(a.minutos_por_item).replace('.',','):'–')+' min','por item']]
+      [[fmtH(a.minutos),'economizado'],[fmtN(a.itens),a.unidade||'itens'],[(a.itens?String(Math.round(a.minutos/a.itens*100)/100).replace('.',','):'–')+' min',a.fluxos&&a.fluxos.length?'por execução (média)':'por item']]
         .forEach(([v,l])=>{const d=el('div');d.append(el('b','',v),el('span','',l));s.append(d);});
       c.append(s);$('autos').append(c);
     });
@@ -252,7 +262,7 @@
     const quando=s=>SEM[new Date(s.slice(0,10)+'T12:00:00').getDay()]+' '+s.slice(8,10)+'/'+s.slice(5,7);
     const pad=(t,n)=>(t+' '.repeat(n)).slice(0,n);
     const scr=a=>(a&&a.script)||((a&&a.id)||'')+'.py';
-    const larg=Math.max(12,...(m.automacoes||[]).map(a=>scr(a).length));
+    const larg=Math.max(12,...(m.automacoes||[]).map(a=>a.fluxos&&a.fluxos.length?36:scr(a).length));
     const hist=[...(m.historico||[])];
     const ult=hist.length?hist[hist.length-1].data_hora:'';
     (m.programadas||[]).forEach(x=>{if(new Date(x.data_hora).getTime()<=agora&&x.data_hora>ult)hist.push(x);});
@@ -265,7 +275,7 @@
       if(h.sync){linhas.push('<span class="t">['+h.data_hora.slice(11,16)+']</span> <span class="ok">✔ painel atualizado</span>');return;}
       const a=autos[h.automacao]||{};
       const un=h.quantidade===1?(a.unidade||'itens').replace(/ões\b/g,'ão').replace(/s\b/g,''):(a.unidade||'itens');
-      linhas.push('<span class="t">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(un)+'</span> <span class="t">· '+(a.estimado?'≈ ':'')+fmtH(h.minutos)+'</span>');
+      linhas.push('<span class="t">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(h.fluxo||scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(un)+'</span> <span class="t">· '+(a.estimado?'≈ ':'')+fmtH(h.minutos)+'</span>');
     });
     const ini=m.inicio_periodo||'';
     linhas.push('<span class="d">── total desde '+ini.slice(8,10)+'/'+ini.slice(5,7)+'/'+ini.slice(0,4)+' '+'─'.repeat(31)+'</span>');
