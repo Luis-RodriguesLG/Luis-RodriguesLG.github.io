@@ -4,37 +4,37 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-03T08:00:27-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-04T08:00:06-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-05T08:00:46-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-06T08:00:19-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-07T08:00:18-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-10T08:00:58-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -52,19 +52,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-11T08:00:17-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-11T09:20:40-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-12T08:00:04-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -82,19 +76,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-13T08:00:56-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-13T09:20:03-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-14T08:00:07-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -106,7 +94,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-17T08:00:12-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -124,7 +112,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-17T10:30:36-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "qive_manifestacao",
@@ -136,25 +124,19 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-18T08:00:07-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-18T09:20:23-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-18T10:30:54-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-19T08:00:02-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -166,7 +148,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-19T10:30:23-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "qive_manifestacao",
@@ -178,25 +160,19 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-20T08:00:31-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-20T09:20:58-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-20T10:30:16-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-21T08:00:57-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -208,7 +184,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-21T10:30:43-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -220,7 +196,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-24T08:00:44-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -232,13 +208,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-24T10:30:56-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-24T11:40:04-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "qive_manifestacao",
@@ -250,31 +226,19 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-25T08:00:31-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-25T09:20:52-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-25T10:30:49-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-25T11:40:53-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-26T08:00:31-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -286,13 +250,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-26T10:30:10-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-26T11:40:15-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -310,31 +274,19 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-27T08:00:09-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-27T09:20:50-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-27T10:30:11-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-27T11:40:12-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-28T08:00:59-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -346,13 +298,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-28T10:30:09-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-28T11:40:49-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -364,7 +316,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-31T08:00:43-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -376,13 +328,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-31T10:30:25-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-31T11:40:42-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -400,25 +352,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-01T08:00:09-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-01T09:20:15-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-01T10:30:53-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-01T11:40:28-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -430,7 +370,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-02T08:00:03-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -442,7 +382,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-02T10:30:43-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -454,7 +394,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-02T11:40:35-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -472,31 +412,19 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-03T08:00:27-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-03T09:20:52-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-03T10:30:58-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-03T10:53:55-03:00",
       "quantidade": 28,
       "minutos": 116.2
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-03T11:40:33-03:00",
-      "quantidade": 1,
-      "minutos": 5
     },
     {
       "automacao": "fluxos_automatizados",
@@ -508,7 +436,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-04T08:00:37-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -520,13 +448,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-04T10:30:17-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-04T11:40:49-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -538,7 +466,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-07T08:00:06-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -550,13 +478,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-07T10:30:07-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-07T11:40:14-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -566,9 +494,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-07T14:00:25-03:00",
+      "data_hora": "2026-09-07T14:00:23-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "qive_manifestacao",
@@ -580,25 +508,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-08T08:00:32-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-08T09:20:27-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-08T10:30:09-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-08T11:40:00-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -608,15 +524,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-08T14:00:13-03:00",
+      "data_hora": "2026-09-08T14:00:32-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-09T08:00:55-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -628,13 +544,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-09T10:30:09-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-09T11:40:55-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -644,9 +560,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-09T14:00:14-03:00",
+      "data_hora": "2026-09-09T14:00:00-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "lancamento_ipi",
@@ -664,25 +580,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-10T08:00:58-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-10T09:20:51-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-10T10:30:06-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-10T11:40:39-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -692,15 +596,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-10T14:00:27-03:00",
+      "data_hora": "2026-09-10T14:00:32-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-11T08:00:20-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -712,13 +616,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-11T10:30:01-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-11T11:40:32-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -728,15 +632,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-11T14:00:34-03:00",
+      "data_hora": "2026-09-11T14:00:22-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-14T08:00:06-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -748,13 +652,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-14T10:30:39-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-14T11:40:53-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -764,15 +668,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-14T14:00:15-03:00",
+      "data_hora": "2026-09-14T14:00:19-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-14T15:30:19-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 4
     },
     {
       "automacao": "qive_manifestacao",
@@ -784,25 +682,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-15T08:00:29-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-15T09:20:18-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-15T10:30:05-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-15T11:40:12-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -812,15 +698,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-15T14:00:15-03:00",
+      "data_hora": "2026-09-15T14:00:31-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-15T15:30:31-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 4
     },
     {
       "automacao": "lancamento_ipi",
@@ -832,7 +712,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-16T08:00:45-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -844,13 +724,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-16T10:30:43-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-16T11:40:52-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -860,9 +740,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-16T14:00:21-03:00",
+      "data_hora": "2026-09-16T14:00:47-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
@@ -880,7 +760,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-17T08:00:42-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -890,21 +770,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-17T09:20:51-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-17T10:30:33-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-17T11:40:42-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -914,21 +782,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-17T14:00:36-03:00",
+      "data_hora": "2026-09-17T14:00:50-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-17T15:30:50-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-18T08:00:28-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -940,13 +802,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-18T10:30:33-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-18T11:40:48-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -956,9 +818,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-18T14:00:33-03:00",
+      "data_hora": "2026-09-18T14:00:05-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
@@ -970,7 +832,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-21T08:00:38-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -988,13 +850,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-21T10:30:34-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-21T11:40:39-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1004,21 +866,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-21T14:00:12-03:00",
+      "data_hora": "2026-09-21T14:00:27-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-21T15:30:27-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-21T16:30:27-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "qive_manifestacao",
@@ -1030,7 +880,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-22T08:00:17-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "suframa_confirmacao",
@@ -1040,21 +890,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-22T09:20:09-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-22T10:30:41-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-22T11:40:55-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1064,27 +902,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-22T14:00:00-03:00",
+      "data_hora": "2026-09-22T14:00:37-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-22T15:30:37-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-22T16:30:03-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-23T08:00:26-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1096,13 +922,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-23T10:30:53-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-23T11:40:21-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1112,9 +938,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-23T14:00:47-03:00",
+      "data_hora": "2026-09-23T14:00:14-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "lancamento_ipi",
@@ -1124,15 +950,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-23T15:30:14-03:00",
+      "data_hora": "2026-09-23T15:30:43-03:00",
       "quantidade": 1,
       "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-23T16:30:43-03:00",
-      "quantidade": 1,
-      "minutos": 3
     },
     {
       "automacao": "qive_manifestacao",
@@ -1144,25 +964,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-24T08:00:22-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-24T09:20:06-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-24T10:30:39-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-24T11:40:34-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1184,27 +992,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-24T14:00:02-03:00",
+      "data_hora": "2026-09-24T14:00:36-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-24T15:30:36-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-24T16:30:56-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-25T08:00:21-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1216,13 +1012,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-25T10:30:54-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-25T11:40:36-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1232,21 +1028,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-25T14:00:49-03:00",
+      "data_hora": "2026-09-25T14:00:18-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-25T15:30:18-03:00",
+      "data_hora": "2026-09-25T15:30:00-03:00",
       "quantidade": 1,
       "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-25T16:30:00-03:00",
-      "quantidade": 1,
-      "minutos": 3
     },
     {
       "automacao": "lancamento_ipi",
@@ -1258,7 +1048,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-28T08:00:25-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1270,13 +1060,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-28T10:30:08-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-28T11:40:12-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1286,27 +1076,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-28T14:00:47-03:00",
+      "data_hora": "2026-09-28T13:30:47-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-09-28T14:00:41-03:00",
+      "quantidade": 1,
+      "minutos": 4
     },
     {
       "automacao": "suframa_confirmacao",
       "data_hora": "2026-09-28T14:26:53-03:00",
       "quantidade": 49,
       "minutos": 245
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-28T15:30:41-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-28T16:30:25-03:00",
-      "quantidade": 1,
-      "minutos": 3
     },
     {
       "automacao": "qive_manifestacao",
@@ -1318,25 +1102,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-29T08:00:05-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-29T09:20:59-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-29T10:30:54-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-29T11:40:45-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1346,9 +1118,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-29T14:00:19-03:00",
+      "data_hora": "2026-09-29T13:30:19-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-09-29T14:00:29-03:00",
+      "quantidade": 1,
+      "minutos": 4
     },
     {
       "automacao": "visao_credito_bp",
@@ -1358,21 +1136,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-29T15:30:29-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-29T16:30:22-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-30T08:00:05-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1384,13 +1150,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-30T10:30:50-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-30T11:40:45-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1406,27 +1172,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-30T14:00:56-03:00",
+      "data_hora": "2026-09-30T13:30:56-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-30T15:30:03-03:00",
+      "data_hora": "2026-09-30T14:00:03-03:00",
+      "quantidade": 1,
+      "minutos": 4
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-09-30T15:30:04-03:00",
       "quantidade": 1,
       "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-30T16:30:04-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-30T17:30:58-03:00",
-      "quantidade": 1,
-      "minutos": 3
     },
     {
       "automacao": "lancamento_ipi",
@@ -1444,25 +1204,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-01T08:00:36-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-01T09:20:47-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-01T10:30:17-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-01T11:40:18-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1478,33 +1226,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-01T14:00:12-03:00",
+      "data_hora": "2026-10-01T13:30:12-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-01T15:30:54-03:00",
+      "data_hora": "2026-10-01T14:00:54-03:00",
       "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-01T16:30:16-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-01T17:30:09-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-02T08:00:42-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1516,7 +1252,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-02T10:30:30-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -1528,7 +1264,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-02T11:40:08-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1538,33 +1274,27 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-02T14:00:30-03:00",
+      "data_hora": "2026-10-02T13:30:30-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-02T15:30:13-03:00",
+      "data_hora": "2026-10-02T14:00:13-03:00",
+      "quantidade": 1,
+      "minutos": 4
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-02T15:30:55-03:00",
       "quantidade": 1,
       "minutos": 5
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-02T16:30:55-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-02T17:30:24-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T08:00:32-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -1582,13 +1312,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T10:30:27-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T11:40:19-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1604,27 +1334,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-05T14:00:42-03:00",
+      "data_hora": "2026-10-05T13:30:42-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-05T15:30:12-03:00",
+      "data_hora": "2026-10-05T14:00:12-03:00",
       "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-05T16:30:58-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T17:30:58-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "qive_manifestacao",
@@ -1636,25 +1360,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-06T08:00:53-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-06T09:20:40-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-06T10:30:17-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-06T11:40:51-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1664,27 +1376,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-06T14:00:30-03:00",
+      "data_hora": "2026-10-06T13:30:30-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-06T15:30:56-03:00",
+      "data_hora": "2026-10-06T14:00:56-03:00",
       "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-06T16:30:12-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-06T17:30:09-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "lancamento_ipi",
@@ -1696,7 +1396,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-07T08:00:40-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1708,13 +1408,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-07T10:30:35-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-07T11:40:14-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1724,27 +1424,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-07T14:00:17-03:00",
+      "data_hora": "2026-10-07T13:30:17-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-07T15:30:05-03:00",
+      "data_hora": "2026-10-07T14:00:05-03:00",
+      "quantidade": 1,
+      "minutos": 4
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-07T15:30:07-03:00",
       "quantidade": 1,
       "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-07T16:30:07-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-07T17:30:51-03:00",
-      "quantidade": 1,
-      "minutos": 3
     },
     {
       "automacao": "qive_manifestacao",
@@ -1756,25 +1450,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-08T08:00:35-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-08T09:20:01-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-08T10:30:09-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-08T11:40:10-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -1790,9 +1472,15 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-08T14:00:59-03:00",
+      "data_hora": "2026-10-08T13:30:59-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-08T14:00:44-03:00",
+      "quantidade": 1,
+      "minutos": 4
     },
     {
       "automacao": "visao_credito_bp",
@@ -1802,27 +1490,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-08T15:30:44-03:00",
-      "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-08T16:30:10-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-08T17:30:58-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-09T08:00:40-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1834,13 +1504,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-09T10:30:15-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-09T11:40:01-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1856,21 +1526,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-09T14:00:30-03:00",
+      "data_hora": "2026-10-09T13:30:30-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-09T15:30:59-03:00",
+      "data_hora": "2026-10-09T14:00:59-03:00",
+      "quantidade": 1,
+      "minutos": 4
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-09T15:30:22-03:00",
       "quantidade": 1,
       "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-09T16:30:22-03:00",
-      "quantidade": 1,
-      "minutos": 3
     },
     {
       "automacao": "lancamento_ipi",
@@ -1880,15 +1550,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-09T17:30:05-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-12T08:00:03-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1900,7 +1564,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-12T10:30:07-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -1912,7 +1576,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-12T11:40:51-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1922,27 +1586,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-12T14:00:57-03:00",
+      "data_hora": "2026-10-12T13:30:57-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-12T15:30:42-03:00",
+      "data_hora": "2026-10-12T14:00:42-03:00",
       "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-12T16:30:58-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-12T17:30:14-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "qive_manifestacao",
@@ -1954,25 +1612,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-13T08:00:19-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-13T09:20:26-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-13T10:30:23-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-13T11:40:42-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1988,33 +1634,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-13T14:00:43-03:00",
+      "data_hora": "2026-10-13T13:30:43-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-13T15:30:01-03:00",
+      "data_hora": "2026-10-13T14:00:01-03:00",
       "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-13T16:30:00-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-13T17:30:49-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-14T08:00:24-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -2026,13 +1660,13 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-14T10:30:23-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-14T11:40:50-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -2042,27 +1676,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-14T14:00:06-03:00",
+      "data_hora": "2026-10-14T13:30:06-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-14T15:30:37-03:00",
+      "data_hora": "2026-10-14T14:00:37-03:00",
+      "quantidade": 1,
+      "minutos": 4
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-14T15:30:49-03:00",
       "quantidade": 1,
       "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-14T16:30:49-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-14T17:30:28-03:00",
-      "quantidade": 1,
-      "minutos": 3
     },
     {
       "automacao": "qive_manifestacao",
@@ -2074,13 +1702,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-15T08:00:20-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-15T09:20:16-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -2092,13 +1714,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-15T10:30:42-03:00",
       "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-15T11:40:29-03:00",
-      "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -2114,33 +1730,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-15T14:00:14-03:00",
+      "data_hora": "2026-10-15T13:30:14-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-15T15:30:44-03:00",
+      "data_hora": "2026-10-15T14:00:44-03:00",
       "quantidade": 1,
-      "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-15T16:30:18-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-15T17:30:56-03:00",
-      "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-16T08:00:11-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -2152,7 +1756,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-16T10:30:29-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "lancamento_ipi",
@@ -2164,7 +1768,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-16T11:40:22-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -2180,27 +1784,21 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T14:00:06-03:00",
+      "data_hora": "2026-10-16T13:30:06-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 1
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T15:30:49-03:00",
+      "data_hora": "2026-10-16T14:00:49-03:00",
+      "quantidade": 1,
+      "minutos": 4
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-16T15:30:35-03:00",
       "quantidade": 1,
       "minutos": 5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T16:30:35-03:00",
-      "quantidade": 1,
-      "minutos": 3
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T17:30:02-03:00",
-      "quantidade": 1,
-      "minutos": 3
     },
     {
       "automacao": "lancamento_ipi",
@@ -2212,7 +1810,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T08:00:13-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
@@ -2224,19 +1822,25 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T10:30:39-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T11:40:03-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 2
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T12:10:08-03:00",
       "quantidade": 1,
       "minutos": 5
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-19T13:30:23-03:00",
+      "quantidade": 1,
+      "minutos": 1
     },
     {
       "automacao": "suframa_confirmacao",
@@ -2246,22 +1850,22 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-19T14:00:23-03:00",
+      "data_hora": "2026-10-19T14:00:59-03:00",
       "quantidade": 1,
-      "minutos": 3
+      "minutos": 4
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-19T15:30:59-03:00",
+      "data_hora": "2026-10-19T17:30:10-03:00",
       "quantidade": 1,
-      "minutos": 5
+      "minutos": 4
     }
   ],
   "inicio_periodo": "2026-08-03",
-  "atualizado_em": "2026-10-19T15:48:21-03:00",
-  "total_minutos": 7670.5,
-  "itens": 1721,
-  "execucoes": 376,
+  "atualizado_em": "2026-10-19T17:43:57-03:00",
+  "total_minutos": 7193.5,
+  "itens": 1655,
+  "execucoes": 310,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2295,17 +1899,17 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 320,
-      "execucoes": 320,
-      "minutos": 1268.0,
+      "itens": 254,
+      "execucoes": 254,
+      "minutos": 791.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-19T15:30:59-03:00",
+      "ultima_execucao": "2026-10-19T17:30:10-03:00",
       "ultima_quantidade": 1,
       "estimado": true,
       "script": "Power Automate",
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções",
-      "minutos_por_item": 3.9
+      "minutos_por_item": 2
     },
     {
       "id": "qive_manifestacao",
@@ -2339,15 +1943,15 @@
   "por_mes": [
     {
       "mes": "2026-08",
-      "minutos": 1245.9
+      "minutos": 1161.9
     },
     {
       "mes": "2026-09",
-      "minutos": 3172.2
+      "minutos": 2953.2
     },
     {
       "mes": "2026-10",
-      "minutos": 3252.5
+      "minutos": 3078.5
     }
   ],
   "programadas": [
@@ -2377,33 +1981,9 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-19T16:30:43-03:00",
-      "quantidade": 1,
-      "minutos": 3,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-19T17:30:10-03:00",
-      "quantidade": 1,
-      "minutos": 3,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-20T08:00:13-03:00",
       "quantidade": 1,
-      "minutos": 3,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-20T09:20:44-03:00",
-      "quantidade": 1,
-      "minutos": 5,
+      "minutos": 2,
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções"
     },
@@ -2411,15 +1991,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-20T10:30:42-03:00",
       "quantidade": 1,
-      "minutos": 3,
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-20T11:40:22-03:00",
-      "quantidade": 1,
-      "minutos": 5,
+      "minutos": 2,
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções"
     },
@@ -2433,17 +2005,17 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-20T14:00:46-03:00",
+      "data_hora": "2026-10-20T13:30:46-03:00",
       "quantidade": 1,
-      "minutos": 3,
+      "minutos": 1,
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções"
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-20T15:30:48-03:00",
+      "data_hora": "2026-10-20T14:00:48-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 4,
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções"
     }

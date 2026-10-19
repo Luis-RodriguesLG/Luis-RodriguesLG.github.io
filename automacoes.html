@@ -67,6 +67,12 @@
   .tool b{font-family:var(--mono);font-size:.78rem;color:var(--bg);background:var(--acc);border-radius:99px;padding:0 8px}
   .support{margin-top:28px}
   .support .card{gap:10px}
+  .term{background:#070908;border:1px solid var(--line);border-radius:var(--r);font-family:var(--mono);font-size:.82rem;overflow:hidden}
+  .term .hd{display:flex;gap:6px;padding:10px 14px;border-bottom:1px solid var(--line);align-items:center}
+  .term .hd i{width:10px;height:10px;border-radius:50%;background:#2b332e}
+  .term .hd span{margin-left:8px;color:var(--mut);font-size:.75rem}
+  .term pre{padding:16px;color:#b9c7bc;white-space:pre-wrap;word-break:break-word;min-height:190px;max-height:380px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#2b332e transparent}
+  .term .d{color:#4e5b52} .term .s{color:var(--tx)} .term .ok{color:var(--acc)} .term .t{color:#5d6b61}
   .note{color:var(--mut);font-size:.84rem;border-top:1px solid var(--line);padding:28px 0 48px;max-width:80ch}
 
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s}
@@ -131,6 +137,17 @@
     <p class="lead" style="margin-bottom:18px">Número de automações que usam cada ferramenta.</p>
     <div class="tools reveal" id="tools"></div>
     <div class="grid support" id="apoio"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Execuções</div>
+    <h2>Histórico de execuções</h2>
+    <div class="term reveal">
+      <div class="hd"><i></i><i></i><i></i><span>gestor_automacoes — histórico de execuções</span></div>
+      <pre id="log"></pre>
+    </div>
   </div>
 </section>
 
@@ -227,6 +244,37 @@
       if(x.tags&&x.tags.length){const t=el('div','tags');x.tags.forEach(g=>t.append(el('span','tag',g)));c.append(t);}
       $('apoio').append(c);
     });
+
+
+    // log de execucoes (historico + programadas que ja chegaram)
+    const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const SEM=['dom','seg','ter','qua','qui','sex','sáb'];
+    const quando=s=>SEM[new Date(s.slice(0,10)+'T12:00:00').getDay()]+' '+s.slice(8,10)+'/'+s.slice(5,7);
+    const pad=(t,n)=>(t+' '.repeat(n)).slice(0,n);
+    const scr=a=>(a&&a.script)||((a&&a.id)||'')+'.py';
+    const larg=Math.max(12,...(m.automacoes||[]).map(a=>scr(a).length));
+    const hist=[...(m.historico||[])];
+    const ult=hist.length?hist[hist.length-1].data_hora:'';
+    (m.programadas||[]).forEach(x=>{if(new Date(x.data_hora).getTime()<=agora&&x.data_hora>ult)hist.push(x);});
+    hist.push({sync:true,data_hora:m.atualizado_em});
+    hist.sort((a,b)=>(Date.parse(a.data_hora)||0)-(Date.parse(b.data_hora)||0));
+    const linhas=[];let diaAnt='';
+    hist.forEach(h=>{
+      const dia=h.data_hora.slice(0,10);
+      if(dia!==diaAnt){linhas.push('<span class="d">── '+quando(h.data_hora)+' '+'─'.repeat(40)+'</span>');diaAnt=dia;}
+      if(h.sync){linhas.push('<span class="t">['+h.data_hora.slice(11,16)+']</span> <span class="ok">✔ painel atualizado</span>');return;}
+      const a=autos[h.automacao]||{};
+      const un=h.quantidade===1?(a.unidade||'itens').replace(/ões\b/g,'ão').replace(/s\b/g,''):(a.unidade||'itens');
+      linhas.push('<span class="t">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(un)+'</span> <span class="t">· '+(a.estimado?'≈ ':'')+fmtH(h.minutos)+'</span>');
+    });
+    const ini=m.inicio_periodo||'';
+    linhas.push('<span class="d">── total desde '+ini.slice(8,10)+'/'+ini.slice(5,7)+'/'+ini.slice(0,4)+' '+'─'.repeat(31)+'</span>');
+    lista.forEach(a=>linhas.push('  '+esc(pad(scr(a),larg))+' <span class="s">'+fmtN(a.itens)+' '+esc(a.unidade||'itens')+' · '+fmtN(a.execucoes)+' execuções · ≈ '+fmtH(a.minutos)+'</span>'));
+    linhas.push('<span class="ok">  Σ '+fmtN(itens)+' itens · '+fmtN(exec)+' execuções · '+fmtH(total)+' devolvidas</span>');
+    const logEl=$('log'),ANIM=8,base=Math.max(0,linhas.length-ANIM);
+    logEl.innerHTML=linhas.slice(0,base).join('\n')+(base?'\n':'');logEl.scrollTop=logEl.scrollHeight;
+    let k=base;const tick=()=>{if(k<linhas.length){logEl.innerHTML+=linhas[k++]+'\n';logEl.scrollTop=logEl.scrollHeight;setTimeout(tick,260);}};
+    new IntersectionObserver((es,o)=>{if(es[0].isIntersecting){tick();o.disconnect();}}).observe(logEl);
 
     // animacoes
     const io=new IntersectionObserver(es=>es.forEach(e=>{
