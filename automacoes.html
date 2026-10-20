@@ -372,7 +372,7 @@
       if(x.tags&&x.tags.length){const t=el('div','tags');x.tags.forEach(g=>t.append(el('span','tag',g)));c.append(t);}
       const fl=a.fluxos&&a.fluxos.length;
       const s=el('div','stats');
-      [[fmtH(a.minutos),'economizado'],[fmtN(a.itens),a.unidade||'itens'],[(a.itens?num(Math.round(a.minutos/a.itens*100)/100):'–')+' min',fl?'por execução (média)':'por item']]
+      [[fmtH(a.minutos),'economizado'],[fmtN(a.itens),a.unidade||'itens'],a.nota_tempo?[num(a.minutos_por_item)+' min',a.nota_tempo]:[(a.itens?num(Math.round(a.minutos/a.itens*100)/100):'–')+' min',fl?'por execução (média)':'por item']]
         .forEach(([v,l])=>{const dd=el('div');dd.append(el('b','',v),el('span','',l));s.append(dd);});
       c.append(s);
       if(fl){const b=el('button','btn2','Visualizar fluxos');b.type='button';b.addEventListener('click',()=>abrirFluxos(a.id));c.append(b);}
@@ -407,7 +407,7 @@
       const tr=el('tr');
       tr.append(el('td','d',SEM[new Date(dt.slice(0,10)+'T12:00:00').getDay()]+' '+dt.slice(8,10)+'/'+dt.slice(5,7)),el('td','d',dt.slice(11,16)));
       const ta=el('td');ta.append(document.createTextNode(E.nomeDe(h.automacao)));if(h.fluxo)ta.append(el('small','',h.fluxo));tr.append(ta);
-      tr.append(el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',(a.estimado?'≈ ':'')+fmtH(h.minutos)));
+      tr.append(el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',h.minutos?(a.estimado?'≈ ':'')+fmtH(h.minutos):'não contabilizado'));
       tb.append(tr);
     });
     if(!rows.length){const tr=el('tr'),td=el('td','','Nenhuma execução registrada.');td.colSpan=5;tr.append(td);tb.append(tr);}
@@ -437,7 +437,7 @@
       if(dia!==ant){L.push('<span class="dm">── '+SEM[new Date(dia+'T12:00:00').getDay()]+' '+dia.slice(8,10)+'/'+dia.slice(5,7)+' '+'─'.repeat(40)+'</span>');ant=dia;}
       if(h.sync){L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> <span class="ok">✔ dados sincronizados</span>');return;}
       const a=E.autos[h.automacao]||{};
-      L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(h.fluxo||scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(unidade(a,h.quantidade))+'</span> <span class="dm">· '+(a.estimado?'≈ ':'')+fmtH(h.minutos)+'</span>');
+      L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(h.fluxo||scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(unidade(a,h.quantidade))+'</span> <span class="dm">· '+(h.minutos?(a.estimado?'≈ ':'')+fmtH(h.minutos):'não contabilizado')+'</span>');
     });
     const ini=E.m.inicio_periodo||'';
     L.push('<span class="dm">── total desde '+fmtD(ini)+' '+'─'.repeat(31)+'</span>');

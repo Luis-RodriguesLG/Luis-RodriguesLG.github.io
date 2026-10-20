@@ -32,7 +32,6 @@
     {
       "grupo": "Orquestração & Interface",
       "itens": [
-        "Prefect",
         "PySide6",
         "FFmpeg",
         "PyInstaller"
@@ -53,7 +52,7 @@
       "automacao": "suframa_confirmacao",
       "titulo": "Confirmação de Recebimento SUFRAMA",
       "departamento": "Recebimento Fiscal",
-      "descricao": "Lê as notas pendentes no SIMNAC, valida contra a J1BNFE do SAP e o QIVE e confirma o recebimento em lotes.",
+      "descricao": "Identifica as notas pendentes de confirmação no SIMNAC e acessa cada uma para ler a chave de acesso. Verifica se a nota está lançada no SAP (J1BNFE) e, se estiver, consulta o CT-e vinculado no QIVE, preenche essa informação no SIMNAC e conclui a confirmação, validando os dados de cada nota ao longo de todo o processo.",
       "tags": [
         "SAP J1BNFE",
         "SIMNAC",
@@ -88,8 +87,10 @@
       "automacao": "lancamento_ipi",
       "titulo": "Lançamento de Complemento de Impostos",
       "departamento": "Recebimento Fiscal",
-      "descricao": "Lança na MIRO os complementos de IPI e ICMS a partir de uma planilha, conferindo valores e registrando o resultado. Automação desenvolvida para o Time de Recebimento Fiscal.",
+      "descricao": "Ferramenta que lança complementos de IPI e ICMS a partir de uma base, utilizando as transações SAP J1BNFE, ZLIA e MIRO: confere e valida valores e informações, registra cada lançamento e gera um log de execução indicando o que foi lançado, o que não foi lançado e o erro de cada item. Automação desenvolvida para o Time de Recebimento Fiscal.",
       "tags": [
+        "SAP J1BNFE",
+        "SAP ZLIA",
         "SAP MIRO",
         "IPI",
         "ICMS",
@@ -136,11 +137,11 @@
     },
     {
       "titulo": "Gestor de Automações",
-      "descricao": "Painel desktop que agenda, executa e monitora todos os robôs, com Prefect por trás e interface em PySide6.",
+      "descricao": "Painel desktop que agenda, executa e monitora todos os robôs, com interface própria em PySide6.",
       "tags": [
-        "Prefect",
         "PySide6",
-        "Agendamento"
+        "Agendamento",
+        "Monitoramento"
       ]
     },
     {

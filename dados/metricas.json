@@ -1438,7 +1438,7 @@
     }
   ],
   "inicio_periodo": "2026-08-11",
-  "atualizado_em": "2026-10-20T07:31:14-03:00",
+  "atualizado_em": "2026-10-20T07:54:49-03:00",
   "total_minutos": 6589.1,
   "itens": 1480,
   "execucoes": 213,
@@ -1454,6 +1454,7 @@
       "ultima_execucao": "2026-10-16T11:39:29-03:00",
       "ultima_quantidade": 30,
       "fluxos": [],
+      "nota_tempo": null,
       "estimado": true,
       "script": "Lançamento_Complemento.py",
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
@@ -1469,6 +1470,7 @@
       "ultima_execucao": "2026-10-19T13:53:10-03:00",
       "ultima_quantidade": 21,
       "fluxos": [],
+      "nota_tempo": null,
       "estimado": false,
       "script": "suframa_confirmacao.py",
       "nome": "Confirmação de recebimento SUFRAMA",
@@ -1484,6 +1486,7 @@
       "ultima_execucao": "2026-10-15T08:19:29-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
+      "nota_tempo": null,
       "estimado": true,
       "script": "Manifestacao_QIVE.py",
       "nome": "Relatório diário de Manifestação (QIVE)",
@@ -1564,6 +1567,7 @@
           "minutos_total": 50.0
         }
       ],
+      "nota_tempo": null,
       "estimado": true,
       "script": "Power Automate",
       "nome": "Fluxos automatizados (Power Automate)",
@@ -1579,6 +1583,7 @@
       "ultima_execucao": "2026-10-08T14:58:25-03:00",
       "ultima_quantidade": 12,
       "fluxos": [],
+      "nota_tempo": null,
       "estimado": true,
       "script": "Alteração_de_cadastro.py",
       "nome": "Alteração no Cadastro de Clientes",
@@ -1597,7 +1602,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 2773.1
+      "minutos": 2773.0
     }
   ],
   "programadas": [
