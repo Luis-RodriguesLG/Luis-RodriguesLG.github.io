@@ -417,7 +417,7 @@
       const tr=el('tr');
       tr.append(el('td','d',SEM[new Date(dt.slice(0,10)+'T12:00:00').getDay()]+' '+dt.slice(8,10)+'/'+dt.slice(5,7)),el('td','d',dt.slice(11,16)));
       const ta=el('td');ta.append(document.createTextNode(E.nomeDe(h.automacao)));if(h.fluxo){const gr=grupoDe(h);ta.append(el('small','',gr?gr+' › '+h.fluxo:h.fluxo));}tr.append(ta);
-      tr.append(el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',h.minutos?(a.estimado&&!h.real?'≈ ':'')+fmtT(h.minutos):'não contabilizado'));
+      tr.append(el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',h.minutos?fmtT(h.minutos):'não contabilizado'));
       tb.append(tr);
     });
     if(!rows.length){const tr=el('tr'),td=el('td','','Nenhuma execução registrada.');td.colSpan=5;tr.append(td);tb.append(tr);}
@@ -447,11 +447,11 @@
       if(dia!==ant){L.push('<span class="dm">── '+SEM[new Date(dia+'T12:00:00').getDay()]+' '+dia.slice(8,10)+'/'+dia.slice(5,7)+' '+'─'.repeat(40)+'</span>');ant=dia;}
       if(h.sync){L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> <span class="ok">✔ dados sincronizados</span>');return;}
       const a=E.autos[h.automacao]||{};
-      L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(h.fluxo?(grupoDe(h)?'↳ ':'')+h.fluxo:scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(unidade(a,h.quantidade))+'</span> <span class="dm">· '+(h.minutos?(a.estimado&&!h.real?'≈ ':'')+fmtT(h.minutos):'não contabilizado')+'</span>');
+      L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(h.fluxo?(grupoDe(h)?'↳ ':'')+h.fluxo:scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(unidade(a,h.quantidade))+'</span> <span class="dm">· '+(h.minutos?fmtT(h.minutos):'não contabilizado')+'</span>');
     });
     const ini=E.m.inicio_periodo||'';
     L.push('<span class="dm">── total desde '+fmtD(ini)+' '+'─'.repeat(31)+'</span>');
-    E.lista.forEach(a=>{const u=a.unidade||'itens';const ex=fmtN(a.execucoes)+(a.execucoes===1?' execução':' execuções');const vol=u==='execuções'?ex:fmtN(a.itens)+' '+u+' · '+ex;L.push('  '+esc(pad(scr(a),larg))+' <span class="s">'+esc(vol)+' · '+(a.estimado?'≈ ':'')+fmtH(a.minutos)+'</span>');});
+    E.lista.forEach(a=>{const u=a.unidade||'itens';const ex=fmtN(a.execucoes)+(a.execucoes===1?' execução':' execuções');const vol=u==='execuções'?ex:fmtN(a.itens)+' '+u+' · '+ex;L.push('  '+esc(pad(scr(a),larg))+' <span class="s">'+esc(vol)+' · '+fmtH(a.minutos)+'</span>');});
     L.push('<span class="ok">  Σ '+fmtN(E.itens)+' itens · '+fmtN(E.exec)+' execuções · '+fmtH(E.total)+' economizadas</span>');
     const lg=$('log');lg.innerHTML=L.join('\n');lg.scrollTop=lg.scrollHeight;
   }
