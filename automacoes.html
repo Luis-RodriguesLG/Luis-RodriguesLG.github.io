@@ -39,8 +39,11 @@
   .top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--line)}
   .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:58px}
   .brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem;letter-spacing:-.01em}
-  .brand i{width:22px;height:22px;border-radius:6px;background:var(--acc);display:grid;place-items:center}
-  .brand i::after{content:"";width:9px;height:9px;border:2px solid var(--surface);border-radius:2px}
+  .logo{display:flex;align-items:center;padding:3px 0;border-radius:6px}
+  .logo img{height:24px;width:auto;display:block}
+  :root[data-theme="dark"] .logo{background:#fff;padding:4px 8px}
+  .brand .sep{width:1px;height:22px;background:var(--line)}
+  @media(max-width:420px){.brand .txt{display:none}.brand .sep{display:none}}
   .tr{display:flex;align-items:center;gap:14px}
   .sync{font-size:.8rem;color:var(--mut);white-space:nowrap}
   @media(max-width:560px){.sync{display:none}}
@@ -168,7 +171,7 @@
 
 <div class="top">
   <div class="wrap">
-    <div class="brand"><i aria-hidden="true"></i>Painel de Automações</div>
+    <div class="brand"><span class="logo"><img src="img/logo-empresa.png" alt="Valgroup" width="116" height="24"></span><span class="sep" aria-hidden="true"></span><span class="txt">Painel de Automações</span></div>
     <div class="tr">
       <span class="sync" id="sync"></span>
       <button class="tbtn" id="tema" type="button" aria-label="Alternar tema"></button>
