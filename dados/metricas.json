@@ -1615,13 +1615,20 @@
       "data_hora": "2026-10-20T08:19:13-03:00",
       "quantidade": 1,
       "minutos": 30.0
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-20T09:43:21-03:00",
+      "quantidade": 1,
+      "minutos": 2.0,
+      "fluxo": "Relatório de Manifestação (e-mail)"
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-20T09:41:02-03:00",
-  "total_minutos": 6619.1,
-  "itens": 1510,
-  "execucoes": 243,
+  "atualizado_em": "2026-10-20T09:54:23-03:00",
+  "total_minutos": 6621.1,
+  "itens": 1511,
+  "execucoes": 244,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1675,11 +1682,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 158,
-      "execucoes": 158,
-      "minutos": 488.0,
+      "itens": 159,
+      "execucoes": 159,
+      "minutos": 490.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-19T13:28:47-03:00",
+      "ultima_execucao": "2026-10-20T09:43:21-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1687,8 +1694,8 @@
           "minutos": 2,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-08-17",
-          "execucoes": 44,
-          "minutos_total": 88.0
+          "execucoes": 45,
+          "minutos_total": 90.0
         },
         {
           "nome": "Alerta no Teams (relatório)",
@@ -1782,19 +1789,10 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 2803.1
+      "minutos": 2805.1
     }
   ],
   "programadas": [
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-20T09:43:21-03:00",
-      "quantidade": 1,
-      "minutos": 2,
-      "fluxo": "Relatório de Manifestação (e-mail)",
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-20T09:55:12-03:00",
@@ -2102,6 +2100,15 @@
       "minutos": 30,
       "nome": "Relatório diário de Manifestação (QIVE)",
       "unidade": "relatórios"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-27T09:41:21-03:00",
+      "quantidade": 1,
+      "minutos": 2,
+      "fluxo": "Relatório de Manifestação (e-mail)",
+      "nome": "Fluxos automatizados (Power Automate)",
+      "unidade": "execuções"
     }
   ]
 }
