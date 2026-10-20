@@ -1629,13 +1629,21 @@
       "quantidade": 1,
       "minutos": 0.5,
       "fluxo": "Alerta no Teams"
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-20T10:40:19-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "fluxo": "Agregação e resumo diário",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-20T10:22:41-03:00",
-  "total_minutos": 6614.1,
-  "itens": 1512,
-  "execucoes": 245,
+  "atualizado_em": "2026-10-20T10:40:35-03:00",
+  "total_minutos": 6619.1,
+  "itens": 1513,
+  "execucoes": 246,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1689,11 +1697,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 160,
-      "execucoes": 160,
-      "minutos": 483.0,
+      "itens": 161,
+      "execucoes": 161,
+      "minutos": 488.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-20T09:55:12-03:00",
+      "ultima_execucao": "2026-10-20T10:40:19-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1734,8 +1742,8 @@
           "minutos": 5,
           "freq": "dias úteis · Excel",
           "inicio": "2026-08-31",
-          "execucoes": 34,
-          "minutos_total": 170.0
+          "execucoes": 35,
+          "minutos_total": 175.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
@@ -1797,19 +1805,10 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 2799.6
+      "minutos": 2804.6
     }
   ],
   "programadas": [
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-20T12:14:18-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário",
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-20T13:35:10-03:00",
@@ -1873,15 +1872,6 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-21T12:15:13-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário",
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-21T13:34:38-03:00",
       "quantidade": 1,
       "minutos": 2,
@@ -1921,15 +1911,6 @@
       "quantidade": 1,
       "minutos": 0.5,
       "fluxo": "Alerta no Teams",
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-22T12:19:09-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário",
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções"
     },
@@ -1983,15 +1964,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Tratamento de base em Excel",
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-23T12:17:21-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário",
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções"
     },
@@ -2054,15 +2026,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Tratamento de base em Excel",
-      "nome": "Fluxos automatizados (Power Automate)",
-      "unidade": "execuções"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-26T12:12:41-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário",
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções"
     },
