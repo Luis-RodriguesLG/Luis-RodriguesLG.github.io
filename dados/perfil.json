@@ -106,7 +106,7 @@
       "automacao": "visao_credito_bp",
       "titulo": "Alteração no Cadastro de Clientes",
       "departamento": "Contas a Receber",
-      "descricao": "Altera em lote condição de pagamento, limite e parâmetros de crédito e faz bloqueio/desbloqueio de clientes no SAP. Automação desenvolvida para o Time de Contas a Receber.",
+      "descricao": "Altera em lote condições de pagamento, limite e parâmetros de crédito, além de realizar o bloqueio e desbloqueio de clientes no SAP. Automação desenvolvida para apoiar o Time de Contas a Receber.",
       "tags": [
         "SAP BP",
         "UKM000",

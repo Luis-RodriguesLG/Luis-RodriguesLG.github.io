@@ -365,7 +365,10 @@
 
     // cards
     const ac=$('autos');ac.textContent='';
-    E.lista.forEach(a=>{
+    // ordem dos cards nesta pagina (2 por linha); automacoes novas entram antes dos fluxos, que ficam por ultimo
+    const ORDEM=['lancamento_ipi','suframa_confirmacao','qive_manifestacao','visao_credito_bp'];
+    const pos=a=>a.fluxos&&a.fluxos.length?999:(ORDEM.indexOf(a.id)<0?500:ORDEM.indexOf(a.id));
+    [...E.lista].sort((x,y)=>pos(x)-pos(y)||y.minutos-x.minutos).forEach(a=>{
       const x=E.info[a.id]||{};const c=el('article','card');
       const hd=el('div','hd');hd.append(el('h3','',x.titulo||a.nome));if(x.departamento)hd.append(el('span','dep',x.departamento));c.append(hd);
       if(x.descricao)c.append(el('p','',x.descricao));
