@@ -403,6 +403,12 @@
     ultimaContagem=E.chegaram;
   }
 
+  // o que cada fluxo do Power Automate faz (aparece no historico)
+  const TIPO_FLUXO={'Confirmações SIMNAC':'Envio de e-mail','Relatório de Manifestação':'Envio de e-mail',
+    'Alerta no Teams':'Envio de relatório resumido','Intercompany semanal (APB e ACR)':'Envio de e-mails',
+    'Extração de dados (Power BI)':'Consulta e extração de dados','Tratamento de base em Excel':'Ajuste de planilha',
+    'Agregação e resumo diário':'Compila arquivos em Excel e resume','Atualização de bases':'Atualização de planilhas'};
+  function tipoFluxo(n){return TIPO_FLUXO[n]||'';}
   function grupoDe(h){const a=estado&&estado.autos[h.automacao];const f=a&&a.fluxos&&a.fluxos.find(f=>f.nome===h.fluxo);return f&&f.grupo||'';}
   function unidade(a,q){const u=(a&&a.unidade)||'itens';return q===1?u.replace(/ões\b/g,'ão').replace(/s\b/g,''):u;}
 
@@ -416,7 +422,7 @@
       const a=E.autos[h.automacao]||{};const dt=h.data_hora;
       const tr=el('tr');
       tr.append(el('td','d',SEM[new Date(dt.slice(0,10)+'T12:00:00').getDay()]+' '+dt.slice(8,10)+'/'+dt.slice(5,7)),el('td','d',dt.slice(11,16)));
-      const ta=el('td');ta.append(document.createTextNode(E.nomeDe(h.automacao)));if(h.fluxo){const gr=grupoDe(h);ta.append(el('small','',gr?gr+' › '+h.fluxo:h.fluxo));}tr.append(ta);
+      const ta=el('td');ta.append(document.createTextNode(h.fluxo?'Fluxo Power Automate':E.nomeDe(h.automacao)));if(h.fluxo){const gr=grupoDe(h),tp=tipoFluxo(h.fluxo);ta.append(el('small','',(gr?gr+' › ':'')+h.fluxo+(tp?' - '+tp:'')));}tr.append(ta);
       tr.append(el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',h.minutos?fmtT(h.minutos):'não contabilizado'));
       tb.append(tr);
     });
