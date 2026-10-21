@@ -1679,13 +1679,21 @@
       "minutos": 2,
       "fluxo": "Relatório de Manifestação",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-21T12:06:18-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "fluxo": "Agregação e resumo diário",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-21T09:35:19-03:00",
-  "total_minutos": 6933.5,
-  "itens": 1588,
-  "execucoes": 252,
+  "atualizado_em": "2026-10-21T12:06:29-03:00",
+  "total_minutos": 6938.5,
+  "itens": 1589,
+  "execucoes": 253,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1739,11 +1747,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 163,
-      "execucoes": 163,
-      "minutos": 495.0,
+      "itens": 164,
+      "execucoes": 164,
+      "minutos": 500.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-21T09:34:29-03:00",
+      "ultima_execucao": "2026-10-21T12:06:18-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1784,8 +1792,8 @@
           "minutos": 5,
           "freq": "dias úteis · Excel",
           "inicio": "2026-08-31",
-          "execucoes": 36,
-          "minutos_total": 180.0
+          "execucoes": 37,
+          "minutos_total": 185.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
@@ -1847,7 +1855,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3118.9
+      "minutos": 3123.9
     }
   ],
   "programadas": [
@@ -1858,6 +1866,14 @@
       "minutos": 54,
       "nome": "Alteração no Cadastro de Clientes",
       "unidade": "alterações"
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-28T10:05:46-03:00",
+      "quantidade": 66,
+      "minutos": 273.9,
+      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
+      "unidade": "lançamentos"
     }
   ]
 }
