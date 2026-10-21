@@ -1637,24 +1637,36 @@
       "minutos": 2,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-21T08:14:23-03:00",
+      "quantidade": 56,
+      "minutos": 232.4
+    },
+    {
+      "automacao": "qive_manifestacao",
+      "data_hora": "2026-10-21T09:01:57-03:00",
+      "quantidade": 1,
+      "minutos": 0
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-20T15:41:07-03:00",
-  "total_minutos": 6693.6,
-  "itens": 1527,
-  "execucoes": 246,
+  "atualizado_em": "2026-10-21T09:02:08-03:00",
+  "total_minutos": 6926.0,
+  "itens": 1584,
+  "execucoes": 248,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "lancamento_ipi",
-      "itens": 874,
-      "execucoes": 22,
-      "minutos": 3627.1,
+      "itens": 930,
+      "execucoes": 23,
+      "minutos": 3859.5,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-16T11:39:29-03:00",
-      "ultima_quantidade": 30,
+      "ultima_execucao": "2026-10-21T08:14:23-03:00",
+      "ultima_quantidade": 56,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": true,
@@ -1681,11 +1693,11 @@
     },
     {
       "id": "qive_manifestacao",
-      "itens": 50,
-      "execucoes": 50,
+      "itens": 51,
+      "execucoes": 51,
       "minutos": 630.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-20T08:19:13-03:00",
+      "ultima_execucao": "2026-10-21T09:01:57-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": "por relatório manual (2x por semana)",
@@ -1805,50 +1817,10 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 2879.0
+      "minutos": 3111.4
     }
   ],
   "programadas": [
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-21T08:14:23-03:00",
-      "quantidade": 56,
-      "minutos": 232.4,
-      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
-      "unidade": "lançamentos"
-    },
-    {
-      "automacao": "qive_manifestacao",
-      "data_hora": "2026-10-21T08:21:34-03:00",
-      "quantidade": 1,
-      "minutos": 0,
-      "nome": "Relatório diário de Manifestação (QIVE)",
-      "unidade": "relatórios"
-    },
-    {
-      "automacao": "qive_manifestacao",
-      "data_hora": "2026-10-22T08:20:11-03:00",
-      "quantidade": 1,
-      "minutos": 30,
-      "nome": "Relatório diário de Manifestação (QIVE)",
-      "unidade": "relatórios"
-    },
-    {
-      "automacao": "qive_manifestacao",
-      "data_hora": "2026-10-23T08:23:42-03:00",
-      "quantidade": 1,
-      "minutos": 0,
-      "nome": "Relatório diário de Manifestação (QIVE)",
-      "unidade": "relatórios"
-    },
-    {
-      "automacao": "qive_manifestacao",
-      "data_hora": "2026-10-26T08:21:55-03:00",
-      "quantidade": 1,
-      "minutos": 0,
-      "nome": "Relatório diário de Manifestação (QIVE)",
-      "unidade": "relatórios"
-    },
     {
       "automacao": "visao_credito_bp",
       "data_hora": "2026-10-26T14:02:56-03:00",
@@ -1856,14 +1828,6 @@
       "minutos": 54,
       "nome": "Alteração no Cadastro de Clientes",
       "unidade": "alterações"
-    },
-    {
-      "automacao": "qive_manifestacao",
-      "data_hora": "2026-10-27T08:18:54-03:00",
-      "quantidade": 1,
-      "minutos": 30,
-      "nome": "Relatório diário de Manifestação (QIVE)",
-      "unidade": "relatórios"
     }
   ]
 }
