@@ -1671,13 +1671,21 @@
       "minutos": 0.5,
       "fluxo": "Alerta no Teams",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-21T09:34:29-03:00",
+      "quantidade": 1,
+      "minutos": 2,
+      "fluxo": "Relatório de Manifestação",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-21T09:33:36-03:00",
-  "total_minutos": 6931.5,
-  "itens": 1587,
-  "execucoes": 251,
+  "atualizado_em": "2026-10-21T09:35:19-03:00",
+  "total_minutos": 6933.5,
+  "itens": 1588,
+  "execucoes": 252,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1731,11 +1739,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 162,
-      "execucoes": 162,
-      "minutos": 493.0,
+      "itens": 163,
+      "execucoes": 163,
+      "minutos": 495.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-21T09:33:26-03:00",
+      "ultima_execucao": "2026-10-21T09:34:29-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1743,8 +1751,8 @@
           "minutos": 2,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-08-17",
-          "execucoes": 44,
-          "minutos_total": 88.0
+          "execucoes": 45,
+          "minutos_total": 90.0
         },
         {
           "nome": "Alerta no Teams",
@@ -1839,7 +1847,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3116.9
+      "minutos": 3118.9
     }
   ],
   "programadas": [
