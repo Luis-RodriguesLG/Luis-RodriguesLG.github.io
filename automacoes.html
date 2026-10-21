@@ -284,7 +284,7 @@
   const fmtN=n=>Math.round(n).toLocaleString('pt-BR');
   const fmtD=s=>s.slice(8,10)+'/'+s.slice(5,7)+'/'+s.slice(0,4);
   const num=v=>String(v).replace('.',',');
-  const fmtT=min=>min>0&&min<1?Math.round(min*60)+' s':fmtH(min);   // execucoes curtas em segundos
+  const fmtT=min=>{if(min>0&&min<1)return Math.round(min*60)+' s';const seg=Math.round(min*60)%60;return seg&&min<10?fmtH(Math.floor(min))+' '+String(seg).padStart(2,'0')+'s':fmtH(min);};   // execucoes curtas em segundos
   const porExec=min=>min<1?Math.round(min*60)+' s':num(min)+' min';
   function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
   const store={get(k){try{return localStorage.getItem(k);}catch(e){return null;}},set(k,v){try{localStorage.setItem(k,v);}catch(e){}}};
@@ -409,12 +409,20 @@
     'Extração de dados (Power BI)':'Consulta e extração de dados','Tratamento de base em Excel':'Ajuste de planilha',
     'Agregação e resumo diário':'Compila arquivos em Excel e resume','Atualização de bases':'Atualização de planilhas'};
   function tipoFluxo(n){return TIPO_FLUXO[n]||'';}
+  // fluxo agrupado (ex.: Alerta no Teams) enviado junto com o principal: uma linha so, com o tempo somado
+  function mesclarGrupos(hist){
+    const pai={};hist.forEach(h=>{if(h.fluxo&&!grupoDe(h))pai[h.data_hora+'|'+h.fluxo]=h;});
+    const usados=new Set(),extra=new Map();
+    hist.forEach(h=>{const g=h.fluxo&&grupoDe(h);const p=g&&pai[h.data_hora+'|'+g];
+      if(p&&!usados.has(p)){usados.add(p);extra.set(h,p.minutos);}});
+    return hist.filter(h=>!usados.has(h)).map(h=>extra.has(h)?Object.assign({},h,{minutos:h.minutos+extra.get(h),junto:true}):h);
+  }
   function grupoDe(h){const a=estado&&estado.autos[h.automacao];const f=a&&a.fluxos&&a.fluxos.find(f=>f.nome===h.fluxo);return f&&f.grupo||'';}
   function unidade(a,q){const u=(a&&a.unidade)||'itens';return q===1?u.replace(/ões\b/g,'ão').replace(/s\b/g,''):u;}
 
   function desenharTabela(){
     const E=estado;if(!E)return;
-    const rows=E.hist.filter(h=>!filtro||h.automacao===filtro).slice().reverse();
+    const rows=mesclarGrupos(E.hist).filter(h=>!filtro||h.automacao===filtro).slice().reverse();
     const tb=$('hist');tb.textContent='';
     const totPag=Math.max(1,Math.ceil(rows.length/POR_PAG));if(pagina>totPag)pagina=totPag;
     const ini=(pagina-1)*POR_PAG;
@@ -445,15 +453,15 @@
     const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     const pad=(t,n)=>(t+' '.repeat(n)).slice(0,n);
     const scr=a=>(a&&a.script)||((a&&a.id)||'')+'.py';
-    const larg=Math.max(12,...E.lista.map(a=>a.fluxos&&a.fluxos.length?36:scr(a).length));
-    const H=[...E.hist,{sync:true,data_hora:E.m.atualizado_em}].sort((a,b)=>(Date.parse(a.data_hora)||0)-(Date.parse(b.data_hora)||0));
+    const larg=Math.max(12,...E.lista.map(a=>a.fluxos&&a.fluxos.length?44:scr(a).length));
+    const H=[...mesclarGrupos(E.hist),{sync:true,data_hora:E.m.atualizado_em}].sort((a,b)=>(Date.parse(a.data_hora)||0)-(Date.parse(b.data_hora)||0));
     const L=[];let ant='';
     H.forEach(h=>{
       const dia=h.data_hora.slice(0,10);
       if(dia!==ant){L.push('<span class="dm">── '+SEM[new Date(dia+'T12:00:00').getDay()]+' '+dia.slice(8,10)+'/'+dia.slice(5,7)+' '+'─'.repeat(40)+'</span>');ant=dia;}
       if(h.sync){L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> <span class="ok">✔ dados sincronizados</span>');return;}
       const a=E.autos[h.automacao]||{};
-      L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(h.fluxo?(grupoDe(h)?'↳ ':'')+h.fluxo:scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(unidade(a,h.quantidade))+'</span> <span class="dm">· '+(h.minutos?fmtT(h.minutos):'não contabilizado')+'</span>');
+      L.push('<span class="dm">['+h.data_hora.slice(11,16)+']</span> ▶ '+esc(pad(h.fluxo?(h.junto?grupoDe(h)+' + '+h.fluxo:(grupoDe(h)?'↳ ':'')+h.fluxo):scr(a.id?a:{id:h.automacao}),larg))+' <span class="ok">✔ '+fmtN(h.quantidade)+' '+esc(unidade(a,h.quantidade))+'</span> <span class="dm">· '+(h.minutos?fmtT(h.minutos):'não contabilizado')+'</span>');
     });
     const ini=E.m.inicio_periodo||'';
     L.push('<span class="dm">── total desde '+fmtD(ini)+' '+'─'.repeat(31)+'</span>');
