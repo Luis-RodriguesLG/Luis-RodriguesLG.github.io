@@ -226,13 +226,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-08-31T12:18:37-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-01T08:17:49-03:00",
       "quantidade": 1,
@@ -244,13 +237,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-01T12:17:32-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "qive_manifestacao",
@@ -279,13 +265,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-02T12:11:58-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-03T08:22:47-03:00",
       "quantidade": 1,
@@ -303,13 +282,6 @@
       "data_hora": "2026-09-03T10:53:55-03:00",
       "quantidade": 28,
       "minutos": 116.2
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-03T12:18:37-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "qive_manifestacao",
@@ -332,13 +304,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-04T12:19:54-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-08T08:15:39-03:00",
       "quantidade": 1,
@@ -350,13 +315,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-08T12:10:11-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "qive_manifestacao",
@@ -386,13 +344,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-09T12:20:21-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-10T08:15:44-03:00",
       "quantidade": 1,
@@ -404,13 +355,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-10T12:14:40-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "lancamento_ipi",
@@ -446,13 +390,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-11T12:14:25-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-14T08:19:50-03:00",
       "quantidade": 1,
@@ -480,13 +417,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-14T12:13:29-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-15T08:25:51-03:00",
       "quantidade": 1,
@@ -498,13 +428,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-15T12:11:29-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "qive_manifestacao",
@@ -541,13 +464,6 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-16T12:14:08-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-16T15:30:29-03:00",
       "quantidade": 1,
       "minutos": 5,
@@ -565,13 +481,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-17T12:10:19-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "qive_manifestacao",
@@ -608,13 +517,6 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-18T12:17:35-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-18T15:31:19-03:00",
       "quantidade": 1,
       "minutos": 5,
@@ -648,13 +550,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-21T12:19:47-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-22T08:19:54-03:00",
       "quantidade": 1,
@@ -672,13 +567,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-22T12:17:38-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "qive_manifestacao",
@@ -715,13 +603,6 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-23T12:12:06-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-23T15:40:53-03:00",
       "quantidade": 1,
       "minutos": 5,
@@ -753,13 +634,6 @@
       "minutos": 230
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-24T12:13:41-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-25T08:17:29-03:00",
       "quantidade": 1,
@@ -785,13 +659,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Tratamento de base em Excel"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-25T12:14:48-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "lancamento_ipi",
@@ -841,13 +708,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-28T12:13:04-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-28T13:53:58-03:00",
       "quantidade": 38,
@@ -878,13 +738,6 @@
       "quantidade": 1,
       "minutos": 0.5,
       "fluxo": "Alerta no Teams"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-29T12:12:57-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "qive_manifestacao",
@@ -919,13 +772,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Tratamento de base em Excel"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-09-30T12:18:06-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "suframa_confirmacao",
@@ -980,13 +826,6 @@
       "fluxo": "Alerta no Teams"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-01T12:15:07-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "visao_credito_bp",
       "data_hora": "2026-10-01T12:29:28-03:00",
       "quantidade": 107,
@@ -1038,13 +877,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Tratamento de base em Excel"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-02T12:15:40-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1102,13 +934,6 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-05T12:11:19-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T12:40:16-03:00",
       "quantidade": 1,
       "minutos": 4,
@@ -1146,13 +971,6 @@
       "quantidade": 1,
       "minutos": 0.5,
       "fluxo": "Alerta no Teams"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-06T12:17:08-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1203,13 +1021,6 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-07T12:10:22-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-07T13:26:20-03:00",
       "quantidade": 1,
       "minutos": 2,
@@ -1247,13 +1058,6 @@
       "data_hora": "2026-10-08T12:07:35-03:00",
       "quantidade": 26,
       "minutos": 107.9
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-08T12:15:08-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1301,13 +1105,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Tratamento de base em Excel"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-09T12:11:08-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "suframa_confirmacao",
@@ -1362,13 +1159,6 @@
       "fluxo": "Alerta no Teams"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-13T12:14:21-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "suframa_confirmacao",
       "data_hora": "2026-10-13T12:17:05-03:00",
       "quantidade": 24,
@@ -1417,13 +1207,6 @@
     },
     {
       "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-14T12:19:38-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
-      "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-14T13:34:05-03:00",
       "quantidade": 1,
       "minutos": 2,
@@ -1461,13 +1244,6 @@
       "data_hora": "2026-10-15T10:20:40-03:00",
       "quantidade": 70,
       "minutos": 290.5
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-15T12:20:27-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "suframa_confirmacao",
@@ -1523,13 +1299,6 @@
       "fluxo": "Tratamento de base em Excel"
     },
     {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-16T12:12:34-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
-    },
-    {
       "automacao": "suframa_confirmacao",
       "data_hora": "2026-10-16T12:15:05-03:00",
       "quantidade": 17,
@@ -1582,13 +1351,6 @@
       "quantidade": 1,
       "minutos": 2,
       "fluxo": "Tratamento de base em Excel"
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "data_hora": "2026-10-19T12:12:54-03:00",
-      "quantidade": 1,
-      "minutos": 5,
-      "fluxo": "Agregação e resumo diário"
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1704,10 +1466,10 @@
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-21T13:42:56-03:00",
-  "total_minutos": 7008.5,
-  "itens": 1603,
-  "execucoes": 255,
+  "atualizado_em": "2026-10-21T17:51:35-03:00",
+  "total_minutos": 6838.5,
+  "itens": 1569,
+  "execucoes": 221,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1760,10 +1522,26 @@
       "minutos_por_item": 30
     },
     {
+      "id": "visao_credito_bp",
+      "itens": 133,
+      "execucoes": 3,
+      "minutos": 399.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-10-08T14:58:25-03:00",
+      "ultima_quantidade": 12,
+      "fluxos": [],
+      "nota_tempo": null,
+      "estimado": true,
+      "script": "Alteração_de_cadastro.py",
+      "nome": "Alteração no Cadastro de Clientes",
+      "unidade": "alterações",
+      "minutos_por_item": 3
+    },
+    {
       "id": "fluxos_automatizados",
-      "itens": 165,
-      "execucoes": 165,
-      "minutos": 505.0,
+      "itens": 131,
+      "execucoes": 131,
+      "minutos": 335.0,
       "sem_estimativa": false,
       "ultima_execucao": "2026-10-21T13:42:40-03:00",
       "ultima_quantidade": 1,
@@ -1805,9 +1583,9 @@
           "nome": "Agregação e resumo diário",
           "minutos": 5,
           "freq": "dias úteis · Excel",
-          "inicio": "2026-08-31",
-          "execucoes": 37,
-          "minutos_total": 185.0
+          "inicio": "2026-10-20",
+          "execucoes": 3,
+          "minutos_total": 15.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
@@ -1840,36 +1618,20 @@
       "nome": "Fluxos automatizados (Power Automate)",
       "unidade": "execuções",
       "minutos_por_item": 2
-    },
-    {
-      "id": "visao_credito_bp",
-      "itens": 133,
-      "execucoes": 3,
-      "minutos": 399.0,
-      "sem_estimativa": false,
-      "ultima_execucao": "2026-10-08T14:58:25-03:00",
-      "ultima_quantidade": 12,
-      "fluxos": [],
-      "nota_tempo": null,
-      "estimado": true,
-      "script": "Alteração_de_cadastro.py",
-      "nome": "Alteração no Cadastro de Clientes",
-      "unidade": "alterações",
-      "minutos_por_item": 3
     }
   ],
   "por_mes": [
     {
       "mes": "2026-08",
-      "minutos": 1069.9
+      "minutos": 1064.9
     },
     {
       "mes": "2026-09",
-      "minutos": 2744.7
+      "minutos": 2639.7
     },
     {
       "mes": "2026-10",
-      "minutos": 3193.9
+      "minutos": 3133.9
     }
   ],
   "programadas": [
@@ -1886,6 +1648,14 @@
       "data_hora": "2026-10-28T10:05:46-03:00",
       "quantidade": 66,
       "minutos": 273.9,
+      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
+      "unidade": "lançamentos"
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-28T15:18:01-03:00",
+      "quantidade": 24,
+      "minutos": 99.6,
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
       "unidade": "lançamentos"
     }
