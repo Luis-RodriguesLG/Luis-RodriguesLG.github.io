@@ -1496,7 +1496,7 @@
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-22T10:27:40-03:00",
+  "atualizado_em": "2026-10-22T10:40:31-03:00",
   "total_minutos": 6876.0,
   "itens": 1573,
   "execucoes": 225,
@@ -1620,7 +1620,7 @@
         {
           "nome": "Intercompany semanal (APB e ACR)",
           "minutos": 4,
-          "freq": "segunda · 2 e-mails",
+          "freq": "segunda · Extração de dados e envio de emails",
           "inicio": "2026-09-30",
           "execucoes": 2,
           "minutos_total": 8.0
