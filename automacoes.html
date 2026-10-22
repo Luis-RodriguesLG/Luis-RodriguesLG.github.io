@@ -407,7 +407,8 @@
   const TIPO_FLUXO={'Confirmações SIMNAC':'Envio de e-mail','Relatório de Manifestação':'Envio de e-mail',
     'Alerta no Teams':'Envio de relatório resumido','Intercompany semanal (APB e ACR)':'Envio de e-mails',
     'Extração de dados (Power BI)':'Consulta e extração de dados','Tratamento de base em Excel':'Ajuste de planilha',
-    'Agregação e resumo diário':'Compila arquivos em Excel e resume','Atualização de bases':'Atualização de planilhas'};
+    'Agregação e resumo diário':'Compila arquivos em Excel e resume','Atualização de bases':'Atualização de planilhas',
+    'Extração e Consolidação Transitória e SCI':'Cruza relatórios e consolida a base'};
   function tipoFluxo(n){return TIPO_FLUXO[n]||'';}
   // fluxo agrupado (ex.: Alerta no Teams) enviado junto com o principal: uma linha so, com o tempo somado
   function mesclarGrupos(hist){
