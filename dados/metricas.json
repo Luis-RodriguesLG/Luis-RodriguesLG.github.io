@@ -1487,13 +1487,19 @@
       "minutos": 0.5,
       "fluxo": "Alerta no Teams",
       "real": true
+    },
+    {
+      "automacao": "qive_manifestacao",
+      "data_hora": "2026-10-22T09:51:16-03:00",
+      "quantidade": 1,
+      "minutos": 30
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-22T09:34:16-03:00",
-  "total_minutos": 6846.0,
-  "itens": 1572,
-  "execucoes": 224,
+  "atualizado_em": "2026-10-22T09:51:28-03:00",
+  "total_minutos": 6876.0,
+  "itens": 1573,
+  "execucoes": 225,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1531,11 +1537,11 @@
     },
     {
       "id": "qive_manifestacao",
-      "itens": 52,
-      "execucoes": 52,
-      "minutos": 630.0,
+      "itens": 53,
+      "execucoes": 53,
+      "minutos": 660.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-21T09:18:59-03:00",
+      "ultima_execucao": "2026-10-22T09:51:16-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": "por relatório manual (2x por semana)",
@@ -1655,7 +1661,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3141.4
+      "minutos": 3171.4
     }
   ],
   "programadas": [
