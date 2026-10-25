@@ -1816,10 +1816,10 @@
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-28T13:29:13-03:00",
-  "total_minutos": 7733.4,
-  "itens": 1777,
-  "execucoes": 268,
+  "atualizado_em": "2026-10-25T07:14:57-03:00",
+  "total_minutos": 6997.0,
+  "itens": 1603,
+  "execucoes": 239,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
