@@ -1629,13 +1629,19 @@
       "minutos": 5,
       "fluxo": "Agregação e resumo diário",
       "real": true
+    },
+    {
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-10-26T10:32:21-03:00",
+      "quantidade": 5,
+      "minutos": 15
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-26T09:31:37-03:00",
-  "total_minutos": 7012.0,
-  "itens": 1607,
-  "execucoes": 243,
+  "atualizado_em": "2026-10-26T10:32:32-03:00",
+  "total_minutos": 7027.0,
+  "itens": 1612,
+  "execucoes": 244,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1689,12 +1695,12 @@
     },
     {
       "id": "visao_credito_bp",
-      "itens": 133,
-      "execucoes": 3,
-      "minutos": 399.0,
+      "itens": 138,
+      "execucoes": 4,
+      "minutos": 414.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-08T14:58:25-03:00",
-      "ultima_quantidade": 12,
+      "ultima_execucao": "2026-10-26T10:32:21-03:00",
+      "ultima_quantidade": 5,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": true,
@@ -1805,18 +1811,10 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3307.4
+      "minutos": 3322.4
     }
   ],
   "programadas": [
-    {
-      "automacao": "visao_credito_bp",
-      "data_hora": "2026-10-26T14:02:56-03:00",
-      "quantidade": 18,
-      "minutos": 54,
-      "nome": "Alteração no Cadastro de Clientes",
-      "unidade": "alterações"
-    },
     {
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-28T10:05:46-03:00",
