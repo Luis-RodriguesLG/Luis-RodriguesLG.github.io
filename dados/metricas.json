@@ -1663,13 +1663,21 @@
       "data_hora": "2026-10-26T12:13:13-03:00",
       "quantidade": 20,
       "minutos": 100
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-26T13:42:24-03:00",
+      "quantidade": 1,
+      "minutos": 2,
+      "fluxo": "Confirmações SIMNAC",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-26T12:13:24-03:00",
-  "total_minutos": 7202.0,
-  "itens": 1656,
-  "execucoes": 248,
+  "atualizado_em": "2026-10-26T13:42:38-03:00",
+  "total_minutos": 7204.0,
+  "itens": 1657,
+  "execucoes": 249,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1739,11 +1747,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 150,
-      "execucoes": 150,
-      "minutos": 397.5,
+      "itens": 151,
+      "execucoes": 151,
+      "minutos": 399.5,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-26T12:06:58-03:00",
+      "ultima_execucao": "2026-10-26T13:42:24-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1800,8 +1808,8 @@
           "minutos": 2,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-09-30",
-          "execucoes": 18,
-          "minutos_total": 36.0
+          "execucoes": 19,
+          "minutos_total": 38.0
         },
         {
           "nome": "Atualização de bases",
@@ -1839,7 +1847,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3497.4
+      "minutos": 3499.4
     }
   ],
   "programadas": [
