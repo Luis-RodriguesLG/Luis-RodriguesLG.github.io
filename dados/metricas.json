@@ -1641,13 +1641,21 @@
       "data_hora": "2026-10-26T10:40:16-03:00",
       "quantidade": 22,
       "minutos": 66
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-26T12:05:36-03:00",
+      "quantidade": 1,
+      "minutos": 4,
+      "fluxo": "Intercompany semanal (APB e ACR)",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-26T10:40:26-03:00",
-  "total_minutos": 7093.0,
-  "itens": 1634,
-  "execucoes": 245,
+  "atualizado_em": "2026-10-26T12:05:46-03:00",
+  "total_minutos": 7097.0,
+  "itens": 1635,
+  "execucoes": 246,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1717,11 +1725,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 148,
-      "execucoes": 148,
-      "minutos": 388.5,
+      "itens": 149,
+      "execucoes": 149,
+      "minutos": 392.5,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-26T09:31:27-03:00",
+      "ultima_execucao": "2026-10-26T12:05:36-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1770,8 +1778,8 @@
           "minutos": 4,
           "freq": "segunda · Extração de dados e envio de emails",
           "inicio": "2026-09-30",
-          "execucoes": 2,
-          "minutos_total": 8.0
+          "execucoes": 3,
+          "minutos_total": 12.0
         },
         {
           "nome": "Confirmações SIMNAC",
@@ -1817,7 +1825,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3388.4
+      "minutos": 3392.4
     }
   ],
   "programadas": [
