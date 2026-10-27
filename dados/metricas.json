@@ -1701,13 +1701,21 @@
       "minutos": 0.5,
       "fluxo": "Alerta no Teams",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-27T12:06:23-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "fluxo": "Extração de dados (Power BI)",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-27T09:34:18-03:00",
-  "total_minutos": 7241.5,
-  "itens": 1661,
-  "execucoes": 253,
+  "atualizado_em": "2026-10-27T12:06:35-03:00",
+  "total_minutos": 7246.5,
+  "itens": 1662,
+  "execucoes": 254,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1777,11 +1785,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 154,
-      "execucoes": 154,
-      "minutos": 407.0,
+      "itens": 155,
+      "execucoes": 155,
+      "minutos": 412.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-27T09:34:06-03:00",
+      "ultima_execucao": "2026-10-27T12:06:23-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1806,8 +1814,8 @@
           "minutos": 5,
           "freq": "seg, qua e sex · Excel",
           "inicio": "2026-09-07",
-          "execucoes": 22,
-          "minutos_total": 110.0
+          "execucoes": 23,
+          "minutos_total": 115.0
         },
         {
           "nome": "Tratamento de base em Excel",
@@ -1877,7 +1885,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3536.9
+      "minutos": 3541.9
     }
   ],
   "programadas": [
