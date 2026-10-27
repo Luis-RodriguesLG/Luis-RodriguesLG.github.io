@@ -1671,13 +1671,19 @@
       "minutos": 2,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "qive_manifestacao",
+      "data_hora": "2026-10-27T08:58:46-03:00",
+      "quantidade": 1,
+      "minutos": 30
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-26T13:42:38-03:00",
-  "total_minutos": 7204.0,
-  "itens": 1657,
-  "execucoes": 249,
+  "atualizado_em": "2026-10-27T08:58:56-03:00",
+  "total_minutos": 7234.0,
+  "itens": 1658,
+  "execucoes": 250,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1715,11 +1721,11 @@
     },
     {
       "id": "qive_manifestacao",
-      "itens": 55,
-      "execucoes": 55,
-      "minutos": 660.0,
+      "itens": 56,
+      "execucoes": 56,
+      "minutos": 690.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-26T08:36:15-03:00",
+      "ultima_execucao": "2026-10-27T08:58:46-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": "por relatório manual (2x por semana)",
@@ -1847,7 +1853,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3499.4
+      "minutos": 3529.4
     }
   ],
   "programadas": [
