@@ -1715,13 +1715,21 @@
       "data_hora": "2026-10-27T13:05:38-03:00",
       "quantidade": 19,
       "minutos": 95
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-27T13:42:24-03:00",
+      "quantidade": 1,
+      "minutos": 2,
+      "fluxo": "Confirmações SIMNAC",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-27T13:05:50-03:00",
-  "total_minutos": 7341.5,
-  "itens": 1681,
-  "execucoes": 255,
+  "atualizado_em": "2026-10-27T13:42:36-03:00",
+  "total_minutos": 7343.5,
+  "itens": 1682,
+  "execucoes": 256,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1791,11 +1799,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 155,
-      "execucoes": 155,
-      "minutos": 412.0,
+      "itens": 156,
+      "execucoes": 156,
+      "minutos": 414.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-27T12:06:23-03:00",
+      "ultima_execucao": "2026-10-27T13:42:24-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1852,8 +1860,8 @@
           "minutos": 2,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-09-30",
-          "execucoes": 19,
-          "minutos_total": 38.0
+          "execucoes": 20,
+          "minutos_total": 40.0
         },
         {
           "nome": "Atualização de bases",
@@ -1891,7 +1899,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3636.9
+      "minutos": 3638.9
     }
   ],
   "programadas": [
@@ -1908,6 +1916,14 @@
       "data_hora": "2026-10-28T15:18:01-03:00",
       "quantidade": 24,
       "minutos": 99.6,
+      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
+      "unidade": "lançamentos"
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-11-03T13:22:55-03:00",
+      "quantidade": 22,
+      "minutos": 91.3,
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
       "unidade": "lançamentos"
     }
