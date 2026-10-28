@@ -34,7 +34,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-08-17T08:09:38-03:00",
       "quantidade": 27,
-      "minutos": 112.05
+      "minutos": 81
     },
     {
       "automacao": "qive_manifestacao",
@@ -105,7 +105,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-08-21T14:03:22-03:00",
       "quantidade": 41,
-      "minutos": 170.15
+      "minutos": 123
     },
     {
       "automacao": "qive_manifestacao",
@@ -164,7 +164,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-08-26T15:12:29-03:00",
       "quantidade": 68,
-      "minutos": 282.2
+      "minutos": 204
     },
     {
       "automacao": "qive_manifestacao",
@@ -203,7 +203,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-08-31T07:50:55-03:00",
       "quantidade": 70,
-      "minutos": 290.5
+      "minutos": 210
     },
     {
       "automacao": "qive_manifestacao",
@@ -255,7 +255,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-02T11:28:39-03:00",
       "quantidade": 35,
-      "minutos": 145.25
+      "minutos": 105
     },
     {
       "automacao": "fluxos_automatizados",
@@ -281,7 +281,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-03T10:53:55-03:00",
       "quantidade": 28,
-      "minutos": 116.2
+      "minutos": 84
     },
     {
       "automacao": "qive_manifestacao",
@@ -360,7 +360,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-10T17:55:27-03:00",
       "quantidade": 54,
-      "minutos": 224.1
+      "minutos": 162
     },
     {
       "automacao": "qive_manifestacao",
@@ -460,7 +460,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-16T11:56:55-03:00",
       "quantidade": 22,
-      "minutos": 91.3
+      "minutos": 66
     },
     {
       "automacao": "fluxos_automatizados",
@@ -499,7 +499,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-18T11:27:29-03:00",
       "quantidade": 53,
-      "minutos": 219.95
+      "minutos": 159
     },
     {
       "automacao": "fluxos_automatizados",
@@ -585,7 +585,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-23T11:22:48-03:00",
       "quantidade": 49,
-      "minutos": 203.35
+      "minutos": 147
     },
     {
       "automacao": "fluxos_automatizados",
@@ -618,7 +618,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-24T08:33:31-03:00",
       "quantidade": 60,
-      "minutos": 249.0
+      "minutos": 180
     },
     {
       "automacao": "fluxos_automatizados",
@@ -664,7 +664,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-25T14:11:44-03:00",
       "quantidade": 22,
-      "minutos": 91.3
+      "minutos": 66
     },
     {
       "automacao": "fluxos_automatizados",
@@ -711,7 +711,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-09-28T13:53:58-03:00",
       "quantidade": 38,
-      "minutos": 157.7
+      "minutos": 114
     },
     {
       "automacao": "suframa_confirmacao",
@@ -803,7 +803,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-01T07:35:59-03:00",
       "quantidade": 25,
-      "minutos": 103.75
+      "minutos": 75
     },
     {
       "automacao": "qive_manifestacao",
@@ -862,7 +862,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-02T11:00:15-03:00",
       "quantidade": 24,
-      "minutos": 99.6
+      "minutos": 72
     },
     {
       "automacao": "fluxos_automatizados",
@@ -896,7 +896,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-05T08:06:53-03:00",
       "quantidade": 33,
-      "minutos": 136.95
+      "minutos": 99
     },
     {
       "automacao": "qive_manifestacao",
@@ -983,7 +983,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-07T07:36:56-03:00",
       "quantidade": 43,
-      "minutos": 178.45
+      "minutos": 129
     },
     {
       "automacao": "qive_manifestacao",
@@ -1057,7 +1057,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-08T12:07:35-03:00",
       "quantidade": 26,
-      "minutos": 107.9
+      "minutos": 78
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1130,13 +1130,13 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-09T16:49:57-03:00",
       "quantidade": 28,
-      "minutos": 116.2
+      "minutos": 84
     },
     {
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-13T08:05:07-03:00",
       "quantidade": 28,
-      "minutos": 116.2
+      "minutos": 84
     },
     {
       "automacao": "qive_manifestacao",
@@ -1243,7 +1243,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-15T10:20:40-03:00",
       "quantidade": 70,
-      "minutos": 290.5
+      "minutos": 210
     },
     {
       "automacao": "suframa_confirmacao",
@@ -1289,7 +1289,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-16T11:39:29-03:00",
       "quantidade": 30,
-      "minutos": 124.5
+      "minutos": 90
     },
     {
       "automacao": "fluxos_automatizados",
@@ -1404,7 +1404,7 @@
       "automacao": "lancamento_ipi",
       "data_hora": "2026-10-21T08:14:23-03:00",
       "quantidade": 56,
-      "minutos": 232.4
+      "minutos": 168
     },
     {
       "automacao": "qive_manifestacao",
@@ -1771,12 +1771,6 @@
       "real": true
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-28T10:05:46-03:00",
-      "quantidade": 66,
-      "minutos": 273.9
-    },
-    {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-28T11:40:50-03:00",
       "quantidade": 1,
@@ -1816,28 +1810,28 @@
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-25T07:14:57-03:00",
-  "total_minutos": 6997.0,
-  "itens": 1603,
-  "execucoes": 239,
+  "atualizado_em": "2026-10-28T13:37:09-03:00",
+  "total_minutos": 6390.0,
+  "itens": 1711,
+  "execucoes": 267,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "lancamento_ipi",
-      "itens": 996,
-      "execucoes": 24,
-      "minutos": 4133.4,
+      "itens": 930,
+      "execucoes": 23,
+      "minutos": 2790.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-28T10:05:46-03:00",
-      "ultima_quantidade": 66,
+      "ultima_execucao": "2026-10-21T08:14:23-03:00",
+      "ultima_quantidade": 56,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": true,
       "script": "Lançamento_Complemento.py",
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
       "unidade": "lançamentos",
-      "minutos_por_item": 4.15
+      "minutos_por_item": 3
     },
     {
       "id": "suframa_confirmacao",
@@ -1981,33 +1975,16 @@
   "por_mes": [
     {
       "mes": "2026-08",
-      "minutos": 1064.9
+      "minutos": 828.0
     },
     {
       "mes": "2026-09",
-      "minutos": 2639.7
+      "minutos": 2224.5
     },
     {
       "mes": "2026-10",
-      "minutos": 4028.8
+      "minutos": 3337.5
     }
   ],
-  "programadas": [
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-10-28T15:18:01-03:00",
-      "quantidade": 24,
-      "minutos": 99.6,
-      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
-      "unidade": "lançamentos"
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-11-03T13:22:55-03:00",
-      "quantidade": 22,
-      "minutos": 91.3,
-      "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
-      "unidade": "lançamentos"
-    }
-  ]
+  "programadas": []
 }
