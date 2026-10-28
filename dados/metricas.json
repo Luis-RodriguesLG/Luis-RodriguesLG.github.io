@@ -1753,13 +1753,29 @@
       "minutos": 5,
       "fluxo": "Agregação e resumo diário",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-28T09:38:59-03:00",
+      "quantidade": 1,
+      "minutos": 2,
+      "fluxo": "Relatório de Manifestação",
+      "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-10-28T09:38:59-03:00",
+      "quantidade": 1,
+      "minutos": 0.5,
+      "fluxo": "Alerta no Teams",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-28T09:36:24-03:00",
-  "total_minutos": 7351.0,
-  "itens": 1686,
-  "execucoes": 260,
+  "atualizado_em": "2026-10-28T09:39:09-03:00",
+  "total_minutos": 7353.5,
+  "itens": 1688,
+  "execucoes": 262,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1829,11 +1845,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 159,
-      "execucoes": 159,
-      "minutos": 421.5,
+      "itens": 161,
+      "execucoes": 161,
+      "minutos": 424.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-28T09:36:14-03:00",
+      "ultima_execucao": "2026-10-28T09:38:59-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1841,16 +1857,16 @@
           "minutos": 2,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-08-17",
-          "execucoes": 49,
-          "minutos_total": 98.0
+          "execucoes": 50,
+          "minutos_total": 100.0
         },
         {
           "nome": "Alerta no Teams",
           "minutos": 0.5,
           "freq": "dias úteis · Teams",
           "inicio": "2026-09-28",
-          "execucoes": 21,
-          "minutos_total": 10.5,
+          "execucoes": 22,
+          "minutos_total": 11.0,
           "grupo": "Relatório de Manifestação"
         },
         {
@@ -1929,7 +1945,7 @@
     },
     {
       "mes": "2026-10",
-      "minutos": 3646.4
+      "minutos": 3648.9
     }
   ],
   "programadas": [
