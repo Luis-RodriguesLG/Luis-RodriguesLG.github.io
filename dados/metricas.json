@@ -1674,13 +1674,19 @@
       "data_hora": "2026-10-29T14:08:33-03:00",
       "quantidade": 20,
       "minutos": 100
+    },
+    {
+      "automacao": "qive_manifestacao",
+      "data_hora": "2026-10-30T08:46:31-03:00",
+      "quantidade": 1,
+      "minutos": 0
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-30T07:37:10-03:00",
+  "atualizado_em": "2026-10-30T08:46:41-03:00",
   "total_minutos": 6482.5,
-  "itens": 1711,
-  "execucoes": 248,
+  "itens": 1712,
+  "execucoes": 249,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1718,11 +1724,11 @@
     },
     {
       "id": "qive_manifestacao",
-      "itens": 58,
-      "execucoes": 58,
+      "itens": 59,
+      "execucoes": 59,
       "minutos": 720.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-29T08:38:17-03:00",
+      "ultima_execucao": "2026-10-30T08:46:31-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": "por relatório manual (2x por semana)",
