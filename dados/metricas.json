@@ -1742,13 +1742,21 @@
       "minutos": 5,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-01T09:31:05-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "fluxo": "Agregação e resumo diário",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-10-31T12:06:23-03:00",
-  "total_minutos": 6612.0,
-  "itens": 1740,
-  "execucoes": 257,
+  "atualizado_em": "2026-11-01T09:31:15-03:00",
+  "total_minutos": 6617.0,
+  "itens": 1741,
+  "execucoes": 258,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1818,11 +1826,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 151,
-      "execucoes": 151,
-      "minutos": 422.0,
+      "itens": 152,
+      "execucoes": 152,
+      "minutos": 427.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-10-31T12:06:12-03:00",
+      "ultima_execucao": "2026-11-01T09:31:05-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1855,8 +1863,8 @@
           "minutos": 5,
           "freq": "dias úteis · Excel",
           "inicio": "2026-10-20",
-          "execucoes": 13,
-          "minutos_total": 65.0
+          "execucoes": 14,
+          "minutos_total": 70.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
@@ -1911,6 +1919,10 @@
     {
       "mes": "2026-10",
       "minutos": 3591.5
+    },
+    {
+      "mes": "2026-11",
+      "minutos": 5.0
     }
   ],
   "programadas": []
