@@ -1750,13 +1750,21 @@
       "minutos": 5,
       "fluxo": "Agregação e resumo diário",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-01T12:06:12-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "fluxo": "Extração de dados (Power BI)",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-01T09:31:15-03:00",
-  "total_minutos": 6617.0,
-  "itens": 1741,
-  "execucoes": 258,
+  "atualizado_em": "2026-11-01T12:06:21-03:00",
+  "total_minutos": 6622.0,
+  "itens": 1742,
+  "execucoes": 259,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1826,11 +1834,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 152,
-      "execucoes": 152,
-      "minutos": 427.0,
+      "itens": 153,
+      "execucoes": 153,
+      "minutos": 432.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-01T09:31:05-03:00",
+      "ultima_execucao": "2026-11-01T12:06:12-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1855,8 +1863,8 @@
           "minutos": 5,
           "freq": "seg, qua e sex · Excel",
           "inicio": "2026-09-07",
-          "execucoes": 27,
-          "minutos_total": 135.0
+          "execucoes": 28,
+          "minutos_total": 140.0
         },
         {
           "nome": "Agregação e resumo diário",
@@ -1922,7 +1930,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 5.0
+      "minutos": 10.0
     }
   ],
   "programadas": []
