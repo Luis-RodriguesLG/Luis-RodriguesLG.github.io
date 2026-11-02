@@ -1790,13 +1790,21 @@
       "minutos": 4,
       "fluxo": "Intercompany semanal (APB e ACR)",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-02T12:06:14-03:00",
+      "quantidade": 1,
+      "minutos": 5,
+      "fluxo": "Extração de dados (Power BI)",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-02T12:06:02-03:00",
-  "total_minutos": 6633.5,
-  "itens": 1746,
-  "execucoes": 263,
+  "atualizado_em": "2026-11-02T12:06:37-03:00",
+  "total_minutos": 6638.5,
+  "itens": 1747,
+  "execucoes": 264,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1866,11 +1874,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 157,
-      "execucoes": 157,
-      "minutos": 443.5,
+      "itens": 158,
+      "execucoes": 158,
+      "minutos": 448.5,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-02T12:05:49-03:00",
+      "ultima_execucao": "2026-11-02T12:06:14-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1895,8 +1903,8 @@
           "minutos": 5,
           "freq": "seg, qua e sex · Excel",
           "inicio": "2026-09-07",
-          "execucoes": 28,
-          "minutos_total": 140.0
+          "execucoes": 29,
+          "minutos_total": 145.0
         },
         {
           "nome": "Agregação e resumo diário",
@@ -1962,7 +1970,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 21.5
+      "minutos": 26.5
     }
   ],
   "programadas": []
