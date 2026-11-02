@@ -1798,13 +1798,21 @@
       "minutos": 5,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-02T13:42:34-03:00",
+      "quantidade": 1,
+      "minutos": 2,
+      "fluxo": "Confirmações SIMNAC",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-02T12:06:37-03:00",
-  "total_minutos": 6638.5,
-  "itens": 1747,
-  "execucoes": 264,
+  "atualizado_em": "2026-11-02T13:42:53-03:00",
+  "total_minutos": 6640.5,
+  "itens": 1748,
+  "execucoes": 265,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1874,11 +1882,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 158,
-      "execucoes": 158,
-      "minutos": 448.5,
+      "itens": 159,
+      "execucoes": 159,
+      "minutos": 450.5,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-02T12:06:14-03:00",
+      "ultima_execucao": "2026-11-02T13:42:34-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -1927,8 +1935,8 @@
           "minutos": 2,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-09-30",
-          "execucoes": 22,
-          "minutos_total": 44.0
+          "execucoes": 23,
+          "minutos_total": 46.0
         },
         {
           "nome": "Atualização de bases",
@@ -1970,7 +1978,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 26.5
+      "minutos": 28.5
     }
   ],
   "programadas": []
