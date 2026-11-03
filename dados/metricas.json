@@ -46,7 +46,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-17T09:43:00-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -59,7 +59,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-18T09:41:54-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -72,7 +72,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-19T09:40:56-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -85,7 +85,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-20T09:47:57-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -98,7 +98,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-21T09:47:05-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -117,7 +117,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-24T09:50:24-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -130,7 +130,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-25T09:47:33-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -143,7 +143,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-26T09:47:08-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -162,7 +162,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-27T09:42:47-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -175,7 +175,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-28T09:46:42-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -194,7 +194,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-08-31T09:50:27-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -207,7 +207,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-01T09:42:58-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -220,7 +220,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-02T09:40:03-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -239,7 +239,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-03T09:46:25-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -258,7 +258,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-04T09:49:59-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -271,7 +271,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-08T09:48:37-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -284,14 +284,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-09T09:48:22-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-09T11:32:27-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -304,7 +304,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-10T09:50:57-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -323,14 +323,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-11T09:45:06-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-11T11:30:58-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -343,14 +343,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-14T09:41:23-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-14T11:39:51-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -363,7 +363,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-15T09:47:44-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -376,14 +376,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-16T09:45:18-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-16T11:40:38-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -396,7 +396,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-16T15:30:29-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -409,7 +409,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-17T09:50:26-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -422,7 +422,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-18T09:47:10-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -435,14 +435,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-18T11:38:50-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-18T15:31:19-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -455,14 +455,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-21T09:49:49-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-21T11:38:14-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -481,7 +481,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-22T09:44:01-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -494,7 +494,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-23T09:46:02-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -507,14 +507,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-23T11:36:18-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-23T15:40:53-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -533,7 +533,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-24T09:45:54-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -552,14 +552,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-25T09:45:01-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-25T11:36:39-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -572,7 +572,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-25T15:30:41-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -585,7 +585,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-28T09:46:38-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -599,7 +599,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-28T11:32:21-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -624,7 +624,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-29T09:41:19-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -644,7 +644,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-30T09:41:21-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -658,7 +658,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-30T11:39:42-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -671,14 +671,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-30T13:25:32-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-30T15:31:04-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -703,7 +703,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-01T09:49:50-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -723,7 +723,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-01T13:29:30-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
@@ -736,7 +736,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-02T09:50:16-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -756,21 +756,21 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-02T11:37:31-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-02T13:28:57-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-02T15:40:46-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -789,7 +789,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T09:48:23-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -803,14 +803,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T11:36:48-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T12:40:16-03:00",
       "quantidade": 1,
-      "minutos": 4,
+      "minutos": 2,
       "fluxo": "Intercompany semanal (APB e ACR)"
     },
     {
@@ -823,7 +823,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-05T13:28:23-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
@@ -836,7 +836,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-06T09:50:28-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -850,7 +850,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-06T13:28:13-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
@@ -869,7 +869,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-07T09:50:33-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -883,21 +883,21 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-07T11:38:09-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-07T13:26:20-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-07T15:31:35-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -910,7 +910,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-08T09:48:19-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -930,7 +930,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-08T13:32:10-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
@@ -949,7 +949,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-09T09:50:43-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -963,7 +963,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-09T11:33:43-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -976,14 +976,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-09T13:29:37-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-09T15:35:27-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -1008,7 +1008,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-13T09:44:24-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -1028,7 +1028,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-13T13:25:32-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
@@ -1041,7 +1041,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-14T09:46:12-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -1055,21 +1055,21 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-14T11:35:37-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-14T13:34:05-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-14T15:38:20-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -1082,7 +1082,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-15T09:45:31-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -1108,7 +1108,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-15T13:26:09-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
@@ -1121,7 +1121,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-16T09:42:32-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -1135,7 +1135,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-16T11:37:17-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
@@ -1154,14 +1154,14 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-16T13:29:56-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-16T15:38:19-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Atualização de bases"
     },
     {
@@ -1174,7 +1174,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T09:43:54-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação"
     },
     {
@@ -1188,21 +1188,21 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T11:39:43-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T12:35:08-03:00",
       "quantidade": 1,
-      "minutos": 4,
+      "minutos": 2,
       "fluxo": "Intercompany semanal (APB e ACR)"
     },
     {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-19T13:28:47-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC"
     },
     {
@@ -1221,7 +1221,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-20T12:06:23-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1235,7 +1235,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-20T13:42:39-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1261,7 +1261,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-21T09:31:20-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1277,7 +1277,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-21T12:06:18-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1285,7 +1285,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-21T12:20:00-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1299,7 +1299,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-21T13:42:40-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1307,7 +1307,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-22T09:31:06-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1315,7 +1315,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-22T09:34:05-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1337,7 +1337,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-22T12:06:13-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1351,7 +1351,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-22T13:42:40-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1365,7 +1365,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-23T09:31:14-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1373,7 +1373,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-23T09:34:06-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1395,7 +1395,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-23T13:42:40-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1403,7 +1403,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-24T09:31:10-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1411,7 +1411,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-24T09:33:59-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1427,7 +1427,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-24T12:06:10-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1435,7 +1435,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-24T13:42:39-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1443,7 +1443,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-25T09:31:06-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1451,7 +1451,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-25T12:06:15-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1465,7 +1465,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-26T09:31:27-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1485,7 +1485,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-26T12:05:36-03:00",
       "quantidade": 1,
-      "minutos": 4,
+      "minutos": 2,
       "fluxo": "Intercompany semanal (APB e ACR)",
       "real": true
     },
@@ -1493,7 +1493,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-26T12:06:58-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1507,7 +1507,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-26T13:42:24-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1521,7 +1521,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-27T09:31:20-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1529,7 +1529,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-27T09:34:06-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1545,7 +1545,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-27T12:06:23-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1559,7 +1559,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-27T13:42:24-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1567,7 +1567,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-27T14:21:50-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1589,7 +1589,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-28T09:36:14-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1597,7 +1597,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-28T09:38:59-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1613,7 +1613,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-28T12:06:34-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1627,7 +1627,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-28T13:42:24-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1641,7 +1641,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-29T09:31:09-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1649,7 +1649,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-29T09:33:26-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1665,7 +1665,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-29T12:06:32-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1685,7 +1685,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-30T09:31:07-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1693,7 +1693,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-30T09:33:50-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1709,7 +1709,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-30T12:06:16-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1723,7 +1723,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-30T16:33:53-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1731,7 +1731,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-31T09:31:06-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1739,7 +1739,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-31T12:06:12-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1747,7 +1747,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-11-01T09:31:05-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1755,7 +1755,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-11-01T12:06:12-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1763,7 +1763,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-11-02T09:31:32-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Agregação e resumo diário",
       "real": true
     },
@@ -1771,7 +1771,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-11-02T09:33:33-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Relatório de Manifestação",
       "real": true
     },
@@ -1787,7 +1787,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-11-02T12:05:49-03:00",
       "quantidade": 1,
-      "minutos": 4,
+      "minutos": 2,
       "fluxo": "Intercompany semanal (APB e ACR)",
       "real": true
     },
@@ -1795,7 +1795,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-11-02T12:06:14-03:00",
       "quantidade": 1,
-      "minutos": 5,
+      "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
     },
@@ -1803,7 +1803,7 @@
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-11-02T13:42:34-03:00",
       "quantidade": 1,
-      "minutos": 2,
+      "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
     },
@@ -1815,8 +1815,8 @@
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-03T08:30:50-03:00",
-  "total_minutos": 6670.5,
+  "atualizado_em": "2026-11-03T09:21:09-03:00",
+  "total_minutos": 6478.5,
   "itens": 1749,
   "execucoes": 266,
   "horas_por_dia_util": 8,
@@ -1890,18 +1890,18 @@
       "id": "fluxos_automatizados",
       "itens": 159,
       "execucoes": 159,
-      "minutos": 450.5,
+      "minutos": 258.5,
       "sem_estimativa": false,
       "ultima_execucao": "2026-11-02T13:42:34-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
           "nome": "Relatório de Manifestação",
-          "minutos": 2,
+          "minutos": 1,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-08-17",
           "execucoes": 53,
-          "minutos_total": 106.0
+          "minutos_total": 53.0
         },
         {
           "nome": "Alerta no Teams",
@@ -1914,47 +1914,47 @@
         },
         {
           "nome": "Extração de dados (Power BI)",
-          "minutos": 5,
+          "minutos": 3,
           "freq": "seg, qua e sex · Excel",
           "inicio": "2026-09-07",
           "execucoes": 29,
-          "minutos_total": 145.0
+          "minutos_total": 87.0
         },
         {
           "nome": "Agregação e resumo diário",
-          "minutos": 5,
+          "minutos": 3,
           "freq": "dias úteis · Excel",
           "inicio": "2026-10-20",
           "execucoes": 15,
-          "minutos_total": 75.0
+          "minutos_total": 45.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
-          "minutos": 4,
+          "minutos": 2,
           "freq": "segunda · Extração de dados e envio de emails",
           "inicio": "2026-09-30",
           "execucoes": 4,
-          "minutos_total": 16.0
+          "minutos_total": 8.0
         },
         {
           "nome": "Confirmações SIMNAC",
-          "minutos": 2,
+          "minutos": 1,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-09-30",
           "execucoes": 23,
-          "minutos_total": 46.0
+          "minutos_total": 23.0
         },
         {
           "nome": "Atualização de bases",
-          "minutos": 5,
+          "minutos": 3,
           "freq": "qua e sex · Excel",
           "inicio": "2026-09-14",
           "execucoes": 10,
-          "minutos_total": 50.0
+          "minutos_total": 30.0
         },
         {
           "nome": "Extração e Consolidação Transitória e SCI",
-          "minutos": 1,
+          "minutos": 2,
           "freq": "a cada atualização · Teams e SharePoint",
           "inicio": "2026-10-22",
           "execucoes": 0,
@@ -1972,19 +1972,19 @@
   "por_mes": [
     {
       "mes": "2026-08",
-      "minutos": 820.0
+      "minutos": 809.0
     },
     {
       "mes": "2026-09",
-      "minutos": 2200.5
+      "minutos": 2148.5
     },
     {
       "mes": "2026-10",
-      "minutos": 3591.5
+      "minutos": 3474.5
     },
     {
       "mes": "2026-11",
-      "minutos": 58.5
+      "minutos": 46.5
     }
   ],
   "programadas": []
