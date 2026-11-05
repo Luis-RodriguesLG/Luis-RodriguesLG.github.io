@@ -1910,13 +1910,21 @@
       "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-05T09:31:12-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "fluxo": "Agregação e resumo diário",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-04T14:00:55-03:00",
-  "total_minutos": 6605.5,
-  "itens": 1782,
-  "execucoes": 279,
+  "atualizado_em": "2026-11-05T09:31:26-03:00",
+  "total_minutos": 6608.5,
+  "itens": 1783,
+  "execucoes": 280,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -1986,11 +1994,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 169,
-      "execucoes": 169,
-      "minutos": 275.5,
+      "itens": 170,
+      "execucoes": 170,
+      "minutos": 278.5,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-04T13:42:34-03:00",
+      "ultima_execucao": "2026-11-05T09:31:12-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -2023,8 +2031,8 @@
           "minutos": 3,
           "freq": "dias úteis · Excel",
           "inicio": "2026-10-20",
-          "execucoes": 17,
-          "minutos_total": 51.0
+          "execucoes": 18,
+          "minutos_total": 54.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
@@ -2082,7 +2090,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 173.5
+      "minutos": 176.5
     }
   ],
   "programadas": []
