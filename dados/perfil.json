@@ -1,158 +1,174 @@
 {
-  "nome": "Luis Rodrigues",
-  "apelido": "Luis · Data Analyst",
-  "titulo": "Automação Python · SAP · Power BI",
-  "resumo": "Automatizo rotinas fiscais e financeiras com Python, SAP GUI Scripting e Power BI. Cada robô devolve horas de analista para o que realmente importa.",
-  "sobre": "Trabalho com automação de processos fiscais e de contas a pagar: robôs que conversam com o SAP, portais da Receita/SUFRAMA e planilhas, orquestrados por um gestor próprio que roda tudo sozinho todos os dias.",
-  "links": {
-    "github": "https://github.com/Luis-RodriguesLG",
-    "linkedin": "https://www.linkedin.com/in/luis-grodrigues/",
-    "email": ""
+ "nome": "Luis Rodrigues",
+ "apelido": "Luis · Data Analyst",
+ "titulo": "Automação Python · SAP · Power BI",
+ "resumo": "Automatizo rotinas fiscais e financeiras com Python, SAP GUI Scripting e Power BI. Cada robô devolve horas de analista para o que realmente importa.",
+ "sobre": "Trabalho com automação de processos fiscais e de contas a pagar: robôs que conversam com o SAP, portais da Receita/SUFRAMA e planilhas, orquestrados por um gestor próprio que roda tudo sozinho todos os dias.",
+ "links": {
+  "github": "https://github.com/Luis-RodriguesLG",
+  "linkedin": "https://www.linkedin.com/in/luis-grodrigues/",
+  "email": ""
+ },
+ "stack": [
+  {
+   "grupo": "Python & SAP",
+   "itens": [
+    "Python",
+    "SAP GUI Scripting",
+    "pywin32",
+    "Pandas",
+    "OpenPyXL"
+   ]
   },
-  "stack": [
-    {
-      "grupo": "Python & SAP",
-      "itens": [
-        "Python",
-        "SAP GUI Scripting",
-        "pywin32",
-        "Pandas",
-        "OpenPyXL"
-      ]
-    },
-    {
-      "grupo": "Web & Portais",
-      "itens": [
-        "Playwright",
-        "Selenium",
-        "Requests",
-        "Regex"
-      ]
-    },
-    {
-      "grupo": "Orquestração & Interface",
-      "itens": [
-        "PySide6",
-        "FFmpeg",
-        "PyInstaller"
-      ]
-    },
-    {
-      "grupo": "Dados & BI",
-      "itens": [
-        "Power BI",
-        "DAX",
-        "Power Query",
-        "Git / GitHub"
-      ]
-    }
-  ],
-  "projetos": [
-    {
-      "automacao": "suframa_confirmacao",
-      "titulo": "Confirmação de Recebimento SUFRAMA",
-      "departamento": "Recebimento Fiscal",
-      "descricao": "Identifica as notas pendentes de confirmação no SIMNAC e acessa cada uma para ler a chave de acesso. Verifica se a nota está lançada no SAP (J1BNFE) e, se estiver, consulta o CT-e vinculado no QIVE, preenche essa informação no SIMNAC e conclui a confirmação, validando os dados de cada nota ao longo de todo o processo.",
-      "tags": [
-        "SAP J1BNFE",
-        "SIMNAC",
-        "Playwright",
-        "Excel"
-      ],
-      "ferramentas": [
-        "Python",
-        "SAP GUI",
-        "Playwright",
-        "Excel"
-      ]
-    },
-    {
-      "automacao": "qive_manifestacao",
-      "titulo": "Relatório Diário de Manifestação (QIVE)",
-      "departamento": "Recebimento Fiscal",
-      "descricao": "Rodava 2x por semana de forma manual; hoje roda todos os dias, baixa o relatório de NF-e do QIVE, cruza com a J1BNFE e mantém a análise diária e a base histórica do período.",
-      "tags": [
-        "QIVE",
-        "SAP",
-        "Pandas"
-      ],
-      "ferramentas": [
-        "Python",
-        "SAP GUI",
-        "Pandas",
-        "Excel"
-      ]
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "titulo": "Lançamento de Complemento de Impostos",
-      "departamento": "Recebimento Fiscal",
-      "descricao": "Ferramenta que lança complementos de IPI e ICMS a partir de uma base, utilizando as transações SAP J1BNFE, ZLIA e MIRO: confere e valida valores e informações, registra cada lançamento e gera um log de execução indicando o que foi lançado, o que não foi lançado e o erro de cada item. Automação desenvolvida para o Time de Recebimento Fiscal.",
-      "tags": [
-        "SAP J1BNFE",
-        "SAP ZLIA",
-        "SAP MIRO",
-        "IPI",
-        "ICMS",
-        "GUI Scripting"
-      ],
-      "ferramentas": [
-        "Python",
-        "SAP GUI",
-        "Excel"
-      ]
-    },
-    {
-      "automacao": "visao_credito_bp",
-      "titulo": "Alteração no Cadastro de Clientes",
-      "departamento": "Contas a Receber",
-      "descricao": "Altera em lote condições de pagamento, limite e parâmetros de crédito, além de realizar o bloqueio e desbloqueio de clientes no SAP. Automação desenvolvida para apoiar o Time de Contas a Receber.",
-      "tags": [
-        "SAP BP",
-        "UKM000",
-        "Crédito",
-        "Excel"
-      ],
-      "ferramentas": [
-        "Python",
-        "SAP GUI",
-        "Excel"
-      ]
-    },
-    {
-      "automacao": "fluxos_automatizados",
-      "titulo": "Fluxos Automatizados",
-      "descricao": "Fluxos no Power Automate: envio automático de e-mails todos os dias e rotinas que ajustam documentos em Excel, limpam bases e resumem análises.",
-      "tags": [
-        "Power Automate",
-        "Outlook",
-        "Excel"
-      ],
-      "departamento": "Múltiplas áreas",
-      "ferramentas": [
-        "Power Automate",
-        "Outlook",
-        "Excel"
-      ]
-    },
-    {
-      "titulo": "Gestor de Automações",
-      "descricao": "Painel desktop que agenda, executa e monitora todos os robôs, com interface própria em PySide6.",
-      "tags": [
-        "PySide6",
-        "Agendamento",
-        "Monitoramento"
-      ]
-    },
-    {
-      "titulo": "Indicadores em Power BI",
-      "descricao": "Monitoramento ICP, Recebimento Fiscal, KPI LIA e atraso de contas a pagar por usuário, todos alimentados por bases do SAP.",
-      "tags": [
-        "Power BI",
-        "DAX",
-        "SAP"
-      ]
-    }
-  ],
-  "contato_email": "lg.techsolutions0@gmail.com"
+  {
+   "grupo": "Web & Portais",
+   "itens": [
+    "Playwright",
+    "Selenium",
+    "Requests",
+    "Regex"
+   ]
+  },
+  {
+   "grupo": "Orquestração & Interface",
+   "itens": [
+    "PySide6",
+    "FFmpeg",
+    "PyInstaller"
+   ]
+  },
+  {
+   "grupo": "Dados & BI",
+   "itens": [
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "Git / GitHub"
+   ]
+  }
+ ],
+ "projetos": [
+  {
+   "automacao": "suframa_confirmacao",
+   "titulo": "Confirmação de Recebimento SUFRAMA",
+   "departamento": "Recebimento Fiscal",
+   "descricao": "Identifica as notas pendentes de confirmação no SIMNAC e acessa cada uma para ler a chave de acesso. Verifica se a nota está lançada no SAP (J1BNFE) e, se estiver, consulta o CT-e vinculado no QIVE, preenche essa informação no SIMNAC e conclui a confirmação, validando os dados de cada nota ao longo de todo o processo.",
+   "tags": [
+    "SAP J1BNFE",
+    "SIMNAC",
+    "Playwright",
+    "Excel"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Playwright",
+    "Excel"
+   ]
+  },
+  {
+   "automacao": "qive_manifestacao",
+   "titulo": "Relatório Diário de Manifestação (QIVE)",
+   "departamento": "Recebimento Fiscal",
+   "descricao": "Rodava 2x por semana de forma manual; hoje roda todos os dias, baixa o relatório de NF-e do QIVE, cruza com a J1BNFE e mantém a análise diária e a base histórica do período.",
+   "tags": [
+    "QIVE",
+    "SAP",
+    "Pandas"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Pandas",
+    "Excel"
+   ]
+  },
+  {
+   "automacao": "lancamento_ipi",
+   "titulo": "Lançamento de Complemento de Impostos",
+   "departamento": "Recebimento Fiscal",
+   "descricao": "Ferramenta que lança complementos de IPI e ICMS a partir de uma base, utilizando as transações SAP J1BNFE, ZLIA e MIRO: confere e valida valores e informações, registra cada lançamento e gera um log de execução indicando o que foi lançado, o que não foi lançado e o erro de cada item. Automação desenvolvida para o Time de Recebimento Fiscal.",
+   "tags": [
+    "SAP J1BNFE",
+    "SAP ZLIA",
+    "SAP MIRO",
+    "IPI",
+    "ICMS",
+    "GUI Scripting"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Excel"
+   ]
+  },
+  {
+   "automacao": "lancamento_remessa",
+   "titulo": "Lançamento de Remessa",
+   "departamento": "Recebimento Fiscal",
+   "descricao": "Automatiza o lançamento de remessas no SAP, registrando cada execução e devolvendo tempo de analista ao Time de Recebimento Fiscal.",
+   "tags": [
+    "SAP",
+    "Remessa",
+    "GUI Scripting"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Excel"
+   ]
+  },
+  {
+   "automacao": "visao_credito_bp",
+   "titulo": "Alteração no Cadastro de Clientes",
+   "departamento": "Contas a Receber",
+   "descricao": "Altera em lote condições de pagamento, limite e parâmetros de crédito, além de realizar o bloqueio e desbloqueio de clientes no SAP. Automação desenvolvida para apoiar o Time de Contas a Receber.",
+   "tags": [
+    "SAP BP",
+    "UKM000",
+    "Crédito",
+    "Excel"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Excel"
+   ]
+  },
+  {
+   "automacao": "fluxos_automatizados",
+   "titulo": "Fluxos Automatizados",
+   "descricao": "Fluxos no Power Automate: envio automático de e-mails todos os dias e rotinas que ajustam documentos em Excel, limpam bases e resumem análises.",
+   "tags": [
+    "Power Automate",
+    "Outlook",
+    "Excel"
+   ],
+   "departamento": "Múltiplas áreas",
+   "ferramentas": [
+    "Power Automate",
+    "Outlook",
+    "Excel"
+   ]
+  },
+  {
+   "titulo": "Gestor de Automações",
+   "descricao": "Painel desktop que agenda, executa e monitora todos os robôs, com interface própria em PySide6.",
+   "tags": [
+    "PySide6",
+    "Agendamento",
+    "Monitoramento"
+   ]
+  },
+  {
+   "titulo": "Indicadores em Power BI",
+   "descricao": "Monitoramento ICP, Recebimento Fiscal, KPI LIA e atraso de contas a pagar por usuário, todos alimentados por bases do SAP.",
+   "tags": [
+    "Power BI",
+    "DAX",
+    "SAP"
+   ]
+  }
+ ],
+ "contato_email": "lg.techsolutions0@gmail.com"
 }
