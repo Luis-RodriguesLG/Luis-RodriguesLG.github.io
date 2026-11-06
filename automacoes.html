@@ -172,7 +172,9 @@
   .dias details[open] summary{border-bottom:1px solid var(--line)}
   .dias .ex{display:grid;grid-template-columns:52px 1fr auto;gap:10px;padding:7px 12px;font-size:.84rem;border-top:1px solid var(--line)}
   .dias .ex:first-of-type{border-top:0}.dias .ex small{display:block;color:var(--faint);font-size:.76rem}.dias .ex .t{white-space:nowrap;color:var(--mut)}
-  tr.agg .btn2{margin-top:5px;padding:3px 10px;font-size:.76rem}
+  tr.agg .cn{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  tr.agg .cn small{display:inline;margin:0}
+  tr.agg .btn2{padding:2px 10px;font-size:.76rem;line-height:1.4}
   .ft tr.sub td:first-child b{font-weight:500}
   .ft tr.tot td{font-weight:600;color:var(--acc);border-bottom:0}
   @media(max-width:640px){.ft thead{display:none}.ft,.ft tbody,.ft tr,.ft td{display:block}.ft tr{border-bottom:1px solid var(--line);padding:8px 0}.ft td{border:0;padding:2px 0;text-align:left!important}.ft td.n::before{content:attr(data-l)': ';color:var(--mut);font-size:.8rem}}
@@ -456,10 +458,10 @@
         const tr=el('tr','agg');
         tr.append(el('td','d',SEM[new Date(dt.slice(0,10)+'T12:00:00').getDay()]+' '+dt.slice(8,10)+'/'+dt.slice(5,7)),
           el('td','d',h.ini===h.fim?h.fim:h.ini+'–'+h.fim));
-        const ta=el('td');ta.append(document.createTextNode('Fluxo Power Automate'));
+        const ta=el('td'),cn=el('div','cn');cn.append(document.createTextNode('Fluxo Power Automate'));
         const nf=new Set(h.itens.map(x=>x.fluxo)).size;
-        ta.append(el('small','',fmtN(nf)+(nf===1?' fluxo executado':' fluxos executados')));
-        const b=el('button','btn2','Ver execuções');b.type='button';b.addEventListener('click',()=>abrirFluxos(h.automacao,h.dia));ta.append(b);
+        cn.append(el('small','',fmtN(nf)+(nf===1?' fluxo':' fluxos')));
+        const b=el('button','btn2','Ver execuções');b.type='button';b.addEventListener('click',()=>abrirFluxos(h.automacao,h.dia));cn.append(b);ta.append(cn);
         tr.append(ta,el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',h.minutos?fmtT(h.minutos):'não contabilizado'));
         tb.append(tr);return;
       }
