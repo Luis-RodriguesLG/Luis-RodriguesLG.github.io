@@ -164,6 +164,15 @@
   .ft .n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
   .ft td small{display:block;color:var(--mut);font-size:.76rem;margin-top:1px}
   .ft tr.sub td:first-child{padding-left:28px}
+  .dias{margin-top:18px}.dias h4{margin:0 0 8px;font-size:.92rem}
+  .dias details{border:1px solid var(--line);border-radius:8px;margin-bottom:6px;background:var(--surface)}
+  .dias summary{cursor:pointer;padding:9px 12px;font-size:.86rem;display:flex;gap:10px;justify-content:space-between;list-style:none}
+  .dias summary::-webkit-details-marker{display:none}
+  .dias summary span:last-child{color:var(--mut);white-space:nowrap}
+  .dias details[open] summary{border-bottom:1px solid var(--line)}
+  .dias .ex{display:grid;grid-template-columns:52px 1fr auto;gap:10px;padding:7px 12px;font-size:.84rem;border-top:1px solid var(--line)}
+  .dias .ex:first-of-type{border-top:0}.dias .ex small{display:block;color:var(--faint);font-size:.76rem}.dias .ex .t{white-space:nowrap;color:var(--mut)}
+  tr.agg .btn2{margin-top:5px;padding:3px 10px;font-size:.76rem}
   .ft tr.sub td:first-child b{font-weight:500}
   .ft tr.tot td{font-weight:600;color:var(--acc);border-bottom:0}
   @media(max-width:640px){.ft thead{display:none}.ft,.ft tbody,.ft tr,.ft td{display:block}.ft tr{border-bottom:1px solid var(--line);padding:8px 0}.ft td{border:0;padding:2px 0;text-align:left!important}.ft td.n::before{content:attr(data-l)': ';color:var(--mut);font-size:.8rem}}
@@ -271,7 +280,7 @@
 
 <dialog class="modal" id="dlg" aria-labelledby="dlgT">
   <div class="mh"><div><h3 id="dlgT">Fluxos automatizados</h3><p>Tempo aproximado, calculado pela rotina de cada fluxo no Power Automate.</p></div><button class="mx" id="dlgX" type="button" aria-label="Fechar">✕</button></div>
-  <div class="mb"><table class="ft"><thead><tr><th>Fluxo</th><th class="n">Por execução</th><th class="n">Execuções</th><th class="n">Economizado</th><th class="n">Ativo desde</th></tr></thead><tbody id="dlgC"></tbody></table></div>
+  <div class="mb"><table class="ft"><thead><tr><th>Fluxo</th><th class="n">Por execução</th><th class="n">Execuções</th><th class="n">Economizado</th><th class="n">Ativo desde</th></tr></thead><tbody id="dlgC"></tbody></table><div class="dias" id="dlgD"></div></div>
 </dialog>
 
 <script>
@@ -421,14 +430,39 @@
   function grupoDe(h){const a=estado&&estado.autos[h.automacao];const f=a&&a.fluxos&&a.fluxos.find(f=>f.nome===h.fluxo);return f&&f.grupo||'';}
   function unidade(a,q){const u=(a&&a.unidade)||'itens';return q===1?u.replace(/ões\b/g,'ão').replace(/s\b/g,''):u;}
 
+  // execucoes de fluxos do Power Automate: uma linha por dia na tabela; os detalhes abrem em "Visualizar fluxos"
+  function agruparDias(hist){
+    const out=[],pos={};
+    hist.forEach(h=>{
+      if(!h.fluxo){out.push(h);return;}
+      const k=h.data_hora.slice(0,10)+'|'+h.automacao;
+      let g=pos[k];
+      if(!g){g=pos[k]={agg:true,dia:h.data_hora.slice(0,10),automacao:h.automacao,itens:[],quantidade:0,minutos:0,data_hora:h.data_hora,ini:h.data_hora.slice(11,16),fim:h.data_hora.slice(11,16),fluxo:'*'};out.push(g);}
+      g.itens.push(h);g.quantidade+=h.quantidade;g.minutos+=h.minutos||0;
+      const hr=h.data_hora.slice(11,16);if(hr<g.ini)g.ini=hr;if(hr>g.fim){g.fim=hr;g.data_hora=h.data_hora;}
+    });
+    return out;
+  }
+
   function desenharTabela(){
     const E=estado;if(!E)return;
-    const rows=mesclarGrupos(E.hist).filter(h=>!filtro||h.automacao===filtro).slice().reverse();
+    const rows=agruparDias(mesclarGrupos(E.hist).filter(h=>!filtro||h.automacao===filtro)).slice().reverse();
     const tb=$('hist');tb.textContent='';
     const totPag=Math.max(1,Math.ceil(rows.length/POR_PAG));if(pagina>totPag)pagina=totPag;
     const ini=(pagina-1)*POR_PAG;
     rows.slice(ini,ini+POR_PAG).forEach(h=>{
       const a=E.autos[h.automacao]||{};const dt=h.data_hora;
+      if(h.agg){
+        const tr=el('tr','agg');
+        tr.append(el('td','d',SEM[new Date(dt.slice(0,10)+'T12:00:00').getDay()]+' '+dt.slice(8,10)+'/'+dt.slice(5,7)),
+          el('td','d',h.ini===h.fim?h.fim:h.ini+'–'+h.fim));
+        const ta=el('td');ta.append(document.createTextNode('Fluxo Power Automate'));
+        const nf=new Set(h.itens.map(x=>x.fluxo)).size;
+        ta.append(el('small','',fmtN(nf)+(nf===1?' fluxo executado':' fluxos executados')));
+        const b=el('button','btn2','Ver execuções');b.type='button';b.addEventListener('click',()=>abrirFluxos(h.automacao,h.dia));ta.append(b);
+        tr.append(ta,el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',h.minutos?fmtT(h.minutos):'não contabilizado'));
+        tb.append(tr);return;
+      }
       const tr=el('tr');
       tr.append(el('td','d',SEM[new Date(dt.slice(0,10)+'T12:00:00').getDay()]+' '+dt.slice(8,10)+'/'+dt.slice(5,7)),el('td','d',dt.slice(11,16)));
       const ta=el('td');ta.append(document.createTextNode(h.fluxo?'Fluxo Power Automate':E.nomeDe(h.automacao)));if(h.fluxo){const gr=grupoDe(h),tp=tipoFluxo(h.fluxo);ta.append(el('small','',(gr?gr+' › ':'')+h.fluxo+(tp?' - '+tp:'')));}tr.append(ta);
@@ -438,7 +472,7 @@
     if(!rows.length){const tr=el('tr'),td=el('td','','Nenhuma execução registrada.');td.colSpan=5;tr.append(td);tb.append(tr);}
     // paginacao
     $('pag').hidden=!rows.length;
-    $('pagInfo').textContent=rows.length?('Exibindo '+fmtN(ini+1)+'–'+fmtN(Math.min(ini+POR_PAG,rows.length))+' de '+fmtN(rows.length)+' execuções'):'';
+    $('pagInfo').textContent=rows.length?('Exibindo '+fmtN(ini+1)+'–'+fmtN(Math.min(ini+POR_PAG,rows.length))+' de '+fmtN(rows.length)+' registros'):'';
     const pb=$('pagBtns');pb.textContent='';
     const bt=(txt,pg,lab,atual)=>{const b=el('button','',txt);b.type='button';b.setAttribute('aria-label',lab);
       if(atual)b.setAttribute('aria-current','page');if(pg<1||pg>totPag)b.disabled=true;
@@ -471,7 +505,7 @@
     const lg=$('log');lg.innerHTML=L.join('\n');lg.scrollTop=lg.scrollHeight;
   }
 
-  function abrirFluxos(id){
+  function abrirFluxos(id,dia){
     const a=estado.autos[id];const c=$('dlgC');c.textContent='';let te=0,tm=0;
     const ord=[];a.fluxos.filter(f=>!f.grupo).forEach(f=>{ord.push(f);a.fluxos.filter(g=>g.grupo===f.nome).forEach(g=>ord.push(g));});
     a.fluxos.filter(f=>f.grupo&&!ord.includes(f)).forEach(f=>ord.push(f));
@@ -483,6 +517,30 @@
       c.append(tr);
     });
     const tr=el('tr','tot');tr.append(el('td','','Total'),el('td','n',''),el('td','n',fmtN(te)),el('td','n',fmtH(tm)),el('td','n',''));c.append(tr);
+    // execucoes registradas, agrupadas por dia (mais recente primeiro)
+    const D=$('dlgD');D.textContent='';
+    const dias=agruparDias(mesclarGrupos(estado.hist).filter(x=>x.automacao===id&&x.fluxo)).reverse();
+    if(dias.length){
+      D.append(el('h4','','Execuções registradas'));
+      let alvo=null;
+      dias.forEach(g=>{
+        const dt=el('details');if(g.dia===dia){dt.open=true;alvo=dt;}
+        const sm=el('summary');
+        sm.append(el('span','',SEM[new Date(g.dia+'T12:00:00').getDay()]+' '+g.dia.slice(8,10)+'/'+g.dia.slice(5,7)+'/'+g.dia.slice(0,4)),
+                  el('span','',fmtN(g.quantidade)+(g.quantidade===1?' execução':' execuções')+' · '+(g.minutos?fmtT(g.minutos):'não contabilizado')));
+        dt.append(sm);
+        g.itens.slice().sort((a,b)=>a.data_hora<b.data_hora?-1:1).forEach(x=>{
+          const r=el('div','ex');const m=el('div');const gr=grupoDe(x),tp=tipoFluxo(x.fluxo);
+          m.append(document.createTextNode((gr?gr+' › ':'')+x.fluxo));if(tp)m.append(el('small','',tp));
+          r.append(el('span','t',x.data_hora.slice(11,16)),m,el('span','t',x.minutos?fmtT(x.minutos):'não contabilizado'));
+          dt.append(r);
+        });
+        D.append(dt);
+      });
+      const d=$('dlg');if(d.showModal)d.showModal();else d.setAttribute('open','');
+      if(alvo)setTimeout(()=>alvo.scrollIntoView({block:'nearest'}),30);
+      return;
+    }
     const d=$('dlg');if(d.showModal)d.showModal();else d.setAttribute('open','');
   }
 
