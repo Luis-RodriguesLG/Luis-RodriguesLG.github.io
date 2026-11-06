@@ -279,8 +279,8 @@
 <footer><div class="wrap">Painel de Automações · Responsável: Luis Rodrigues, Data Analyst</div></footer>
 
 <dialog class="modal" id="dlg" aria-labelledby="dlgT">
-  <div class="mh"><div><h3 id="dlgT">Fluxos automatizados</h3><p>Tempo aproximado, calculado pela rotina de cada fluxo no Power Automate.</p></div><button class="mx" id="dlgX" type="button" aria-label="Fechar">✕</button></div>
-  <div class="mb"><table class="ft"><thead><tr><th>Fluxo</th><th class="n">Por execução</th><th class="n">Execuções</th><th class="n">Economizado</th><th class="n">Ativo desde</th></tr></thead><tbody id="dlgC"></tbody></table><div class="dias" id="dlgD"></div></div>
+  <div class="mh"><div><h3 id="dlgT">Fluxos automatizados</h3><p id="dlgS">Tempo aproximado, calculado pela rotina de cada fluxo no Power Automate.</p></div><button class="mx" id="dlgX" type="button" aria-label="Fechar">✕</button></div>
+  <div class="mb"><table class="ft" id="dlgTab"><thead><tr><th>Fluxo</th><th class="n">Por execução</th><th class="n">Execuções</th><th class="n">Economizado</th><th class="n">Ativo desde</th></tr></thead><tbody id="dlgC"></tbody></table><div class="dias" id="dlgD"></div></div>
 </dialog>
 
 <script>
@@ -519,9 +519,15 @@
     const tr=el('tr','tot');tr.append(el('td','','Total'),el('td','n',''),el('td','n',fmtN(te)),el('td','n',fmtH(tm)),el('td','n',''));c.append(tr);
     // execucoes registradas, agrupadas por dia (mais recente primeiro)
     const D=$('dlgD');D.textContent='';
-    const dias=agruparDias(mesclarGrupos(estado.hist).filter(x=>x.automacao===id&&x.fluxo)).reverse();
+    let dias=agruparDias(mesclarGrupos(estado.hist).filter(x=>x.automacao===id&&x.fluxo)).reverse();
+    const soDia=!!dia&&dias.some(g=>g.dia===dia);   // aberto pelo botao da tabela: so as execucoes desse dia
+    if(soDia)dias=dias.filter(g=>g.dia===dia);
+    $('dlgTab').hidden=soDia;
+    $('dlgT').textContent=soDia?'Execuções do dia '+SEM[new Date(dia+'T12:00:00').getDay()]+' '+fmtD(dia):'Fluxos automatizados';
+    $('dlgS').textContent=soDia?'Fluxos do Power Automate executados neste dia.':'Tempo aproximado, calculado pela rotina de cada fluxo no Power Automate.';
+    D.style.marginTop=soDia?'0':'';
     if(dias.length){
-      D.append(el('h4','','Execuções registradas'));
+      if(!soDia)D.append(el('h4','','Execuções registradas'));
       let alvo=null;
       dias.forEach(g=>{
         const dt=el('details');if(g.dia===dia){dt.open=true;alvo=dt;}
