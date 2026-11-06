@@ -1956,13 +1956,21 @@
       "data_hora": "2026-11-06T08:37:20-03:00",
       "quantidade": 1,
       "minutos": 0
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-06T09:31:07-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "fluxo": "Agregação e resumo diário",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-06T08:37:31-03:00",
-  "total_minutos": 6614.0,
-  "itens": 1788,
-  "execucoes": 285,
+  "atualizado_em": "2026-11-06T09:31:18-03:00",
+  "total_minutos": 6617.0,
+  "itens": 1789,
+  "execucoes": 286,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2032,11 +2040,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 174,
-      "execucoes": 174,
-      "minutos": 284.0,
+      "itens": 175,
+      "execucoes": 175,
+      "minutos": 287.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-05T13:42:34-03:00",
+      "ultima_execucao": "2026-11-06T09:31:07-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -2069,8 +2077,8 @@
           "minutos": 3,
           "freq": "dias úteis · Excel",
           "inicio": "2026-10-20",
-          "execucoes": 18,
-          "minutos_total": 54.0
+          "execucoes": 19,
+          "minutos_total": 57.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
@@ -2128,7 +2136,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 182.0
+      "minutos": 185.0
     }
   ],
   "programadas": []
