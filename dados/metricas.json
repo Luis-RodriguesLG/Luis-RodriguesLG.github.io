@@ -2052,13 +2052,19 @@
       "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
+    },
+    {
+      "automacao": "qive_manifestacao",
+      "data_hora": "2026-11-09T08:17:02-03:00",
+      "quantidade": 1,
+      "minutos": 0
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-09T07:59:48-03:00",
+  "atualizado_em": "2026-11-09T08:17:13-03:00",
   "total_minutos": 6743.2,
-  "itens": 1829,
-  "execucoes": 298,
+  "itens": 1830,
+  "execucoes": 299,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2096,11 +2102,11 @@
     },
     {
       "id": "qive_manifestacao",
-      "itens": 62,
-      "execucoes": 62,
+      "itens": 63,
+      "execucoes": 63,
       "minutos": 750.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-06T08:37:20-03:00",
+      "ultima_execucao": "2026-11-09T08:17:02-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": "por relatório manual (2x por semana)",
