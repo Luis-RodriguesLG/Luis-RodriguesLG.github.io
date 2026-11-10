@@ -119,6 +119,22 @@
    ]
   },
   {
+   "automacao": "lancamento_armazem",
+   "titulo": "Lançamento de Armazém",
+   "departamento": "Recebimento Fiscal",
+   "descricao": "Automatiza o lançamento de armazém no SAP, registrando cada execução e devolvendo tempo de analista ao Time de Recebimento Fiscal.",
+   "tags": [
+    "SAP",
+    "Armazém",
+    "GUI Scripting"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Excel"
+   ]
+  },
+  {
    "automacao": "visao_credito_bp",
    "titulo": "Alteração no Cadastro de Clientes",
    "departamento": "Contas a Receber",
