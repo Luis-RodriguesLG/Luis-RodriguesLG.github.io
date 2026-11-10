@@ -2145,7 +2145,7 @@
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-10T11:06:53-03:00",
+  "atualizado_em": "2026-11-10T11:12:26-03:00",
   "total_minutos": 6899.2,
   "itens": 1862,
   "execucoes": 310,
@@ -2284,7 +2284,7 @@
         },
         {
           "nome": "Extração e Consolidação Transitória e SCI",
-          "minutos": 2,
+          "minutos": 0,
           "freq": "a cada atualização · Teams e SharePoint",
           "inicio": "2026-10-22",
           "execucoes": 0,
