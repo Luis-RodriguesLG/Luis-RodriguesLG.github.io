@@ -296,7 +296,7 @@
   const fmtD=s=>s.slice(8,10)+'/'+s.slice(5,7)+'/'+s.slice(0,4);
   const num=v=>String(v).replace('.',',');
   const fmtT=min=>{if(min>0&&min<1)return Math.round(min*60)+' s';const seg=Math.round(min*60)%60;return seg&&min<10?fmtH(Math.floor(min))+' '+String(seg).padStart(2,'0')+'s':fmtH(min);};   // execucoes curtas em segundos
-  const porExec=min=>min<1?Math.round(min*60)+' s':num(min)+' min';
+  const porExec=min=>min<=0?'não contabilizado':min<1?Math.round(min*60)+' s':num(min)+' min';
   function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
   const store={get(k){try{return localStorage.getItem(k);}catch(e){return null;}},set(k,v){try{localStorage.setItem(k,v);}catch(e){}}};
   async function load(u){try{const r=await fetch(u+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw 0;return await r.json();}catch(e){return null;}}
