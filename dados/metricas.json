@@ -2170,13 +2170,19 @@
       "data_hora": "2026-11-11T08:35:38-03:00",
       "quantidade": 1,
       "minutos": 0
+    },
+    {
+      "automacao": "lancamento_armazem",
+      "data_hora": "2026-11-11T09:19:39-03:00",
+      "quantidade": 23,
+      "minutos": 46
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-11T08:35:49-03:00",
-  "total_minutos": 6985.2,
-  "itens": 1882,
-  "execucoes": 314,
+  "atualizado_em": "2026-11-11T09:19:49-03:00",
+  "total_minutos": 7031.2,
+  "itens": 1905,
+  "execucoes": 315,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2327,6 +2333,22 @@
       "minutos_por_item": 2
     },
     {
+      "id": "lancamento_armazem",
+      "itens": 23,
+      "execucoes": 1,
+      "minutos": 46.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-11-11T09:19:39-03:00",
+      "ultima_quantidade": 23,
+      "fluxos": [],
+      "nota_tempo": null,
+      "estimado": false,
+      "script": "lancamento_armazem.py",
+      "nome": "Lançamento de Armazém",
+      "unidade": "execuções",
+      "minutos_por_item": 2
+    },
+    {
       "id": "lancamento_remessa",
       "itens": 14,
       "execucoes": 3,
@@ -2358,7 +2380,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 553.2
+      "minutos": 599.2
     }
   ],
   "programadas": []
