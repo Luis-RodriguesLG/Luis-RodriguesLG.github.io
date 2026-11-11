@@ -2164,13 +2164,19 @@
       "minutos": 0,
       "fluxo": "Extração e Consolidação Transitória e SCI",
       "real": true
+    },
+    {
+      "automacao": "qive_manifestacao",
+      "data_hora": "2026-11-11T08:35:38-03:00",
+      "quantidade": 1,
+      "minutos": 0
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-11T08:18:28-03:00",
+  "atualizado_em": "2026-11-11T08:35:49-03:00",
   "total_minutos": 6985.2,
-  "itens": 1881,
-  "execucoes": 313,
+  "itens": 1882,
+  "execucoes": 314,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2208,11 +2214,11 @@
     },
     {
       "id": "qive_manifestacao",
-      "itens": 64,
-      "execucoes": 64,
+      "itens": 65,
+      "execucoes": 65,
       "minutos": 780.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-10T08:35:31-03:00",
+      "ultima_execucao": "2026-11-11T08:35:38-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": "por relatório manual (2x por semana)",
