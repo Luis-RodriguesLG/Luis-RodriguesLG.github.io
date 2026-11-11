@@ -2214,13 +2214,19 @@
       "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
+    },
+    {
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-11-11T11:15:13-03:00",
+      "quantidade": 123,
+      "minutos": 369
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-11T11:06:40-03:00",
-  "total_minutos": 7066.7,
-  "itens": 1923,
-  "execucoes": 320,
+  "atualizado_em": "2026-11-11T11:15:23-03:00",
+  "total_minutos": 7435.7,
+  "itens": 2046,
+  "execucoes": 321,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2257,6 +2263,22 @@
       "minutos_por_item": 5
     },
     {
+      "id": "visao_credito_bp",
+      "itens": 283,
+      "execucoes": 6,
+      "minutos": 849.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-11-11T11:15:13-03:00",
+      "ultima_quantidade": 123,
+      "fluxos": [],
+      "nota_tempo": null,
+      "estimado": true,
+      "script": "Alteração_de_cadastro.py",
+      "nome": "Alteração no Cadastro de Clientes",
+      "unidade": "alterações",
+      "minutos_por_item": 3
+    },
+    {
       "id": "qive_manifestacao",
       "itens": 65,
       "execucoes": 65,
@@ -2271,22 +2293,6 @@
       "nome": "Relatório diário de Manifestação (QIVE)",
       "unidade": "relatórios",
       "minutos_por_item": 30
-    },
-    {
-      "id": "visao_credito_bp",
-      "itens": 160,
-      "execucoes": 5,
-      "minutos": 480.0,
-      "sem_estimativa": false,
-      "ultima_execucao": "2026-10-26T10:40:16-03:00",
-      "ultima_quantidade": 22,
-      "fluxos": [],
-      "nota_tempo": null,
-      "estimado": true,
-      "script": "Alteração_de_cadastro.py",
-      "nome": "Alteração no Cadastro de Clientes",
-      "unidade": "alterações",
-      "minutos_por_item": 3
     },
     {
       "id": "fluxos_automatizados",
@@ -2418,7 +2424,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 634.7
+      "minutos": 1003.7
     }
   ],
   "programadas": []
