@@ -2200,13 +2200,19 @@
       "minutos": 0.5,
       "fluxo": "Alerta no Teams",
       "real": true
+    },
+    {
+      "automacao": "lancamento_armazem",
+      "data_hora": "2026-11-11T09:47:51-03:00",
+      "quantidade": 14,
+      "minutos": 28
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-11T09:33:45-03:00",
-  "total_minutos": 7035.7,
-  "itens": 1908,
-  "execucoes": 318,
+  "atualizado_em": "2026-11-11T09:48:02-03:00",
+  "total_minutos": 7063.7,
+  "itens": 1922,
+  "execucoes": 319,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2358,12 +2364,12 @@
     },
     {
       "id": "lancamento_armazem",
-      "itens": 23,
-      "execucoes": 1,
-      "minutos": 46.0,
+      "itens": 37,
+      "execucoes": 2,
+      "minutos": 74.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-11T09:19:39-03:00",
-      "ultima_quantidade": 23,
+      "ultima_execucao": "2026-11-11T09:47:51-03:00",
+      "ultima_quantidade": 14,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2404,7 +2410,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 603.7
+      "minutos": 631.7
     }
   ],
   "programadas": []
