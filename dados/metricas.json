@@ -2292,16 +2292,38 @@
       "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-11-12T12:13:39-03:00",
+      "quantidade": 23,
+      "minutos": 115
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-12T11:03:30-03:00",
-  "total_minutos": 7625.2,
-  "itens": 2103,
-  "execucoes": 331,
+  "atualizado_em": "2026-11-12T12:13:53-03:00",
+  "total_minutos": 7740.2,
+  "itens": 2126,
+  "execucoes": 332,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
+    {
+      "id": "suframa_confirmacao",
+      "itens": 560,
+      "execucoes": 26,
+      "minutos": 2800.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-11-12T12:13:39-03:00",
+      "ultima_quantidade": 23,
+      "fluxos": [],
+      "nota_tempo": null,
+      "estimado": false,
+      "script": "suframa_confirmacao.py",
+      "nome": "Confirmação de recebimento SUFRAMA",
+      "unidade": "notas confirmadas",
+      "minutos_por_item": 5
+    },
     {
       "id": "lancamento_ipi",
       "itens": 930,
@@ -2317,22 +2339,6 @@
       "nome": "Lançamento de Complemento de Impostos (IPI/ICMS)",
       "unidade": "lançamentos",
       "minutos_por_item": 3
-    },
-    {
-      "id": "suframa_confirmacao",
-      "itens": 537,
-      "execucoes": 25,
-      "minutos": 2685.0,
-      "sem_estimativa": false,
-      "ultima_execucao": "2026-11-11T13:21:41-03:00",
-      "ultima_quantidade": 18,
-      "fluxos": [],
-      "nota_tempo": null,
-      "estimado": false,
-      "script": "suframa_confirmacao.py",
-      "nome": "Confirmação de recebimento SUFRAMA",
-      "unidade": "notas confirmadas",
-      "minutos_por_item": 5
     },
     {
       "id": "visao_credito_bp",
@@ -2496,7 +2502,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 1193.2
+      "minutos": 1308.2
     }
   ],
   "programadas": []
