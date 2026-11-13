@@ -106,7 +106,7 @@
    "automacao": "lancamento_remessa",
    "titulo": "Lançamento de Remessa",
    "departamento": "Recebimento Fiscal",
-   "descricao": "Automatiza o lançamento de remessas no SAP, registrando cada execução e devolvendo tempo de analista ao Time de Recebimento Fiscal.",
+   "descricao": "Incluir descrição do processo",
    "tags": [
     "SAP",
     "Remessa",
@@ -122,7 +122,7 @@
    "automacao": "lancamento_armazem",
    "titulo": "Lançamento de Armazém",
    "departamento": "Recebimento Fiscal",
-   "descricao": "Automatiza o lançamento de armazém no SAP, registrando cada execução e devolvendo tempo de analista ao Time de Recebimento Fiscal.",
+   "descricao": "Incluir descrição do processo",
    "tags": [
     "SAP",
     "Armazém",
