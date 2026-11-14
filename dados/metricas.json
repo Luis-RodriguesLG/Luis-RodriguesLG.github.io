@@ -2158,13 +2158,21 @@
       "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-14T11:06:12-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "fluxo": "Extração de dados (Power BI)",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-13T14:45:46-03:00",
-  "total_minutos": 7783.2,
-  "itens": 2130,
-  "execucoes": 315,
+  "atualizado_em": "2026-11-14T11:06:24-03:00",
+  "total_minutos": 7786.2,
+  "itens": 2131,
+  "execucoes": 316,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2234,11 +2242,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 185,
-      "execucoes": 185,
-      "minutos": 267.5,
+      "itens": 186,
+      "execucoes": 186,
+      "minutos": 270.5,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-13T13:42:37-03:00",
+      "ultima_execucao": "2026-11-14T11:06:12-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -2263,8 +2271,8 @@
           "minutos": 3,
           "freq": "seg, qua e sex · extração de 4 relatórios",
           "inicio": "2026-09-07",
-          "execucoes": 40,
-          "minutos_total": 120.0
+          "execucoes": 41,
+          "minutos_total": 123.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
@@ -2354,7 +2362,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 1390.2
+      "minutos": 1393.2
     }
   ],
   "programadas": []
