@@ -2188,13 +2188,29 @@
       "data_hora": "2026-11-16T09:27:16-03:00",
       "quantidade": 1,
       "minutos": 0
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-16T09:42:58-03:00",
+      "quantidade": 1,
+      "minutos": 1,
+      "fluxo": "Relatório de Manifestação",
+      "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-16T09:42:58-03:00",
+      "quantidade": 1,
+      "minutos": 0.5,
+      "fluxo": "Alerta no Teams",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-16T09:27:28-03:00",
-  "total_minutos": 7786.2,
-  "itens": 2134,
-  "execucoes": 319,
+  "atualizado_em": "2026-11-16T09:43:09-03:00",
+  "total_minutos": 7787.7,
+  "itens": 2136,
+  "execucoes": 321,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2264,11 +2280,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 188,
-      "execucoes": 188,
-      "minutos": 270.5,
+      "itens": 190,
+      "execucoes": 190,
+      "minutos": 272.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-16T08:29:02-03:00",
+      "ultima_execucao": "2026-11-16T09:42:58-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -2276,16 +2292,16 @@
           "minutos": 1,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-08-17",
-          "execucoes": 61,
-          "minutos_total": 61.0
+          "execucoes": 62,
+          "minutos_total": 62.0
         },
         {
           "nome": "Alerta no Teams",
           "minutos": 0.5,
           "freq": "dias úteis · Teams",
           "inicio": "2026-09-28",
-          "execucoes": 33,
-          "minutos_total": 16.5,
+          "execucoes": 34,
+          "minutos_total": 17.0,
           "grupo": "Relatório de Manifestação"
         },
         {
@@ -2384,7 +2400,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 1393.2
+      "minutos": 1394.7
     }
   ],
   "programadas": []
