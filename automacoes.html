@@ -528,8 +528,7 @@
     $('dlgT').textContent=soDia?'Execuções do dia '+SEM[new Date(dia+'T12:00:00').getDay()]+' '+fmtD(dia):'Fluxos automatizados';
     $('dlgS').textContent=soDia?'Fluxos do Power Automate executados neste dia.':'Tempo aproximado, calculado pela rotina de cada fluxo no Power Automate.';
     D.style.marginTop=soDia?'0':'';
-    if(dias.length){
-      if(!soDia)D.append(el('h4','','Execuções registradas'));
+    if(soDia&&dias.length){   // lista por dia so aparece quando aberta pelo botão da tabela
       let alvo=null;
       dias.forEach(g=>{
         const dt=el('details');if(g.dia===dia){dt.open=true;alvo=dt;}
