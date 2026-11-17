@@ -2288,24 +2288,30 @@
       "minutos": 0.5,
       "fluxo": "Alerta no Teams",
       "real": true
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-11-17T13:07:41-03:00",
+      "quantidade": 19,
+      "minutos": 95
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-17T09:43:15-03:00",
-  "total_minutos": 7941.2,
-  "itens": 2169,
-  "execucoes": 333,
+  "atualizado_em": "2026-11-17T13:07:57-03:00",
+  "total_minutos": 8036.2,
+  "itens": 2188,
+  "execucoes": 334,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "suframa_confirmacao",
-      "itens": 604,
-      "execucoes": 28,
-      "minutos": 3020.0,
+      "itens": 623,
+      "execucoes": 29,
+      "minutos": 3115.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-16T12:59:58-03:00",
-      "ultima_quantidade": 22,
+      "ultima_execucao": "2026-11-17T13:07:41-03:00",
+      "ultima_quantidade": 19,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2484,7 +2490,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 1548.2
+      "minutos": 1643.2
     }
   ],
   "programadas": []
