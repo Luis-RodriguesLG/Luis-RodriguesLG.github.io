@@ -2242,13 +2242,21 @@
       "data_hora": "2026-11-16T17:51:03-03:00",
       "quantidade": 1,
       "minutos": 2
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-17T08:04:11-03:00",
+      "quantidade": 1,
+      "minutos": 0,
+      "fluxo": "Extração e Consolidação Transitória e SCI",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-16T17:51:21-03:00",
+  "atualizado_em": "2026-11-17T08:04:22-03:00",
   "total_minutos": 7906.7,
-  "itens": 2163,
-  "execucoes": 327,
+  "itens": 2164,
+  "execucoes": 328,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2318,11 +2326,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 191,
-      "execucoes": 191,
+      "itens": 192,
+      "execucoes": 192,
       "minutos": 273.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-16T13:42:35-03:00",
+      "ultima_execucao": "2026-11-17T08:04:11-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -2379,7 +2387,7 @@
           "minutos": 0,
           "freq": "a cada atualização · Teams e SharePoint",
           "inicio": "2026-10-22",
-          "execucoes": 7,
+          "execucoes": 8,
           "minutos_total": 0.0
         }
       ],
