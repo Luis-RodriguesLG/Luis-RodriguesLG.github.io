@@ -2294,13 +2294,19 @@
       "data_hora": "2026-11-17T13:07:41-03:00",
       "quantidade": 19,
       "minutos": 95
+    },
+    {
+      "automacao": "lancamento_armazem",
+      "data_hora": "2026-11-17T13:32:54-03:00",
+      "quantidade": 1,
+      "minutos": 2
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-17T13:07:57-03:00",
-  "total_minutos": 8036.2,
-  "itens": 2188,
-  "execucoes": 334,
+  "atualizado_em": "2026-11-17T13:33:05-03:00",
+  "total_minutos": 8038.2,
+  "itens": 2189,
+  "execucoes": 335,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2444,11 +2450,11 @@
     },
     {
       "id": "lancamento_armazem",
-      "itens": 73,
-      "execucoes": 8,
-      "minutos": 146.0,
+      "itens": 74,
+      "execucoes": 9,
+      "minutos": 148.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-16T17:51:03-03:00",
+      "ultima_execucao": "2026-11-17T13:32:54-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": null,
@@ -2490,7 +2496,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 1643.2
+      "minutos": 1645.2
     }
   ],
   "programadas": []
