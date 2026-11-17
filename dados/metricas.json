@@ -2308,13 +2308,19 @@
       "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "lancamento_armazem",
+      "data_hora": "2026-11-17T13:50:03-03:00",
+      "quantidade": 2,
+      "minutos": 4
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-17T13:42:48-03:00",
-  "total_minutos": 8039.2,
-  "itens": 2190,
-  "execucoes": 336,
+  "atualizado_em": "2026-11-17T13:50:16-03:00",
+  "total_minutos": 8043.2,
+  "itens": 2192,
+  "execucoes": 337,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2458,12 +2464,12 @@
     },
     {
       "id": "lancamento_armazem",
-      "itens": 74,
-      "execucoes": 9,
-      "minutos": 148.0,
+      "itens": 76,
+      "execucoes": 10,
+      "minutos": 152.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-17T13:32:54-03:00",
-      "ultima_quantidade": 1,
+      "ultima_execucao": "2026-11-17T13:50:03-03:00",
+      "ultima_quantidade": 2,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2504,7 +2510,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 1646.2
+      "minutos": 1650.2
     }
   ],
   "programadas": []
