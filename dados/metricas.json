@@ -2434,13 +2434,19 @@
       "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
+    },
+    {
+      "automacao": "lancamento_remessa",
+      "data_hora": "2026-11-18T11:55:08-03:00",
+      "quantidade": 13,
+      "minutos": 17.33
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-18T11:41:57-03:00",
-  "total_minutos": 8391.0,
-  "itens": 2322,
-  "execucoes": 355,
+  "atualizado_em": "2026-11-18T11:55:22-03:00",
+  "total_minutos": 8408.3,
+  "itens": 2335,
+  "execucoes": 356,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2600,12 +2606,12 @@
     },
     {
       "id": "lancamento_remessa",
-      "itens": 30,
-      "execucoes": 6,
-      "minutos": 40.0,
+      "itens": 43,
+      "execucoes": 7,
+      "minutos": 57.3,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-18T09:37:51-03:00",
-      "ultima_quantidade": 1,
+      "ultima_execucao": "2026-11-18T11:55:08-03:00",
+      "ultima_quantidade": 13,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2630,7 +2636,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 1998.0
+      "minutos": 2015.3
     }
   ],
   "programadas": []
