@@ -2480,13 +2480,19 @@
       "minutos": 0,
       "fluxo": "Extração e Consolidação Transitória e SCI",
       "real": true
+    },
+    {
+      "automacao": "lancamento_armazem",
+      "data_hora": "2026-11-18T14:47:40-03:00",
+      "quantidade": 3,
+      "minutos": 6
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-18T14:37:59-03:00",
-  "total_minutos": 8511.0,
-  "itens": 2372,
-  "execucoes": 362,
+  "atualizado_em": "2026-11-18T14:47:54-03:00",
+  "total_minutos": 8517.0,
+  "itens": 2375,
+  "execucoes": 363,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2630,12 +2636,12 @@
     },
     {
       "id": "lancamento_armazem",
-      "itens": 78,
-      "execucoes": 12,
-      "minutos": 156.0,
+      "itens": 81,
+      "execucoes": 13,
+      "minutos": 162.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-17T15:42:57-03:00",
-      "ultima_quantidade": 1,
+      "ultima_execucao": "2026-11-18T14:47:40-03:00",
+      "ultima_quantidade": 3,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2676,7 +2682,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 2118.0
+      "minutos": 2124.0
     }
   ],
   "programadas": []
