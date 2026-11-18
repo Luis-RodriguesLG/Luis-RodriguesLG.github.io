@@ -363,6 +363,11 @@
     add('Automações acompanhadas:',String(E.lista.length));
     add('Departamentos atendidos:',String(new Set(E.lista.map(a=>(E.info[a.id]||{}).departamento).filter(Boolean)).size));
 
+    // painel sem tempo contabilizado: esconde os indicadores e graficos de horas, mantem so execucoes
+    if(!E.total){
+      ['k-horas','k-dias'].forEach(i=>{const k=$(i).closest('.kpi');if(k)k.style.display='none';});
+      const sec=$('deps').closest('section');if(sec)sec.style.display='none';
+    }
     // indicadores
     $('k-horas').textContent=fmtH(E.total);
     $('k-dias').textContent=(Math.round(E.total/60/(m.horas_por_dia_util||8)*10)/10).toLocaleString('pt-BR')+' dias';
@@ -393,7 +398,8 @@
       if(x.tags&&x.tags.length){const t=el('div','tags');x.tags.forEach(g=>t.append(el('span','tag',g)));c.append(t);}
       const fl=a.fluxos&&a.fluxos.length;
       const s=el('div','stats');
-      [[fmtH(a.minutos),'economizado'],[fmtN(a.itens),a.unidade||'itens'],a.nota_tempo?[num(a.minutos_por_item)+' min',a.nota_tempo]:[(a.itens?num(Math.round(a.minutos/a.itens*100)/100):'–')+' min',fl?'por execução (média)':'por item']]
+      const semTempo=!fl&&!a.minutos&&!a.minutos_por_item;   // automacao so com contagem de execucoes
+      (semTempo?[[fmtN(a.itens),unidade(a,a.itens)]]:[[fmtH(a.minutos),'economizado'],[fmtN(a.itens),a.unidade||'itens'],a.nota_tempo?[num(a.minutos_por_item)+' min',a.nota_tempo]:[(a.itens?num(Math.round(a.minutos/a.itens*100)/100):'–')+' min',fl?'por execução (média)':'por item']])
         .forEach(([v,l])=>{const dd=el('div');dd.append(el('b','',v),el('span','',l));s.append(dd);});
       c.append(s);
       if(fl){const b=el('button','btn2','Visualizar fluxos');b.type='button';b.addEventListener('click',()=>abrirFluxos(a.id));c.append(b);}

@@ -6,6 +6,71 @@
  "sobre": "",
  "links": {},
  "stack": [],
- "projetos": [],
+ "projetos": [
+  {
+   "automacao": "conciliacao_apb",
+   "titulo": "Conciliação APB (Contas a Pagar)",
+   "departamento": "Contas a Pagar",
+   "descricao": "Etapa de conciliação: analisa os lançamentos de contas a pagar (APB) do relatório extraído do SAP e agrupa os documentos que se compensam. Cada execução registrada é 1 processo de conciliação.",
+   "tags": [
+    "SAP",
+    "F-03",
+    "Conciliação"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Excel"
+   ]
+  },
+  {
+   "automacao": "conciliacao_acr",
+   "titulo": "Conciliação ACR (Contas a Receber)",
+   "departamento": "Contas a Receber",
+   "descricao": "Etapa de conciliação: analisa os lançamentos de contas a receber (ACR) do relatório extraído do SAP e agrupa os documentos que se compensam. Cada execução registrada é 1 processo de conciliação.",
+   "tags": [
+    "SAP",
+    "F-03",
+    "Conciliação"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Excel"
+   ]
+  },
+  {
+   "automacao": "lancamento_apb",
+   "titulo": "Lançamento SAP APB (Contas a Pagar)",
+   "departamento": "Contas a Pagar",
+   "descricao": "Etapa de lançamento: lança no SAP (transação F-03) as compensações de contas a pagar (APB) já conciliadas. Cada execução registrada é 1 processo de lançamento no SAP.",
+   "tags": [
+    "SAP",
+    "F-03",
+    "Conciliação"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Excel"
+   ]
+  },
+  {
+   "automacao": "lancamento_acr",
+   "titulo": "Lançamento SAP ACR (Contas a Receber)",
+   "departamento": "Contas a Receber",
+   "descricao": "Etapa de lançamento: lança no SAP (transação F-03) as compensações de contas a receber (ACR) já conciliadas. Cada execução registrada é 1 processo de lançamento no SAP.",
+   "tags": [
+    "SAP",
+    "F-03",
+    "Conciliação"
+   ],
+   "ferramentas": [
+    "Python",
+    "SAP GUI",
+    "Excel"
+   ]
+  }
+ ],
  "contato_email": "andre.rodrigues@valgroupco.com"
 }
