@@ -1,13 +1,42 @@
 {
-  "historico": [],
-  "inicio_periodo": null,
-  "atualizado_em": "2026-11-18T15:53:10-03:00",
-  "total_minutos": 0,
-  "itens": 0,
-  "execucoes": 0,
+  "historico": [
+    {
+      "automacao": "conciliacao_apb",
+      "data_hora": "2026-11-18T15:54:23-03:00",
+      "quantidade": 1,
+      "minutos": 0
+    }
+  ],
+  "inicio_periodo": "2026-11-18",
+  "atualizado_em": "2026-11-18T15:54:35-03:00",
+  "total_minutos": 0.0,
+  "itens": 1,
+  "execucoes": 1,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
-  "automacoes": [],
-  "por_mes": [],
+  "automacoes": [
+    {
+      "id": "conciliacao_apb",
+      "itens": 1,
+      "execucoes": 1,
+      "minutos": 0.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-11-18T15:54:23-03:00",
+      "ultima_quantidade": 1,
+      "fluxos": [],
+      "nota_tempo": null,
+      "estimado": false,
+      "script": "conciliacao_apb.py",
+      "nome": "Conciliação APB (Contas a Pagar)",
+      "unidade": "processos",
+      "minutos_por_item": 0
+    }
+  ],
+  "por_mes": [
+    {
+      "mes": "2026-11",
+      "minutos": 0.0
+    }
+  ],
   "programadas": []
 }
