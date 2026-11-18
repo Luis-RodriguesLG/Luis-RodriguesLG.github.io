@@ -2528,13 +2528,19 @@
       "data_hora": "2026-11-18T18:13:53-03:00",
       "quantidade": 13,
       "minutos": 17.33
+    },
+    {
+      "automacao": "lancamento_remessa",
+      "data_hora": "2026-11-18T18:24:34-03:00",
+      "quantidade": 3,
+      "minutos": 4.0
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-18T18:14:03-03:00",
-  "total_minutos": 8738.3,
-  "itens": 2500,
-  "execucoes": 370,
+  "atualizado_em": "2026-11-18T18:24:47-03:00",
+  "total_minutos": 8742.3,
+  "itens": 2503,
+  "execucoes": 371,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2694,12 +2700,12 @@
     },
     {
       "id": "lancamento_remessa",
-      "itens": 106,
-      "execucoes": 14,
-      "minutos": 141.3,
+      "itens": 109,
+      "execucoes": 15,
+      "minutos": 145.3,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-18T18:13:53-03:00",
-      "ultima_quantidade": 13,
+      "ultima_execucao": "2026-11-18T18:24:34-03:00",
+      "ultima_quantidade": 3,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2724,7 +2730,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 2345.3
+      "minutos": 2349.3
     }
   ],
   "programadas": []
