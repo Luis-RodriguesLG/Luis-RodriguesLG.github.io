@@ -5,13 +5,19 @@
       "data_hora": "2026-11-18T15:54:23-03:00",
       "quantidade": 1,
       "minutos": 0
+    },
+    {
+      "automacao": "conciliacao_acr",
+      "data_hora": "2026-11-18T15:56:27-03:00",
+      "quantidade": 1,
+      "minutos": 0
     }
   ],
   "inicio_periodo": "2026-11-18",
-  "atualizado_em": "2026-11-18T15:54:35-03:00",
+  "atualizado_em": "2026-11-18T15:56:40-03:00",
   "total_minutos": 0.0,
-  "itens": 1,
-  "execucoes": 1,
+  "itens": 2,
+  "execucoes": 2,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -28,6 +34,22 @@
       "estimado": false,
       "script": "conciliacao_apb.py",
       "nome": "Conciliação APB (Contas a Pagar)",
+      "unidade": "processos",
+      "minutos_por_item": 0
+    },
+    {
+      "id": "conciliacao_acr",
+      "itens": 1,
+      "execucoes": 1,
+      "minutos": 0.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-11-18T15:56:27-03:00",
+      "ultima_quantidade": 1,
+      "fluxos": [],
+      "nota_tempo": null,
+      "estimado": false,
+      "script": "conciliacao_acr.py",
+      "nome": "Conciliação ACR (Contas a Receber)",
       "unidade": "processos",
       "minutos_por_item": 0
     }
