@@ -2440,24 +2440,30 @@
       "data_hora": "2026-11-18T11:55:08-03:00",
       "quantidade": 13,
       "minutos": 17.33
+    },
+    {
+      "automacao": "suframa_confirmacao",
+      "data_hora": "2026-11-18T13:41:35-03:00",
+      "quantidade": 15,
+      "minutos": 75
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-18T11:55:22-03:00",
-  "total_minutos": 8408.3,
-  "itens": 2335,
-  "execucoes": 356,
+  "atualizado_em": "2026-11-18T13:41:50-03:00",
+  "total_minutos": 8483.3,
+  "itens": 2350,
+  "execucoes": 357,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "suframa_confirmacao",
-      "itens": 623,
-      "execucoes": 29,
-      "minutos": 3115.0,
+      "itens": 638,
+      "execucoes": 30,
+      "minutos": 3190.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-17T13:07:41-03:00",
-      "ultima_quantidade": 19,
+      "ultima_execucao": "2026-11-18T13:41:35-03:00",
+      "ultima_quantidade": 15,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2636,7 +2642,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 2015.3
+      "minutos": 2090.3
     }
   ],
   "programadas": []
