@@ -2420,13 +2420,19 @@
       "data_hora": "2026-11-18T10:30:21-03:00",
       "quantidade": 8,
       "minutos": 24
+    },
+    {
+      "automacao": "visao_credito_bp",
+      "data_hora": "2026-11-18T10:52:47-03:00",
+      "quantidade": 33,
+      "minutos": 99
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-18T10:30:35-03:00",
-  "total_minutos": 8289.0,
-  "itens": 2288,
-  "execucoes": 353,
+  "atualizado_em": "2026-11-18T10:52:57-03:00",
+  "total_minutos": 8388.0,
+  "itens": 2321,
+  "execucoes": 354,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2464,12 +2470,12 @@
     },
     {
       "id": "visao_credito_bp",
-      "itens": 355,
-      "execucoes": 11,
-      "minutos": 1065.0,
+      "itens": 388,
+      "execucoes": 12,
+      "minutos": 1164.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-18T10:30:21-03:00",
-      "ultima_quantidade": 8,
+      "ultima_execucao": "2026-11-18T10:52:47-03:00",
+      "ultima_quantidade": 33,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": true,
@@ -2616,7 +2622,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 1896.0
+      "minutos": 1995.0
     }
   ],
   "programadas": []
