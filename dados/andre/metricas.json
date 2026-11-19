@@ -197,23 +197,31 @@
       "data_hora": "2026-11-19T10:51:56-03:00",
       "quantidade": 1,
       "minutos": 0
+    },
+    {
+      "automacao": "conciliacao_apb",
+      "data_hora": "2026-11-19T10:55:21-03:00",
+      "quantidade": 1,
+      "minutos": 0,
+      "quantidade_conciliacoes": 1,
+      "quantidade_lancamentos": 2
     }
   ],
   "inicio_periodo": "2026-11-18",
-  "atualizado_em": "2026-11-19T10:52:06-03:00",
+  "atualizado_em": "2026-11-19T10:55:34-03:00",
   "total_minutos": 0.0,
-  "itens": 32,
-  "execucoes": 32,
+  "itens": 33,
+  "execucoes": 33,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
     {
       "id": "conciliacao_apb",
-      "itens": 9,
-      "execucoes": 9,
+      "itens": 10,
+      "execucoes": 10,
       "minutos": 0.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-19T10:51:56-03:00",
+      "ultima_execucao": "2026-11-19T10:55:21-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": null,
