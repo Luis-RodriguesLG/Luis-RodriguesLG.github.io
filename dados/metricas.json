@@ -2604,13 +2604,19 @@
       "minutos": 0,
       "fluxo": "Extração e Consolidação Transitória e SCI",
       "real": true
+    },
+    {
+      "automacao": "lancamento_remessa",
+      "data_hora": "2026-11-19T10:43:21-03:00",
+      "quantidade": 3,
+      "minutos": 4.0
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-19T10:35:13-03:00",
-  "total_minutos": 8785.8,
-  "itens": 2518,
-  "execucoes": 381,
+  "atualizado_em": "2026-11-19T10:43:30-03:00",
+  "total_minutos": 8789.8,
+  "itens": 2521,
+  "execucoes": 382,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2770,12 +2776,12 @@
     },
     {
       "id": "lancamento_remessa",
-      "itens": 118,
-      "execucoes": 19,
-      "minutos": 157.3,
+      "itens": 121,
+      "execucoes": 20,
+      "minutos": 161.3,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-19T09:07:06-03:00",
-      "ultima_quantidade": 2,
+      "ultima_execucao": "2026-11-19T10:43:21-03:00",
+      "ultima_quantidade": 3,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2800,7 +2806,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 2392.8
+      "minutos": 2396.8
     }
   ],
   "programadas": []
