@@ -175,6 +175,8 @@
   .dias .ex:first-of-type{border-top:0}.dias .ex small{display:block;color:var(--faint);font-size:.76rem}.dias .ex .t{white-space:nowrap;color:var(--mut)}
   tr.agg .cn{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   tr.agg .cn small{display:inline;margin:0}
+  td.cdet{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  td.cdet .btn2{padding:3px 10px;font-size:.78rem}
   tr.agg .btn2{padding:2px 10px;font-size:.76rem;line-height:1.4}
   .ft tr.sub td:first-child b{font-weight:500}
   .ft tr.tot td{font-weight:600;color:var(--acc);border-bottom:0}
@@ -474,7 +476,10 @@
       }
       const tr=el('tr');
       tr.append(el('td','d',SEM[new Date(dt.slice(0,10)+'T12:00:00').getDay()]+' '+dt.slice(8,10)+'/'+dt.slice(5,7)),el('td','d',dt.slice(11,16)));
-      const ta=el('td');ta.append(document.createTextNode(h.fluxo?'Fluxo Power Automate':E.nomeDe(h.automacao)));if(h.fluxo){const gr=grupoDe(h),tp=tipoFluxo(h.fluxo);ta.append(el('small','',(gr?gr+' › ':'')+h.fluxo+(tp?' - '+tp:'')));}tr.append(ta);
+      const ta=el('td');ta.append(document.createTextNode(h.fluxo?'Fluxo Power Automate':E.nomeDe(h.automacao)));if(h.fluxo){const gr=grupoDe(h),tp=tipoFluxo(h.fluxo);ta.append(el('small','',(gr?gr+' › ':'')+h.fluxo+(tp?' - '+tp:'')));}
+      if(h.quantidade_conciliacoes!=null||h.quantidade_lancamentos!=null){   // execucao com detalhe (conciliacoes / lancamentos)
+        ta.classList.add('cdet');const b=el('button','btn2','Ver detalhes');b.type='button';b.addEventListener('click',()=>abrirDetalhe(h));ta.append(b);}
+      tr.append(ta);
       tr.append(el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',h.minutos?fmtT(h.minutos):'não contabilizado'));
       tb.append(tr);
     });
@@ -512,6 +517,19 @@
     E.lista.forEach(a=>{const u=a.unidade||'itens';const ex=fmtN(a.execucoes)+(a.execucoes===1?' execução':' execuções');const vol=u==='execuções'?ex:fmtN(a.itens)+' '+u+' · '+ex;L.push('  '+esc(pad(scr(a),larg))+' <span class="s">'+esc(vol)+' · '+fmtH(a.minutos)+'</span>');});
     L.push('<span class="ok">  Σ '+fmtN(E.itens)+' itens · '+fmtN(E.exec)+' execuções · '+fmtH(E.total)+' economizadas</span>');
     const lg=$('log');lg.innerHTML=L.join('\n');lg.scrollTop=lg.scrollHeight;
+  }
+
+  // detalhe de uma execucao: quantas conciliacoes e quantos lancamentos ela fez
+  function abrirDetalhe(h){
+    const dt=h.data_hora;
+    $('dlgTab').hidden=true;
+    $('dlgT').textContent=estado.nomeDe(h.automacao);
+    $('dlgS').textContent='Execução de '+SEM[new Date(dt.slice(0,10)+'T12:00:00').getDay()]+' '+fmtD(dt.slice(0,10))+' às '+dt.slice(11,16);
+    const D=$('dlgD');D.textContent='';D.style.marginTop='0';
+    const linha=(rot,v)=>{const r=el('div','ex');r.style.gridTemplateColumns='1fr auto';r.append(el('span','',rot),el('span','t',fmtN(v)));return r;};
+    if(h.quantidade_conciliacoes!=null)D.append(linha('Conciliações',h.quantidade_conciliacoes));
+    if(h.quantidade_lancamentos!=null)D.append(linha('Lançamentos',h.quantidade_lancamentos));
+    const d=$('dlg');if(d.showModal)d.showModal();else d.setAttribute('open','');
   }
 
   function abrirFluxos(id,dia){
