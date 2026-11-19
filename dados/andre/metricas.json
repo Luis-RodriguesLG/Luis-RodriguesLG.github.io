@@ -237,13 +237,21 @@
       "minutos": 0,
       "quantidade_conciliacoes": 1,
       "quantidade_lancamentos": 2
+    },
+    {
+      "automacao": "conciliacao_acr",
+      "data_hora": "2026-11-19T17:25:06-03:00",
+      "quantidade": 1,
+      "minutos": 0,
+      "quantidade_conciliacoes": 2,
+      "quantidade_lancamentos": 8
     }
   ],
   "inicio_periodo": "2026-11-18",
-  "atualizado_em": "2026-11-19T17:25:10-03:00",
+  "atualizado_em": "2026-11-19T17:25:25-03:00",
   "total_minutos": 0.0,
-  "itens": 37,
-  "execucoes": 37,
+  "itens": 38,
+  "execucoes": 38,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -265,11 +273,11 @@
     },
     {
       "id": "conciliacao_acr",
-      "itens": 25,
-      "execucoes": 25,
+      "itens": 26,
+      "execucoes": 26,
       "minutos": 0.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-19T17:22:36-03:00",
+      "ultima_execucao": "2026-11-19T17:25:06-03:00",
       "ultima_quantidade": 1,
       "fluxos": [],
       "nota_tempo": null,
