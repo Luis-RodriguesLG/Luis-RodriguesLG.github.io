@@ -2670,13 +2670,19 @@
       "minutos": 0.5,
       "fluxo": "Alerta no Teams",
       "real": true
+    },
+    {
+      "automacao": "lancamento_remessa",
+      "data_hora": "2026-11-20T11:25:21-03:00",
+      "quantidade": 6,
+      "minutos": 8.0
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-20T09:43:26-03:00",
-  "total_minutos": 8929.3,
-  "itens": 2579,
-  "execucoes": 390,
+  "atualizado_em": "2026-11-20T11:25:39-03:00",
+  "total_minutos": 8937.3,
+  "itens": 2585,
+  "execucoes": 391,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2836,12 +2842,12 @@
     },
     {
       "id": "lancamento_remessa",
-      "itens": 121,
-      "execucoes": 20,
-      "minutos": 161.3,
+      "itens": 127,
+      "execucoes": 21,
+      "minutos": 169.3,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-19T10:43:21-03:00",
-      "ultima_quantidade": 3,
+      "ultima_execucao": "2026-11-20T11:25:21-03:00",
+      "ultima_quantidade": 6,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -2866,7 +2872,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 2536.3
+      "minutos": 2544.3
     }
   ],
   "programadas": []
