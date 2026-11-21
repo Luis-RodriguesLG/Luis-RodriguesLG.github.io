@@ -2724,13 +2724,19 @@
       "minutos": 3,
       "fluxo": "Extração de dados (Power BI)",
       "real": true
+    },
+    {
+      "automacao": "lancamento_armazem",
+      "data_hora": "2026-11-21T15:08:13-03:00",
+      "quantidade": 88,
+      "minutos": 176
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-21T11:41:23-03:00",
-  "total_minutos": 9320.3,
-  "itens": 2784,
-  "execucoes": 398,
+  "atualizado_em": "2026-11-21T15:08:28-03:00",
+  "total_minutos": 9496.3,
+  "itens": 2872,
+  "execucoes": 399,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2783,6 +2789,22 @@
       "minutos_por_item": 3
     },
     {
+      "id": "lancamento_armazem",
+      "itens": 465,
+      "execucoes": 20,
+      "minutos": 930.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-11-21T15:08:13-03:00",
+      "ultima_quantidade": 88,
+      "fluxos": [],
+      "nota_tempo": null,
+      "estimado": false,
+      "script": "lancamento_armazem.py",
+      "nome": "Lançamento de Armazém",
+      "unidade": "execuções",
+      "minutos_por_item": 2
+    },
+    {
       "id": "qive_manifestacao",
       "itens": 71,
       "execucoes": 71,
@@ -2797,22 +2819,6 @@
       "nome": "Relatório diário de Manifestação (QIVE)",
       "unidade": "relatórios",
       "minutos_por_item": 30
-    },
-    {
-      "id": "lancamento_armazem",
-      "itens": 377,
-      "execucoes": 19,
-      "minutos": 754.0,
-      "sem_estimativa": false,
-      "ultima_execucao": "2026-11-20T17:02:41-03:00",
-      "ultima_quantidade": 86,
-      "fluxos": [],
-      "nota_tempo": null,
-      "estimado": false,
-      "script": "lancamento_armazem.py",
-      "nome": "Lançamento de Armazém",
-      "unidade": "execuções",
-      "minutos_por_item": 2
     },
     {
       "id": "fluxos_automatizados",
@@ -2920,7 +2926,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 2927.3
+      "minutos": 3103.3
     }
   ],
   "programadas": []
