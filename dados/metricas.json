@@ -2780,13 +2780,19 @@
       "data_hora": "2026-11-23T15:27:39-03:00",
       "quantidade": 18,
       "minutos": 54
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-11-23T16:06:22-03:00",
+      "quantidade": 11,
+      "minutos": 33
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-23T15:27:51-03:00",
-  "total_minutos": 8762.8,
-  "itens": 2649,
-  "execucoes": 405,
+  "atualizado_em": "2026-11-23T16:06:46-03:00",
+  "total_minutos": 8795.8,
+  "itens": 2660,
+  "execucoes": 406,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2808,12 +2814,12 @@
     },
     {
       "id": "lancamento_ipi",
-      "itens": 650,
-      "execucoes": 20,
-      "minutos": 1950.0,
+      "itens": 661,
+      "execucoes": 21,
+      "minutos": 1983.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-23T15:27:39-03:00",
-      "ultima_quantidade": 18,
+      "ultima_execucao": "2026-11-23T16:06:22-03:00",
+      "ultima_quantidade": 11,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": true,
@@ -2976,7 +2982,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 3290.8
+      "minutos": 3323.8
     }
   ],
   "programadas": []
