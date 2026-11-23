@@ -57,6 +57,12 @@
       "fluxo": "Relatório de Manifestação"
     },
     {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-08-18T09:47:31-03:00",
+      "quantidade": 18,
+      "minutos": 54
+    },
+    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-08-19T08:19:12-03:00",
       "quantidade": 1,
@@ -94,6 +100,12 @@
       "quantidade": 1,
       "minutos": 1,
       "fluxo": "Relatório de Manifestação"
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-08-21T14:22:09-03:00",
+      "quantidade": 29,
+      "minutos": 87
     },
     {
       "automacao": "qive_manifestacao",
@@ -135,6 +147,12 @@
       "fluxo": "Relatório de Manifestação"
     },
     {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-08-26T10:15:44-03:00",
+      "quantidade": 21,
+      "minutos": 63
+    },
+    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-08-27T08:15:38-03:00",
       "quantidade": 1,
@@ -172,6 +190,12 @@
       "quantidade": 1,
       "minutos": 1,
       "fluxo": "Relatório de Manifestação"
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-08-31T11:03:52-03:00",
+      "quantidade": 25,
+      "minutos": 75
     },
     {
       "automacao": "qive_manifestacao",
@@ -2731,10 +2755,10 @@
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-23T11:06:49-03:00",
-  "total_minutos": 8422.8,
-  "itens": 2535,
-  "execucoes": 397,
+  "atualizado_em": "2026-11-23T11:15:05-03:00",
+  "total_minutos": 8701.8,
+  "itens": 2628,
+  "execucoes": 401,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2756,9 +2780,9 @@
     },
     {
       "id": "lancamento_ipi",
-      "itens": 538,
-      "execucoes": 14,
-      "minutos": 1614.0,
+      "itens": 631,
+      "execucoes": 18,
+      "minutos": 1893.0,
       "sem_estimativa": false,
       "ultima_execucao": "2026-11-23T10:58:10-03:00",
       "ultima_quantidade": 8,
@@ -2912,7 +2936,7 @@
   "por_mes": [
     {
       "mes": "2026-08",
-      "minutos": 191.0
+      "minutos": 470.0
     },
     {
       "mes": "2026-09",
