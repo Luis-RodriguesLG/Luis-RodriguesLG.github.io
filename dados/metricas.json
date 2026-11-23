@@ -31,12 +31,6 @@
       "minutos": 0
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-17T08:09:38-03:00",
-      "quantidade": 27,
-      "minutos": 81
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-08-17T08:25:05-03:00",
       "quantidade": 1,
@@ -102,12 +96,6 @@
       "fluxo": "Relatório de Manifestação"
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-21T14:03:22-03:00",
-      "quantidade": 41,
-      "minutos": 123
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-08-24T08:18:29-03:00",
       "quantidade": 1,
@@ -147,12 +135,6 @@
       "fluxo": "Relatório de Manifestação"
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-26T15:12:29-03:00",
-      "quantidade": 68,
-      "minutos": 204
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-08-27T08:15:38-03:00",
       "quantidade": 1,
@@ -177,12 +159,6 @@
       "quantidade": 1,
       "minutos": 1,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-08-31T07:50:55-03:00",
-      "quantidade": 70,
-      "minutos": 210
     },
     {
       "automacao": "qive_manifestacao",
@@ -224,12 +200,6 @@
       "fluxo": "Relatório de Manifestação"
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-02T11:28:39-03:00",
-      "quantidade": 35,
-      "minutos": 105
-    },
-    {
       "automacao": "qive_manifestacao",
       "data_hora": "2026-09-03T08:22:47-03:00",
       "quantidade": 1,
@@ -241,12 +211,6 @@
       "quantidade": 1,
       "minutos": 1,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-03T10:53:55-03:00",
-      "quantidade": 28,
-      "minutos": 84
     },
     {
       "automacao": "qive_manifestacao",
@@ -306,12 +270,6 @@
       "quantidade": 1,
       "minutos": 1,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-10T17:55:27-03:00",
-      "quantidade": 54,
-      "minutos": 162
     },
     {
       "automacao": "qive_manifestacao",
@@ -387,12 +345,6 @@
       "fluxo": "Extração de dados (Power BI)"
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-16T11:56:55-03:00",
-      "quantidade": 22,
-      "minutos": 66
-    },
-    {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-16T15:30:29-03:00",
       "quantidade": 1,
@@ -424,12 +376,6 @@
       "quantidade": 1,
       "minutos": 1,
       "fluxo": "Relatório de Manifestação"
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-18T11:27:29-03:00",
-      "quantidade": 53,
-      "minutos": 159
     },
     {
       "automacao": "fluxos_automatizados",
@@ -498,12 +444,6 @@
       "fluxo": "Relatório de Manifestação"
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-23T11:22:48-03:00",
-      "quantidade": 49,
-      "minutos": 147
-    },
-    {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-09-23T11:36:18-03:00",
       "quantidade": 1,
@@ -522,12 +462,6 @@
       "data_hora": "2026-09-24T08:23:44-03:00",
       "quantidade": 1,
       "minutos": 30
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-24T08:33:31-03:00",
-      "quantidade": 60,
-      "minutos": 180
     },
     {
       "automacao": "fluxos_automatizados",
@@ -561,12 +495,6 @@
       "quantidade": 1,
       "minutos": 3,
       "fluxo": "Extração de dados (Power BI)"
-    },
-    {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-25T14:11:44-03:00",
-      "quantidade": 22,
-      "minutos": 66
     },
     {
       "automacao": "fluxos_automatizados",
@@ -603,12 +531,6 @@
       "fluxo": "Extração de dados (Power BI)"
     },
     {
-      "automacao": "lancamento_ipi",
-      "data_hora": "2026-09-28T13:53:58-03:00",
-      "quantidade": 38,
-      "minutos": 114
-    },
-    {
       "automacao": "suframa_confirmacao",
       "data_hora": "2026-09-28T14:26:53-03:00",
       "quantidade": 49,
@@ -633,6 +555,12 @@
       "quantidade": 1,
       "minutos": 0.5,
       "fluxo": "Alerta no Teams"
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-09-29T10:42:17-03:00",
+      "quantidade": 60,
+      "minutos": 180
     },
     {
       "automacao": "qive_manifestacao",
@@ -1330,6 +1258,12 @@
       "minutos": 0
     },
     {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-23T09:31:48-03:00",
+      "quantidade": 47,
+      "minutos": 141
+    },
+    {
       "automacao": "fluxos_automatizados",
       "data_hora": "2026-10-23T09:34:06-03:00",
       "quantidade": 1,
@@ -1446,6 +1380,12 @@
       "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-10-26T14:06:22-03:00",
+      "quantidade": 60,
+      "minutos": 180
     },
     {
       "automacao": "qive_manifestacao",
@@ -2791,10 +2731,10 @@
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-23T10:58:25-03:00",
-  "total_minutos": 9622.8,
-  "itens": 2935,
-  "execucoes": 407,
+  "atualizado_em": "2026-11-23T11:06:49-03:00",
+  "total_minutos": 8422.8,
+  "itens": 2535,
+  "execucoes": 397,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2816,9 +2756,9 @@
     },
     {
       "id": "lancamento_ipi",
-      "itens": 938,
-      "execucoes": 24,
-      "minutos": 2814.0,
+      "itens": 538,
+      "execucoes": 14,
+      "minutos": 1614.0,
       "sem_estimativa": false,
       "ultima_execucao": "2026-11-23T10:58:10-03:00",
       "ultima_quantidade": 8,
@@ -2972,15 +2912,15 @@
   "por_mes": [
     {
       "mes": "2026-08",
-      "minutos": 809.0
+      "minutos": 191.0
     },
     {
       "mes": "2026-09",
-      "minutos": 2148.5
+      "minutos": 1245.5
     },
     {
       "mes": "2026-10",
-      "minutos": 3435.5
+      "minutos": 3756.5
     },
     {
       "mes": "2026-11",
