@@ -2774,13 +2774,19 @@
       "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "lancamento_ipi",
+      "data_hora": "2026-11-23T15:27:39-03:00",
+      "quantidade": 18,
+      "minutos": 54
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-23T14:01:14-03:00",
-  "total_minutos": 8708.8,
-  "itens": 2631,
-  "execucoes": 404,
+  "atualizado_em": "2026-11-23T15:27:51-03:00",
+  "total_minutos": 8762.8,
+  "itens": 2649,
+  "execucoes": 405,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2802,12 +2808,12 @@
     },
     {
       "id": "lancamento_ipi",
-      "itens": 632,
-      "execucoes": 19,
-      "minutos": 1896.0,
+      "itens": 650,
+      "execucoes": 20,
+      "minutos": 1950.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-23T13:33:24-03:00",
-      "ultima_quantidade": 1,
+      "ultima_execucao": "2026-11-23T15:27:39-03:00",
+      "ultima_quantidade": 18,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": true,
@@ -2970,7 +2976,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 3236.8
+      "minutos": 3290.8
     }
   ],
   "programadas": []
