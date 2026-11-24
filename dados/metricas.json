@@ -2814,13 +2814,29 @@
       "minutos": 0,
       "fluxo": "Extração e Consolidação Transitória e SCI",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-24T09:43:02-03:00",
+      "quantidade": 1,
+      "minutos": 1,
+      "fluxo": "Relatório de Manifestação",
+      "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-24T09:43:02-03:00",
+      "quantidade": 1,
+      "minutos": 0.5,
+      "fluxo": "Alerta no Teams",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-24T08:15:37-03:00",
-  "total_minutos": 8805.8,
-  "itens": 2667,
-  "execucoes": 410,
+  "atualizado_em": "2026-11-24T09:43:15-03:00",
+  "total_minutos": 8807.3,
+  "itens": 2669,
+  "execucoes": 412,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2906,11 +2922,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 228,
-      "execucoes": 228,
-      "minutos": 309.5,
+      "itens": 230,
+      "execucoes": 230,
+      "minutos": 311.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-24T08:15:23-03:00",
+      "ultima_execucao": "2026-11-24T09:43:02-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -2918,16 +2934,16 @@
           "minutos": 1,
           "freq": "dias úteis · e-mail",
           "inicio": "2026-08-17",
-          "execucoes": 67,
-          "minutos_total": 67.0
+          "execucoes": 68,
+          "minutos_total": 68.0
         },
         {
           "nome": "Alerta no Teams",
           "minutos": 0.5,
           "freq": "dias úteis · Teams",
           "inicio": "2026-09-28",
-          "execucoes": 39,
-          "minutos_total": 19.5,
+          "execucoes": 40,
+          "minutos_total": 20.0,
           "grupo": "Relatório de Manifestação"
         },
         {
@@ -3010,7 +3026,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 3333.8
+      "minutos": 3335.3
     }
   ],
   "programadas": []
