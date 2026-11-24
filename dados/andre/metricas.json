@@ -7,13 +7,19 @@
       "minutos": 0,
       "quantidade_conciliacoes": 6,
       "quantidade_lancamentos": 32
+    },
+    {
+      "automacao": "lancamento_apb",
+      "data_hora": "2026-11-24T10:37:00-03:00",
+      "quantidade": 1,
+      "minutos": 0
     }
   ],
   "inicio_periodo": "2026-11-24",
-  "atualizado_em": "2026-11-24T10:35:15-03:00",
+  "atualizado_em": "2026-11-24T10:37:11-03:00",
   "total_minutos": 0.0,
-  "itens": 1,
-  "execucoes": 1,
+  "itens": 2,
+  "execucoes": 2,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -30,6 +36,22 @@
       "estimado": false,
       "script": "conciliacao_apb.py",
       "nome": "Conciliação APB (Contas a Pagar)",
+      "unidade": "processos",
+      "minutos_por_item": 0
+    },
+    {
+      "id": "lancamento_apb",
+      "itens": 1,
+      "execucoes": 1,
+      "minutos": 0.0,
+      "sem_estimativa": false,
+      "ultima_execucao": "2026-11-24T10:37:00-03:00",
+      "ultima_quantidade": 1,
+      "fluxos": [],
+      "nota_tempo": null,
+      "estimado": false,
+      "script": "lancamento_apb.py",
+      "nome": "Lançamento SAP (F-03) APB (Contas a Pagar)",
       "unidade": "processos",
       "minutos_por_item": 0
     }
