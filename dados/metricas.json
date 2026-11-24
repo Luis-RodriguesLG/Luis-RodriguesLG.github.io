@@ -2852,13 +2852,21 @@
       "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-24T13:48:34-03:00",
+      "quantidade": 1,
+      "minutos": 0,
+      "fluxo": "Extração e Consolidação Transitória e SCI",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-24T13:42:49-03:00",
+  "atualizado_em": "2026-11-24T13:48:47-03:00",
   "total_minutos": 8881.3,
-  "itens": 2685,
-  "execucoes": 415,
+  "itens": 2686,
+  "execucoes": 416,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -2944,11 +2952,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 232,
-      "execucoes": 232,
+      "itens": 233,
+      "execucoes": 233,
       "minutos": 315.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-24T13:42:35-03:00",
+      "ultima_execucao": "2026-11-24T13:48:34-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -3005,7 +3013,7 @@
           "minutos": 0,
           "freq": "a cada atualização · Teams e SharePoint",
           "inicio": "2026-10-22",
-          "execucoes": 21,
+          "execucoes": 22,
           "minutos_total": 0.0
         }
       ],
