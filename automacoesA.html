@@ -401,7 +401,9 @@
       const fl=a.fluxos&&a.fluxos.length;
       const s=el('div','stats');
       const semTempo=!fl&&!a.minutos&&!a.minutos_por_item;   // automacao so com contagem de execucoes
-      (semTempo?[[fmtN(a.itens),unidade(a,a.itens)]]:[[fmtH(a.minutos),'economizado'],[fmtN(a.itens),a.unidade||'itens'],a.nota_tempo?[num(a.minutos_por_item)+' min',a.nota_tempo]:[(a.itens?num(Math.round(a.minutos/a.itens*100)/100):'–')+' min',fl?'por execução (média)':'por item']])
+      const hd_=E.hist.filter(h=>h.automacao===a.id&&(h.quantidade_conciliacoes!=null||h.quantidade_lancamentos!=null));
+      const sC=hd_.reduce((t,h)=>t+(h.quantidade_conciliacoes||0),0),sL=hd_.reduce((t,h)=>t+(h.quantidade_lancamentos||0),0);
+      (semTempo&&hd_.length?[[fmtN(sC),sC===1?'conciliação':'conciliações'],[fmtN(sL),sL===1?'lançamento':'lançamentos']]:semTempo?[[fmtN(a.itens),unidade(a,a.itens)]]:[[fmtH(a.minutos),'economizado'],[fmtN(a.itens),a.unidade||'itens'],a.nota_tempo?[num(a.minutos_por_item)+' min',a.nota_tempo]:[(a.itens?num(Math.round(a.minutos/a.itens*100)/100):'–')+' min',fl?'por execução (média)':'por item']])
         .forEach(([v,l])=>{const dd=el('div');dd.append(el('b','',v),el('span','',l));s.append(dd);});
       c.append(s);
       if(fl){const b=el('button','btn2','Visualizar fluxos');b.type='button';b.addEventListener('click',()=>abrirFluxos(a.id));c.append(b);}
@@ -480,7 +482,8 @@
       if(h.quantidade_conciliacoes!=null||h.quantidade_lancamentos!=null){   // execucao com detalhe (conciliacoes / lancamentos)
         ta.classList.add('cdet');const b=el('button','btn2','Ver detalhes');b.type='button';b.addEventListener('click',()=>abrirDetalhe(h));ta.append(b);}
       tr.append(ta);
-      tr.append(el('td','n',fmtN(h.quantidade)+' '+unidade(a,h.quantidade)),el('td','n',h.minutos?fmtT(h.minutos):'não contabilizado'));
+      const comDet=h.quantidade_conciliacoes!=null||h.quantidade_lancamentos!=null;   // com detalhe: so o 1, o resto abre em "Ver detalhes"
+      tr.append(el('td','n',fmtN(h.quantidade)+(comDet?'':' '+unidade(a,h.quantidade))),el('td','n',h.minutos?fmtT(h.minutos):'não contabilizado'));
       tb.append(tr);
     });
     if(!rows.length){const tr=el('tr'),td=el('td','','Nenhuma execução registrada.');td.colSpan=5;tr.append(td);tb.append(tr);}
