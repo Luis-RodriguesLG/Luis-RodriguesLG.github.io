@@ -38,38 +38,6 @@
     "SAP GUI",
     "Excel"
    ]
-  },
-  {
-   "automacao": "lancamento_apb",
-   "titulo": "Lançamento SAP APB (Contas a Pagar)",
-   "departamento": "Contas a Pagar",
-   "descricao": "Etapa de lançamento: lança no SAP (transação F-03) as compensações de contas a pagar (APB) já conciliadas. Cada execução registrada é 1 processo de lançamento no SAP.",
-   "tags": [
-    "SAP",
-    "F-03",
-    "Conciliação"
-   ],
-   "ferramentas": [
-    "Python",
-    "SAP GUI",
-    "Excel"
-   ]
-  },
-  {
-   "automacao": "lancamento_acr",
-   "titulo": "Lançamento SAP ACR (Contas a Receber)",
-   "departamento": "Contas a Receber",
-   "descricao": "Etapa de lançamento: lança no SAP (transação F-03) as compensações de contas a receber (ACR) já conciliadas. Cada execução registrada é 1 processo de lançamento no SAP.",
-   "tags": [
-    "SAP",
-    "F-03",
-    "Conciliação"
-   ],
-   "ferramentas": [
-    "Python",
-    "SAP GUI",
-    "Excel"
-   ]
   }
  ],
  "contato_email": "andre.rodrigues@valgroupco.com"
