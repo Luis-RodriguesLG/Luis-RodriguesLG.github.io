@@ -2962,13 +2962,21 @@
       "data_hora": "2026-11-26T11:37:43-03:00",
       "quantidade": 11,
       "minutos": 33
+    },
+    {
+      "automacao": "fluxos_automatizados",
+      "data_hora": "2026-11-26T11:47:24-03:00",
+      "quantidade": 1,
+      "minutos": 3,
+      "fluxo": "Extração de dados (Power BI)",
+      "real": true
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-26T11:37:55-03:00",
-  "total_minutos": 9015.0,
-  "itens": 2735,
-  "execucoes": 430,
+  "atualizado_em": "2026-11-26T11:47:35-03:00",
+  "total_minutos": 9018.0,
+  "itens": 2736,
+  "execucoes": 431,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -3054,11 +3062,11 @@
     },
     {
       "id": "fluxos_automatizados",
-      "itens": 242,
-      "execucoes": 242,
-      "minutos": 322.0,
+      "itens": 243,
+      "execucoes": 243,
+      "minutos": 325.0,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-26T09:43:06-03:00",
+      "ultima_execucao": "2026-11-26T11:47:24-03:00",
       "ultima_quantidade": 1,
       "fluxos": [
         {
@@ -3083,8 +3091,8 @@
           "minutos": 3,
           "freq": "seg, qua e sex · extração de 4 relatórios",
           "inicio": "2026-09-07",
-          "execucoes": 51,
-          "minutos_total": 153.0
+          "execucoes": 52,
+          "minutos_total": 156.0
         },
         {
           "nome": "Intercompany semanal (APB e ACR)",
@@ -3158,7 +3166,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 3543.0
+      "minutos": 3546.0
     }
   ],
   "programadas": []
