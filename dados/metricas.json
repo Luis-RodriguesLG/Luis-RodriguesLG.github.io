@@ -2996,13 +2996,19 @@
       "minutos": 1,
       "fluxo": "Confirmações SIMNAC",
       "real": true
+    },
+    {
+      "automacao": "lancamento_remessa",
+      "data_hora": "2026-11-26T14:16:07-03:00",
+      "quantidade": 13,
+      "minutos": 17.33
     }
   ],
   "inicio_periodo": "2026-08-10",
-  "atualizado_em": "2026-11-26T14:01:04-03:00",
-  "total_minutos": 9035.0,
-  "itens": 2741,
-  "execucoes": 435,
+  "atualizado_em": "2026-11-26T14:16:17-03:00",
+  "total_minutos": 9052.3,
+  "itens": 2754,
+  "execucoes": 436,
   "horas_por_dia_util": 8,
   "custo_hora_analista": null,
   "automacoes": [
@@ -3162,12 +3168,12 @@
     },
     {
       "id": "lancamento_remessa",
-      "itens": 168,
-      "execucoes": 27,
-      "minutos": 224.0,
+      "itens": 181,
+      "execucoes": 28,
+      "minutos": 241.3,
       "sem_estimativa": false,
-      "ultima_execucao": "2026-11-26T09:10:38-03:00",
-      "ultima_quantidade": 1,
+      "ultima_execucao": "2026-11-26T14:16:07-03:00",
+      "ultima_quantidade": 13,
       "fluxos": [],
       "nota_tempo": null,
       "estimado": false,
@@ -3192,7 +3198,7 @@
     },
     {
       "mes": "2026-11",
-      "minutos": 3563.0
+      "minutos": 3580.3
     }
   ],
   "programadas": []
